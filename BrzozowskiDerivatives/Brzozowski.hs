@@ -106,6 +106,8 @@ cat _ End = End
 cat r s = Cat r s
 
 
+
+
 {- sample mutation
 cat :: Regex a -> Regex a -> Regex a
 cat Nil r = r
@@ -124,6 +126,15 @@ alt End r = r
 alt r End = r
 --alt r s | r == s = r
 alt r s = Alt r s
+
+
+{- fixes the bug in simplification step
+alt r Nil = r
+alt Nil s = s
+alt End s = s
+alt r End = r
+alt r s = Alt r s
+-}
 
 clo :: Regex a -> Regex a
 clo Nil = Nil
@@ -204,8 +215,8 @@ prop_CatIden :: Regex Char -> String -> Bool
 prop_CatIden a s = regexMatch (Cat a End) s == regexMatch a s
 
 --will find bug
-prop_CatIdem :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_CatIdem a b c s = regexMatch (Cat a a) s == regexMatch a s
+prop_CatIdem :: Regex Char -> String -> Bool
+prop_CatIdem a s = regexMatch (Cat a a) s == regexMatch a s
 
 prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
