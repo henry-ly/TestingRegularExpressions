@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd Brzozowski
+cd BrzozowskiDerivatives
 ghc Brzozowski.hs
 
 echo "Testing Brzozowski.hs..."
