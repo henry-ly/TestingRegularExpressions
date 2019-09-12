@@ -4,6 +4,13 @@ import Control.Monad(liftM, liftM2)
 
 -- regular expression matching using Brzozowski's algorithm
 import Test.QuickCheck
+
+-- for unix grep
+import System.Process 
+import System.Exit (ExitCode(ExitSuccess))
+import System.IO.Unsafe
+import Test.QuickCheck.Monadic
+--
 data Regex a = Nil --epsilon; zero-width match pattern that matches the empty string.
 	     | End --zero-width non-match
 	     | Lit a --a literal symbol in the input alphabet
@@ -105,18 +112,6 @@ cat End _ = End
 cat _ End = End
 cat r s = Cat r s
 
-
-
-
-{- sample mutation
-cat :: Regex a -> Regex a -> Regex a
-cat Nil r = r
-cat r Nil = r
-cat End _ = End
-cat _ End = End
-cat r s = Cat Nil r
--}
-
 alt :: Regex a -> Regex a -> Regex a
 alt Nil Nil = Nil
 --alt Nil (Alt Nil r) = r
@@ -128,7 +123,7 @@ alt r End = r
 alt r s = Alt r s
 
 
-{- fixes the bug in simplification step
+{- bug fix false alarm
 alt r Nil = r
 alt Nil s = s
 alt End s = s
@@ -164,18 +159,41 @@ regexMatch r (c:cs) = regexMatch (derivative r c) cs
 
 
 alphabet :: Gen Char
-alphabet = elements ['a', 'b']
+alphabet = elements ['a', 'b','c']
 
 instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
 
 arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
                                   ,(1, return End)
-                                  ,(1, return Nil)]
+                                  ,(1, return Nil)
+                                  ]
 arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                   ,(1, liftM2 Cat subexpr subexpr)
-                                  ,(1, liftM Clo subexpr)]
+                                  ,(1, liftM Clo subexpr)
+                                  ]
                    where subexpr = arbitraryExpression (n `div` 2)
+
+unixgrep :: String -> String -> IO Bool
+unixgrep s r = do  
+            exitCode <- system $ "echo \"" ++ s ++ "\" | egrep \"" ++ r ++"\""
+            case exitCode of
+                ExitSuccess ->  return True
+                _           ->  return False
+
+showExpr :: Regex Char -> String
+showExpr (Nil) = []
+showExpr (Lit a) = [a]
+showExpr (Clo a) = showExpr a++ "*" 
+showExpr (Alt a b) = showExpr a ++"|"++ showExpr b
+showExpr (Cat a b) = showExpr a ++ showExpr b
+showExpr _ = []
+
+--not working with showExpr
+prop_Oracle :: String -> Regex Char -> Property
+prop_Oracle s r = monadicIO $ do 
+                            b <- run(unixgrep s (showExpr r))
+                            assert(b == regexMatch r s)
 
 
 
@@ -214,10 +232,6 @@ prop_CatAssoc a b c s = regexMatch (Cat a (Cat b c)) s == regexMatch (Cat (Cat a
 prop_CatIden :: Regex Char -> String -> Bool
 prop_CatIden a s = regexMatch (Cat a End) s == regexMatch a s
 
---will find bug
-prop_CatIdem :: Regex Char -> String -> Bool
-prop_CatIdem a s = regexMatch (Cat a a) s == regexMatch a s
-
 prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
 
@@ -243,11 +257,10 @@ main = do
        deepCheck iterations prop_AltCom
        putStrLn "prop_AltIdem:"
        deepCheck iterations prop_AltIdem
+   -}
        putStrLn "prop_AltIden:"
-       deepCheck iterations prop_AltIden-}
+       deepCheck iterations prop_AltIden
        putStrLn "prop_CatAssoc:"
        deepCheck iterations prop_CatAssoc
-       putStrLn "prop_CatIdem"
-       deepCheck iterations prop_CatIdem
        putStrLn "End"
        where iterations = 1000
