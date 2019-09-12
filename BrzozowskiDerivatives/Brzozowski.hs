@@ -174,9 +174,10 @@ arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                   ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
+
 unixgrep :: String -> String -> IO Bool
 unixgrep s r = do  
-            exitCode <- system $ "echo \"" ++ s ++ "\" | egrep \"" ++ r ++"\""
+            exitCode <- system $ "echo \"" ++ s ++ "\" | egrep -q \"" ++ r ++"\""
             case exitCode of
                 ExitSuccess ->  return True
                 _           ->  return False
@@ -184,14 +185,14 @@ unixgrep s r = do
 showExpr :: Regex Char -> String
 showExpr (Nil) = []
 showExpr (Lit a) = [a]
-showExpr (Clo a) = showExpr a++ "*" 
+showExpr (Clo a) = showExpr a ++ "*" 
 showExpr (Alt a b) = showExpr a ++"|"++ showExpr b
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = []
 
---not working with showExpr
 prop_Oracle :: String -> Regex Char -> Property
-prop_Oracle s r = monadicIO $ do 
+prop_Oracle s r = s /= "\""==>
+                            monadicIO $ do 
                             b <- run(unixgrep s (showExpr r))
                             assert(b == regexMatch r s)
 
@@ -209,10 +210,11 @@ prop_Eps s =
 prop_Atom :: Eq a => a -> [a] -> Bool
 prop_Atom a s = regexMatch (Lit a) s == (s == [a])
 
---Alternation Laws
 prop_Alt :: Regex Char -> Regex Char -> String -> Bool
 prop_Alt a b s = regexMatch (Alt a b) s == (regexMatch a s || regexMatch b s)
 
+
+--Alternation Laws
 prop_AltAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_AltAssoc a b c s = regexMatch (Alt a (Alt b c)) s == regexMatch (Alt (Alt a b) c) s
 
@@ -236,7 +238,7 @@ prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
 
 prop_DistRight :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_DistRight a b c s = regexMatch (Cat (Alt a b) c) s == regexMatch (Alt(Cat a c)(Cat a c)) s
+prop_DistRight a b c s = regexMatch (Cat (Alt a b) c) s == regexMatch (Alt (Cat a c)(Cat b c)) s
 
 --Closure Properties
 prop_Clo :: Regex Char -> String -> Bool
@@ -246,9 +248,9 @@ prop_Clo2 :: Regex Char -> String -> Bool
 prop_Clo2 a s = regexMatch (Alt Nil (Cat a (Clo a))) s == regexMatch (Clo a) s
 
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 1000}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 10000}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 1000}) p
+                quickCheckWith (stdArgs {maxSuccess = 10000}) p
                 deepCheck (n-1) p
 main = do
    {-  putStrLn "prop_AltAssoc:"
@@ -257,10 +259,10 @@ main = do
        deepCheck iterations prop_AltCom
        putStrLn "prop_AltIdem:"
        deepCheck iterations prop_AltIdem
-   -}
+   -}   
        putStrLn "prop_AltIden:"
        deepCheck iterations prop_AltIden
        putStrLn "prop_CatAssoc:"
        deepCheck iterations prop_CatAssoc
        putStrLn "End"
-       where iterations = 1000
+       where iterations = 100
