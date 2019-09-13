@@ -165,8 +165,8 @@ instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
 
 arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
-                                  ,(1, return End)
-                                  ,(1, return Nil)
+                      --            ,(1, return End)
+                      --            ,(1, return Nil)
                                   ]
 arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                   ,(1, liftM2 Cat subexpr subexpr)
@@ -175,23 +175,25 @@ arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                    where subexpr = arbitraryExpression (n `div` 2)
 
 
+--apparently it will always ExitSuccess when matching with *
 unixgrep :: String -> String -> IO Bool
 unixgrep s r = do  
-            exitCode <- system $ "echo \"" ++ s ++ "\" | egrep -q \"" ++ r ++"\""
+            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -q \"^" ++ r ++"\""
             case exitCode of
                 ExitSuccess ->  return True
                 _           ->  return False
 
+--create string representation of unix grep
 showExpr :: Regex Char -> String
 showExpr (Nil) = []
 showExpr (Lit a) = [a]
-showExpr (Clo a) = showExpr a ++ "*" 
+showExpr (Clo a) = "(" ++ showExpr a ++ ")*" 
 showExpr (Alt a b) = showExpr a ++"|"++ showExpr b
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = []
 
-prop_Oracle :: String -> Regex Char -> Property
-prop_Oracle s r = s /= "\""==>
+prop_Grep :: String -> Regex Char -> Property
+prop_Grep s r = not (elem '\"' s) ==>
                             monadicIO $ do 
                             b <- run(unixgrep s (showExpr r))
                             assert(b == regexMatch r s)
@@ -253,16 +255,15 @@ deepCheck n p = do
                 quickCheckWith (stdArgs {maxSuccess = 10000}) p
                 deepCheck (n-1) p
 main = do
-   {-  putStrLn "prop_AltAssoc:"
+       putStrLn "prop_AltAssoc:"
        deepCheck iterations prop_AltAssoc
        putStrLn "prop_AltCom:"
        deepCheck iterations prop_AltCom
        putStrLn "prop_AltIdem:"
        deepCheck iterations prop_AltIdem
-   -}   
        putStrLn "prop_AltIden:"
        deepCheck iterations prop_AltIden
        putStrLn "prop_CatAssoc:"
        deepCheck iterations prop_CatAssoc
        putStrLn "End"
-       where iterations = 100
+       where iterations = 10
