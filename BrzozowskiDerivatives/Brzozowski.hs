@@ -174,30 +174,28 @@ arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                   ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
-
---apparently it will always ExitSuccess when matching with *
-unixgrep :: String -> String -> IO Bool
-unixgrep s r = do  
-            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -q \"^" ++ r ++"\""
+--run grep with -w flag for matching whole words. Otherwise it will match * with anything
+unixGrep :: String -> String -> IO Bool
+unixGrep s r = do  
+            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -w -q \"" ++ r ++"\""
             case exitCode of
                 ExitSuccess ->  return True
                 _           ->  return False
 
---create string representation of unix grep
+-- convert a regular expression to UNIX regex in a string representation
 showExpr :: Regex Char -> String
 showExpr (Nil) = []
-showExpr (Lit a) = [a]
-showExpr (Clo a) = "(" ++ showExpr a ++ ")*" 
-showExpr (Alt a b) = showExpr a ++"|"++ showExpr b
+showExpr (Lit a) = [a] 
+showExpr (Clo a) = "(" ++ showExpr a ++ ")" ++ "*" 
+showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")" 
 showExpr (Cat a b) = showExpr a ++ showExpr b
-showExpr _ = []
+showExpr _ = undefined -- no unix equivalent
+
 
 prop_Grep :: String -> Regex Char -> Property
-prop_Grep s r = not (elem '\"' s) ==>
-                            monadicIO $ do 
-                            b <- run(unixgrep s (showExpr r))
-                            assert(b == regexMatch r s)
-
+prop_Grep s r = monadicIO $ do  
+                              grepBoolean <- run(unixGrep s (showExpr r)) 
+                              assert(grepBoolean == regexMatch r s)
 
 
 -- Nil is actually epsilon
