@@ -53,7 +53,7 @@ instance IsString Regexp where
   fromString cs = foldr ((<>) . Lit) One cs
 
 -- show
-main = print (match ("ab" <> many "ba") "abbaba")
+--main = print (match ("ab" <> many "ba") "abbaba")
 -- /show
 
 
@@ -79,7 +79,6 @@ regexManyGen s1 = do
                   return $ Many x
 
 
-
 instance Arbitrary Regexp where
     arbitrary = sized arbitraryExpression
 
@@ -94,16 +93,70 @@ arbitraryExpression n = frequency[(1, regexPlusGen subexpr subexpr)
                                  ]
                           where subexpr = arbitraryExpression (n `div` 2)
 
---zero matched the empty string bug or a feature?
 prop_zero :: String -> Bool
 prop_zero s = match Zero s == null s
 
 prop_one :: String -> Bool
 prop_one s = match One s == null s
 
+--Alternation Laws
 prop_AltAssoc :: Regexp -> Regexp -> Regexp -> String -> Bool
 prop_AltAssoc a b c s = match (Plus a (Plus b c)) s == match (Plus (Plus a b) c) s
 
-
 prop_AltCom :: Regexp -> Regexp -> String -> Bool
 prop_AltCom a b s = match (Plus a b) s == match (Plus b a) s
+
+prop_AltIdem :: Regexp -> String -> Bool
+prop_AltIdem a s = match (Plus a a) s == match a s
+
+prop_AltIden :: Regexp -> String -> Bool
+prop_AltIden a s = match (Plus a Zero) s == match a s
+
+--Concatenation Laws
+prop_CatAssoc :: Regexp -> Regexp -> Regexp -> String -> Bool
+prop_CatAssoc a b c s = match (Cat a (Cat b c)) s == match (Cat (Cat a b) c) s
+
+prop_CatIden :: Regexp -> String -> Bool
+prop_CatIden a s = match (Cat a Zero) s == match a s
+
+prop_DistLeft :: Regexp -> Regexp -> Regexp -> String -> Bool
+prop_DistLeft a b c s = match (Cat a (Plus b c)) s == match (Plus (Cat a b) (Cat a c)) s
+
+prop_DistRight :: Regexp -> Regexp -> Regexp -> String -> Bool
+prop_DistRight a b c s = match (Cat (Plus a b) c) s == match (Plus (Cat a c)(Cat b c)) s
+
+--Closure Properties
+prop_Clo :: Regexp -> String -> Bool
+prop_Clo a s = match (Many (Many a)) s == match (Many a) s
+
+prop_Clo2 :: Regexp -> String -> Bool
+prop_Clo2 a s = match (Plus One (Cat a (Many a))) s == match (Many a) s
+
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 10000}) p
+deepCheck n p = do
+                quickCheckWith (stdArgs {maxSuccess = 10000}) p
+                deepCheck (n-1) p
+main = do
+       putStrLn "prop_AltAssoc:"
+       deepCheck iterations prop_AltAssoc
+       putStrLn "prop_AltCom:"
+       deepCheck iterations prop_AltCom
+       putStrLn "prop_AltIdem:"
+       deepCheck iterations prop_AltIdem
+       putStrLn "prop_AltIden:"
+       deepCheck iterations prop_AltIden
+       putStrLn "prop_CatAssoc:"
+       deepCheck iterations prop_CatAssoc
+       putStrLn "prop_CatIden:"
+       deepCheck iterations prop_CatIden
+       putStrLn "prop_DistLeft"
+       deepCheck iterations prop_DistLeft
+       putStrLn "prop_DistRight"
+       deepCheck iterations prop_DistRight
+       putStrLn "prop_Clo"
+       deepCheck iterations prop_Clo
+       putStrLn "prop_Clo2"
+       deepCheck iterations prop_Clo2
+       putStrLn "End"
+       where iterations = 100
+
