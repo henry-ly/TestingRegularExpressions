@@ -1,6 +1,11 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 module FFI where
--- run ghc --make -main-is FFI ffi.hs simple_re_match.c
+
+{- In order to create a working executable
+gcc simple_re_match.c -o simple_re_match 
+ghc --make -main-is FFI ffi.hs simple_re_match.c
+-}
+
 import Foreign.C.Types 
 import Foreign.C.String
 import Foreign.Ptr 
