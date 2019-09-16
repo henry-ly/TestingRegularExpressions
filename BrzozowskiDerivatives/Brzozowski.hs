@@ -165,13 +165,13 @@ instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
 
 arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
-                      --            ,(1, return End)
-                      --            ,(1, return Nil)
-                                  ]
+                                 ,(1, return End)
+                                 ,(1, return Nil)
+                                 ]
 arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
-                                  ,(1, liftM2 Cat subexpr subexpr)
-                                  ,(1, liftM Clo subexpr)
-                                  ]
+                                 ,(1, liftM2 Cat subexpr subexpr)
+                                 ,(1, liftM Clo subexpr)
+                                 ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
 --run grep with -w flag for matching whole words. Otherwise it will match * with anything
@@ -197,22 +197,20 @@ prop_Grep s r = monadicIO $ do
                               grepBoolean <- run(unixGrep s (showExpr r)) 
                               assert(grepBoolean == regexMatch r s)
 
-
 -- Nil is actually epsilon
-prop_Nil :: String -> Bool
+prop_Nil :: Eq a => [a] -> Bool
 prop_Nil s = 
-  regexMatch Nil s == False
-
-prop_Eps :: Eq a => [a] -> Bool
-prop_Eps s = 
   regexMatch End s == null s
+
+prop_Eps :: String -> Bool
+prop_Eps s = 
+  regexMatch Nil s == False
 
 prop_Atom :: Eq a => a -> [a] -> Bool
 prop_Atom a s = regexMatch (Lit a) s == (s == [a])
 
 prop_Alt :: Regex Char -> Regex Char -> String -> Bool
 prop_Alt a b s = regexMatch (Alt a b) s == (regexMatch a s || regexMatch b s)
-
 
 --Alternation Laws
 prop_AltAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
@@ -247,12 +245,13 @@ prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
 prop_Clo2 :: Regex Char -> String -> Bool
 prop_Clo2 a s = regexMatch (Alt Nil (Cat a (Clo a))) s == regexMatch (Clo a) s
 
-
 deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 10000}) p
 deepCheck n p = do 
                 quickCheckWith (stdArgs {maxSuccess = 10000}) p
                 deepCheck (n-1) p
 main = do
+       putStrLn "prop_Grep:"
+       deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
        deepCheck iterations prop_AltAssoc
        putStrLn "prop_AltCom:"
@@ -263,5 +262,15 @@ main = do
        deepCheck iterations prop_AltIden
        putStrLn "prop_CatAssoc:"
        deepCheck iterations prop_CatAssoc
+       putStrLn "prop_CatIden:"
+       deepCheck iterations prop_CatIden
+       putStrLn "prop_DistLeft"
+       deepCheck iterations prop_DistLeft
+       putStrLn "prop_DistRight"
+       deepCheck iterations prop_DistRight     
+       putStrLn "prop_Clo"
+       deepCheck iterations prop_Clo     
+       putStrLn "prop_Clo2"
+       deepCheck iterations prop_Clo2     
        putStrLn "End"
-       where iterations = 10
+       where iterations = 100
