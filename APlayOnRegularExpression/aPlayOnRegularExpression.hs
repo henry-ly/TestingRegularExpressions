@@ -47,21 +47,38 @@ regexCatGen s1 s2 = do
                     y <- s2
                     return $ Seq x y
 
+-- possible solution for running QC on smaller strings
+newtype SmallStrings = SmallStrings String
+    deriving Show
+
+genSmallStrings :: Gen String
+genSmallStrings =do
+                r <- choose (0, 5) 
+                vectorOf r alphabet 
+
+instance Arbitrary SmallStrings where
+    arbitrary =  SmallStrings <$> genSmallStrings
+
+
 -- this implementation is very slow for larger strings
 instance Arbitrary Reg where
     arbitrary = sized arbitraryExpression
 
-arbitraryExpression 0 = frequency[(1, return Eps),(1, literal)]  
-arbitraryExpression n = frequency[(1, regexCatGen subexpr subexpr), (1, regexPlusGen subexpr subexpr), (1, regexManyGen subexpr)]
+arbitraryExpression 0 = frequency[(1, return Eps)
+                                 ,(1, literal)
+                                 ]  
+arbitraryExpression n = frequency[(1, regexCatGen subexpr subexpr)
+                                 ,(1, regexPlusGen subexpr subexpr)
+                                 ,(1, regexManyGen subexpr)
+                                 ]
                     where subexpr = arbitraryExpression (n `div` 2)
 
 
 prop_one :: String -> Bool
 prop_one s = accept Eps s == null s
 
-
-prop_Alt :: Reg -> Reg -> String -> Bool
-prop_Alt a b s = accept (Alt a b) s == (accept a s || accept b s)
+prop_Alt :: Reg -> Reg -> SmallStrings -> Bool
+prop_Alt a b (SmallStrings s) = accept (Alt a b) s == (accept a s || accept b s)
 
 
 prop_AltCom :: Reg -> Reg -> String -> Bool
@@ -71,7 +88,7 @@ prop_AltCom a b s = accept (Alt a b) s == accept (Alt b a) s
 prop_SeqAssoc :: Reg -> Reg -> Reg -> String -> Bool
 prop_SeqAssoc a b c s = accept (Seq a (Seq b c)) s == accept (Seq(Seq a b) c) s
 
-prop_Clo :: Reg -> String -> Bool
-prop_Clo a s = accept (Rep a) s == accept (Rep (Rep a)) s
+prop_Clo :: Reg -> SmallStrings -> Bool
+prop_Clo a (SmallStrings s) = accept (Rep a) s == accept (Rep (Rep a)) s
 
 
