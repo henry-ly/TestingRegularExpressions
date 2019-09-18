@@ -54,9 +54,13 @@ xs     +++ []     = xs
 []     *** w = []
 (x:xs) *** w = map (x *!*) w +++ pay (xs *** w)
   
+-- use pay to increase the size
+-- use unpay to decrease the size (and throw away everything of size 0)
 pay, unpay :: Space a -> Space a
-pay   v = nil : v -- use pay to increase the size
-unpay v = tail v  -- use unpay to decrease the size (and throw away everything of size 0)
+pay   xs     = nil : xs
+
+unpay (x:xs) = xs
+unpay []     = []
 
 join :: Space (Space a) -> Space a
 join []     = []
