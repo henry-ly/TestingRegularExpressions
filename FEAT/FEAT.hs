@@ -9,7 +9,7 @@ infixl 1 `app`
 
 -- a sequence Seq is like a (finite) list. It is a pair of the size of the
 -- list, and the function we can use to index in it. We can represent HUGE
--- lists in this way. The operator can can construct huge such lists
+-- lists in this way. The operator that can construct huge such lists
 -- (in constant time) is product (*!*).
 
 type Seq a = (Integer, Integer -> a)

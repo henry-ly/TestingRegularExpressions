@@ -37,8 +37,11 @@ space (Star p)  = w
 --------------------------------------------------------------------------------
 -- example
 
+letter :: E
+letter = foldr1 (:+:) [ Atom c | c <- ['a'..'z'] ]
+
 r :: E
-r = Atom 'a' :>: Star ((Atom 'b' :+: Atom 'c') :>: Atom 'x') :>: Atom 'd'
+r = Atom '<' :>: Star (letter :>: Atom ',') :>: letter :>: Atom '>'
 
 sp :: Space String
 sp = space r
@@ -50,11 +53,16 @@ main =
      putStrLn ""
 
      putStrLn "-- enumeration space:"
-     putStrLn (take 500 (showSpace sp) ++ "...")
+     putStrLn (take 1000 (showSpace sp) ++ "...")
      putStrLn ""
 
      sequence_
-       [ do putStrLn ("-- pick a random string of size " ++ show sz ++ ":")
+       [ do putStrLn ( "-- pick a random string of size "
+                    ++ show sz
+                    ++ ", from "
+                    ++ show n
+                    ++ " possible strings:"
+                     )
             if n == 0 then
               do putStrLn "(there are no such strings)"
              else
