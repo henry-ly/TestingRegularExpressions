@@ -72,5 +72,5 @@ main =
        | (sz, (n,h)) <- [0..20] `zip` sp
        ]
 
--- enumerates matching strings of size n given a regex r
+-- enumerates matching strings up to size n given a regex r
 validString s r = (concat) [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ]
