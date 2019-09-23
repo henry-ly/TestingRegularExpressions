@@ -11,6 +11,8 @@ import System.Exit (ExitCode(ExitSuccess))
 import System.IO.Unsafe
 import Test.QuickCheck.Monadic
 --
+import FEAT
+
 data Regex a = Nil --epsilon; zero-width match pattern that matches the empty string.
 	     | End --zero-width non-match
 	     | Lit a --a literal symbol in the input alphabet
@@ -19,6 +21,15 @@ data Regex a = Nil --epsilon; zero-width match pattern that matches the empty st
 	     | Clo (Regex a) --star-node; Kleene closure
 	     deriving (Eq, Show)
 
+space :: Regex Char -> Space String
+space (Lit c)  = pay (unit [c])
+space End       = empty
+space Nil       = unit ""
+space (p `Alt` q) = space p +++ space q
+space (p `Cat` q) = unit (++) `app` space p `app` space q
+space (Clo p)  = w
+ where
+  w = unit "" +++ pay (unit (++) `app` unpay (space p) `app` w)
 
 
 regex :: String -> Regex Char
@@ -184,13 +195,12 @@ unixGrep s r = do
 
 -- convert a regular expression to UNIX regex in a string representation
 showExpr :: Regex Char -> String
-showExpr (Nil) = []
+showExpr Nil = []
 showExpr (Lit a) = [a] 
 showExpr (Clo a) = "(" ++ showExpr a ++ ")" ++ "*" 
 showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")" 
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = undefined -- no unix equivalent
-
 
 prop_Grep :: String -> Regex Char -> Property
 prop_Grep s r = monadicIO $ do  
@@ -213,9 +223,10 @@ prop_Alt :: Regex Char -> Regex Char -> String -> Bool
 prop_Alt a b s = regexMatch (Alt a b) s == (regexMatch a s || regexMatch b s)
 
 --Alternation Laws
-prop_AltAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_AltAssoc a b c s = regexMatch (Alt a (Alt b c)) s == regexMatch (Alt (Alt a b) c) s
-
+prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
+prop_AltAssoc a b c = do r <- choose(0,10)
+                         s <- genInputStrings r (a `Alt` (b `Alt` c)) 
+                         return $ regexMatch (a `Alt` (b `Alt` c)) s == regexMatch ((a `Alt` b) `Alt` c) s
 prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
 prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
 
@@ -245,9 +256,57 @@ prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
 prop_Clo2 :: Regex Char -> String -> Bool
 prop_Clo2 a s = regexMatch (Alt Nil (Cat a (Clo a))) s == regexMatch (Clo a) s
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 10000}) p
+
+newtype InputStrings = InputStrings String
+    deriving Show
+
+
+instance Arbitrary InputStrings where
+    arbitrary =  InputStrings <$> genMatching 1 End
+
+
+
+genInputStrings :: Int -> Regex Char -> Gen String
+genInputStrings s r = oneof[genMatching s r, genNotMatching s r] 
+
+genMatching :: Int -> Regex Char -> Gen String
+genMatching s r = if not (null (space r)) then
+                      oneof[do 
+                               a <- choose(0, n-1)
+                               if n == 0 then
+                                   return ""
+                               else
+                                   return(h a) 
+                           |(sz, (n,h)) <- [0..s] `zip` space r] 
+                           else
+                               return ""
+
+genNotMatching :: Int -> Regex Char -> Gen String
+genNotMatching s r = if not (null (space r)) then
+                       oneof[do
+                             a <- choose(0, n-1)
+                             if n == 0 then
+                                 return ""
+                             else
+                                    return(swapHalf (h a)) 
+                           |(sz, (n,h)) <- [0..s] `zip` space r] 
+                           else
+                               return ""
+
+-- enumerates matching strings up to size s given a regex r
+validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ] 
+
+-- attempt to falsify a valid matching String AB/=BA
+--swapHalf (x:y:xs)  = y : x : xs
+--swapHalf x = x
+swapHalf xs = right ++ left
+    where block = splitAt (length xs `div` 2) xs
+          left = fst block
+          right = snd block
+
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 1000}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 10000}) p
+                quickCheckWith (stdArgs {maxSuccess = 1000}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Grep:"
@@ -274,3 +333,5 @@ main = do
        deepCheck iterations prop_Clo2     
        putStrLn "End"
        where iterations = 100
+
+
