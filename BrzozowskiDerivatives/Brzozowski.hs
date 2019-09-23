@@ -170,7 +170,7 @@ regexMatch r (c:cs) = regexMatch (derivative r c) cs
 
 
 alphabet :: Gen Char
-alphabet = elements ['a', 'b','c']
+alphabet = elements ['a' .. 'c']
 
 instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
@@ -222,11 +222,24 @@ prop_Atom a s = regexMatch (Lit a) s == (s == [a])
 prop_Alt :: Regex Char -> Regex Char -> String -> Bool
 prop_Alt a b s = regexMatch (Alt a b) s == (regexMatch a s || regexMatch b s)
 
+
+-- n controls the String size
+testMatcher ::  Regex Char -> Regex Char -> Int -> Gen Bool
+testMatcher r1 r2 n = do r <- choose(0,n-1)
+                         testString <- genInputStrings r r1
+                         return $ regexMatch (r1) testString == regexMatch (r2) testString
+
+prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
+prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c) 10
 --Alternation Laws
+{-
 prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
 prop_AltAssoc a b c = do r <- choose(0,10)
                          s <- genInputStrings r (a `Alt` (b `Alt` c)) 
                          return $ regexMatch (a `Alt` (b `Alt` c)) s == regexMatch ((a `Alt` b) `Alt` c) s
+-}
+
+
 prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
 prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
 
