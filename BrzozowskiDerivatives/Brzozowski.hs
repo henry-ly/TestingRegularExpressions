@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleInstances #-}
 
 import Control.Monad(liftM, liftM2)
-
+import Data.Char
 -- regular expression matching using Brzozowski's algorithm
 import Test.QuickCheck
 
@@ -256,18 +256,8 @@ prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
 prop_Clo2 :: Regex Char -> String -> Bool
 prop_Clo2 a s = regexMatch (Alt Nil (Cat a (Clo a))) s == regexMatch (Clo a) s
 
-
-newtype InputStrings = InputStrings String
-    deriving Show
-
-
-instance Arbitrary InputStrings where
-    arbitrary =  InputStrings <$> genMatching 1 End
-
-
-
 genInputStrings :: Int -> Regex Char -> Gen String
-genInputStrings s r = oneof[genMatching s r, genNotMatching s r] 
+genInputStrings s r = oneof[genMatching s r, genNotMatching s] 
 
 genMatching :: Int -> Regex Char -> Gen String
 genMatching s r = if not (null (space r)) then
@@ -280,18 +270,11 @@ genMatching s r = if not (null (space r)) then
                            |(sz, (n,h)) <- [0..s] `zip` space r] 
                            else
                                return ""
-
-genNotMatching :: Int -> Regex Char -> Gen String
-genNotMatching s r = if not (null (space r)) then
-                       oneof[do
-                             a <- choose(0, n-1)
-                             if n == 0 then
-                                 return ""
-                             else
-                                    return(swapHalf (h a)) 
-                           |(sz, (n,h)) <- [0..s] `zip` space r] 
-                           else
-                               return ""
+-- pseudo non-matching string will generate strings at random
+genNotMatching :: Int -> Gen String
+genNotMatching n = do
+                    r <- choose (0, n) 
+                    vectorOf r alphabet 
 
 -- enumerates matching strings up to size s given a regex r
 validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ] 
@@ -299,7 +282,8 @@ validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ]
 -- attempt to falsify a valid matching String AB/=BA
 --swapHalf (x:y:xs)  = y : x : xs
 --swapHalf x = x
-swapHalf xs = right ++ left
+swapHalf xs | right /= left = right ++ left
+            | otherwise = map (chr.(+1).ord) xs
     where block = splitAt (length xs `div` 2) xs
           left = fst block
           right = snd block
