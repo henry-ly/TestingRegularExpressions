@@ -185,10 +185,9 @@ arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                  ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
---run grep with -w flag for matching whole words. Otherwise it will match * with anything
 unixGrep :: String -> String -> IO Bool
 unixGrep s r = do  
-            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -w -q \"" ++ r ++"\""
+            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -q \"" ++ r ++"\""
             case exitCode of
                 ExitSuccess ->  return True
                 _           ->  return False
@@ -202,43 +201,32 @@ showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")"
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = undefined -- no unix equivalent
 
-prop_Grep :: String -> Regex Char -> Property
-prop_Grep s r = monadicIO $ do  
-                              grepBoolean <- run(unixGrep s (showExpr r)) 
-                              assert(grepBoolean == regexMatch r s)
+prop_Grep :: Regex Char -> Gen Bool
+prop_Grep r1 =  do
+                  r <- choose(0,10)
+                  testString <- genInputStrings r r1
+                  return $ unsafePerformIO(unixGrep testString (showExpr r1)) == regexMatch r1 testString
 
 -- Nil is actually epsilon
-prop_Nil :: Eq a => [a] -> Bool
+prop_Nil :: String -> Bool
 prop_Nil s = 
-  regexMatch End s == null s
+  regexMatch End s == False
 
 prop_Eps :: String -> Bool
 prop_Eps s = 
-  regexMatch Nil s == False
+  regexMatch Nil s == null s
 
-prop_Atom :: Eq a => a -> [a] -> Bool
+prop_Atom :: Char -> String -> Bool
 prop_Atom a s = regexMatch (Lit a) s == (s == [a])
 
-prop_Alt :: Regex Char -> Regex Char -> String -> Bool
-prop_Alt a b s = regexMatch (Alt a b) s == (regexMatch a s || regexMatch b s)
-
-
--- n controls the String size
-testMatcher ::  Regex Char -> Regex Char -> Int -> Gen Bool
-testMatcher r1 r2 n = do r <- choose(0,n-1)
+testMatcher ::  Regex Char -> Regex Char -> Gen Bool
+testMatcher r1 r2 = do   r <- choose(0,10)
                          testString <- genInputStrings r r1
                          return $ regexMatch (r1) testString == regexMatch (r2) testString
 
-prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
-prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c) 10
 --Alternation Laws
-{-
 prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
-prop_AltAssoc a b c = do r <- choose(0,10)
-                         s <- genInputStrings r (a `Alt` (b `Alt` c)) 
-                         return $ regexMatch (a `Alt` (b `Alt` c)) s == regexMatch ((a `Alt` b) `Alt` c) s
--}
-
+prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c) 
 
 prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
 prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
@@ -254,7 +242,7 @@ prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_CatAssoc a b c s = regexMatch (Cat a (Cat b c)) s == regexMatch (Cat (Cat a b) c) s
 
 prop_CatIden :: Regex Char -> String -> Bool
-prop_CatIden a s = regexMatch (Cat a End) s == regexMatch a s
+prop_CatIden a s = regexMatch (Cat a Nil) s == regexMatch a s
 
 prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
@@ -266,8 +254,12 @@ prop_DistRight a b c s = regexMatch (Cat (Alt a b) c) s == regexMatch (Alt (Cat 
 prop_Clo :: Regex Char -> String -> Bool
 prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
 
-prop_Clo2 :: Regex Char -> String -> Bool
-prop_Clo2 a s = regexMatch (Alt Nil (Cat a (Clo a))) s == regexMatch (Clo a) s
+prop_Clo2 :: Regex Char -> String -> Gen Bool
+prop_Clo2 a s = testMatcher (Nil `Alt` (a `Cat` Clo a)) (Clo a)
+
+prop_Derived :: Regex Char -> Regex Char -> Regex Char -> Gen Bool
+prop_Derived a b c = testMatcher (Clo(Clo (b `Alt` (a `Cat`( b `Alt` c)) `Alt` b ))) (Clo (b `Alt` ((a `Cat` b) `Alt` (a `Cat` c)) `Alt` b ))
+
 
 genInputStrings :: Int -> Regex Char -> Gen String
 genInputStrings s r = oneof[genMatching s r, genNotMatching s] 
@@ -301,11 +293,18 @@ swapHalf xs | right /= left = right ++ left
           left = fst block
           right = snd block
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 1000}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 1000}) p
+                quickCheckWith (stdArgs {maxSuccess = 100}) p
                 deepCheck (n-1) p
 main = do
+       putStrLn "prop_Nil"
+       deepCheck iterations prop_Nil
+       putStrLn "prop_Eps"
+       deepCheck iterations prop_Eps
+       putStrLn "prop_Atom"
+       deepCheck iterations prop_Atom
+       
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -328,6 +327,10 @@ main = do
        deepCheck iterations prop_Clo     
        putStrLn "prop_Clo2"
        deepCheck iterations prop_Clo2     
+       
+       putStrLn "prop_Derived"
+       deepCheck iterations prop_Derived
+
        putStrLn "End"
        where iterations = 100
 

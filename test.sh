@@ -8,6 +8,24 @@ echo "Testing Brzozowski.hs..."
 ./Brzozowski > result.txt
 
 #extract and count failed and passed tests
+echo "Failed tests in prop_Nil:" 
+awk '/prop_Nil/,/prop_Eps/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Nil:"
+awk '/prop_Nil/,/prop_Eps/' result.txt | grep -c "OK"
+
+echo "Failed tests in prop_Eps:"
+awk '/prop_Eps/,/prop_Atom/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Eps:"
+awk '/prop_Eps/,/prop_Atom/' result.txt | grep -c "OK"
+
+echo "Failed tests in prop_Atom:"
+awk '/prop_Atom/,/prop_Grep/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Atom:"
+awk '/prop_Atom/,/prop_Grep/' result.txt | grep -c "OK"
+
 echo "Failed tests in prop_Grep:"
 awk '/prop_Grep/,/prop_AltAssoc/' result.txt | grep -c "Failed"
 
@@ -63,15 +81,21 @@ echo "Succesful tests in prop_DistRight:"
 awk '/prop_DistRight/,/prop_Clo/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_Clo:"
-awk '/prop_prop_Clo/,/prop_Clo2/' result.txt | grep -c "Failed"
+awk '/prop_Clo/,/prop_Clo2/' result.txt | grep -c "Failed"
 
 echo "Succesful tests in prop_Clo:"
-awk '/prop_DistRight/,/prop_Clo/' result.txt | grep -c "OK"
+awk '/prop_Clo/,/prop_Clo2/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_Clo2:"
-awk '/prop_Clo2/,/end/' result.txt | grep -c "Failed"
+awk '/prop_Clo2/,/prop_Derived/' result.txt | grep -c "Failed"
 
 echo "Succesful tests in prop_Clo2:"
-awk '/prop_Clo2/,/end/' result.txt | grep -c "OK"
+awk '/prop_Clo2/,/prop_Derived/' result.txt | grep -c "OK"
+
+echo "Failed tests in prop_Derived:"
+awk '/prop_Derived/,/End/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Derived:"
+awk '/prop_Derived/,/End/' result.txt | grep -c "OK"
 
 
