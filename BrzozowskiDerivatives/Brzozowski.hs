@@ -1,5 +1,6 @@
 {-# LANGUAGE FlexibleInstances #-}
 
+import Control.Monad.IO.Class
 import Control.Monad(liftM, liftM2)
 import Data.Char
 -- regular expression matching using Brzozowski's algorithm
@@ -207,6 +208,7 @@ prop_Grep r1 =  do
                   testString <- genInputStrings r r1
                   return $ unsafePerformIO(unixGrep testString (showExpr r1)) == regexMatch r1 testString
 
+
 -- Nil is actually epsilon
 prop_Nil :: String -> Bool
 prop_Nil s = 
@@ -219,15 +221,18 @@ prop_Eps s =
 prop_Atom :: Char -> String -> Bool
 prop_Atom a s = regexMatch (Lit a) s == (s == [a])
 
-testMatcher ::  Regex Char -> Regex Char -> Gen Bool
-testMatcher r1 r2 = do   r <- choose(0,10)
-                         testString <- genInputStrings r r1
-                         return $ regexMatch (r1) testString == regexMatch (r2) testString
+
+
+
+testMatcher ::  Regex Char -> Regex Char -> Property
+testMatcher r1 r2 = monadicIO  $ do
+                                 testString <- run(generate(genInputStrings 10 r1))
+                                 monitor (counterexample testString)
+                                 assert $ regexMatch (r1) testString == regexMatch (r2) testString
 
 --Alternation Laws
-prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Gen Bool
+prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Property
 prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c) 
-
 prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
 prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
 
@@ -254,10 +259,10 @@ prop_DistRight a b c s = regexMatch (Cat (Alt a b) c) s == regexMatch (Alt (Cat 
 prop_Clo :: Regex Char -> String -> Bool
 prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
 
-prop_Clo2 :: Regex Char -> String -> Gen Bool
+prop_Clo2 :: Regex Char -> String -> Property
 prop_Clo2 a s = testMatcher (Nil `Alt` (a `Cat` Clo a)) (Clo a)
 
-prop_Derived :: Regex Char -> Regex Char -> Regex Char -> Gen Bool
+prop_Derived :: Regex Char -> Regex Char -> Regex Char -> Property
 prop_Derived a b c = testMatcher (Clo(Clo (b `Alt` (a `Cat`( b `Alt` c)) `Alt` b ))) (Clo (b `Alt` ((a `Cat` b) `Alt` (a `Cat` c)) `Alt` b ))
 
 
