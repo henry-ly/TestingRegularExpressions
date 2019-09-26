@@ -21,10 +21,22 @@ echo "Successful tests in prop_Eps:"
 awk '/prop_Eps/,/prop_Atom/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_Atom:"
-awk '/prop_Atom/,/prop_Grep/' result.txt | grep -c "Failed"
+awk '/prop_Atom/,/prop_Plus/' result.txt | grep -c "Failed"
 
 echo "Successful tests in prop_Atom:"
-awk '/prop_Atom/,/prop_Grep/' result.txt | grep -c "OK"
+awk '/prop_Atom/,/prop_Plus/' result.txt | grep -c "OK"
+
+echo "Failed tests in prop_Plus:"
+awk '/prop_Plus/,/prop_Seq/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Plus:"
+awk '/prop_Plus/,/prop_Seq/' result.txt | grep -c "OK"
+
+echo "Failed tests in prop_Seq:"
+awk '/prop_Seq/,/prop_Grep/' result.txt | grep -c "Failed"
+
+echo "Successful tests in prop_Seq:"
+awk '/prop_Seq/,/prop_Grep/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_Grep:"
 awk '/prop_Grep/,/prop_AltAssoc/' result.txt | grep -c "Failed"
@@ -45,28 +57,16 @@ echo "Succesful tests in prop_AltCom:"
 awk '/prop_AltCom/,/prop_AltIdem/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_AltIdem:"
-awk '/prop_AltIdem/,/prop_AltIden/' result.txt | grep -c "Failed"
+awk '/prop_AltIdem/,/prop_CatAssoc/' result.txt | grep -c "Failed"
 
 echo "Succesful tests in prop_AltIdem:"
-awk '/prop_AltIdem/,/prop_AltIden/' result.txt | grep -c "OK"
-
-echo "Failed tests in prop_AltIden:"
-awk '/prop_AltIden/,/prop_AltIden/' result.txt | grep -c "Failed"
-
-echo "Succesful tests in prop_AltIden:"
-awk '/prop_AltIden/,/prop_CatAssoc/' result.txt | grep -c "OK"
+awk '/prop_AltIdem/,/prop_CatAssoc/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_CatAssoc:"
-awk '/prop_CatAssoc/,/prop_CatIden/' result.txt | grep -c "Failed"
+awk '/prop_CatAssoc/,/prop_DistLeft/' result.txt | grep -c "Failed"
 
 echo "Succesful tests in prop_CatAssoc:"
-awk '/prop_CatAssoc/,/prop_CatIden/' result.txt | grep -c "OK"
-
-echo "Failed tests in prop_CatIden:"
-awk '/prop_CatIden/,/prop_DistLeft/' result.txt | grep -c "Failed"
-
-echo "Succesful tests in prop_CatIden:"
-awk '/prop_CatIden/,/prop_DistLeft/' result.txt | grep -c "OK"
+awk '/prop_CatAssoc/,/prop_DistLeft/' result.txt | grep -c "OK"
 
 echo "Failed tests in prop_DistLeft:"
 awk '/prop_DistLeft/,/prop_DistRight/' result.txt | grep -c "Failed"

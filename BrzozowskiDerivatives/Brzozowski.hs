@@ -186,9 +186,11 @@ arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
                                  ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
+
+
 unixGrep :: String -> String -> IO Bool
 unixGrep s r = do  
-            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -q \"" ++ r ++"\""
+            exitCode <- system $ "echo \"" ++ s ++ "\" | grep -E -w -q \"" ++ r ++"\""
             case exitCode of
                 ExitSuccess ->  return True
                 _           ->  return False
@@ -202,52 +204,64 @@ showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")"
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = undefined -- no unix equivalent
 
-prop_Grep :: Regex Char -> Gen Bool
-prop_Grep r1 =  do
-                  r <- choose(0,10)
-                  testString <- genInputStrings r r1
-                  return $ unsafePerformIO(unixGrep testString (showExpr r1)) == regexMatch r1 testString
-
-
+prop_Grep :: Regex Char -> Property
+prop_Grep r1 =  monadicIO  $ do  
+                             testString <- run(generate(genInputStrings 10 r1))
+                             booleanGrep <- run(unixGrep testString (showExpr r1))
+                             monitor (counterexample testString)
+                             assert $ regexMatch r1 testString == booleanGrep
 -- Nil is actually epsilon
-prop_Nil :: String -> Bool
-prop_Nil s = 
-  regexMatch End s == False
+prop_Nil :: Property
+prop_Nil = monadicIO $ do
+                       testString <- run(generate(genInputStrings 10 End)) 
+                       monitor(counterexample testString)
+                       assert $ regexMatch End testString == False
 
-prop_Eps :: String -> Bool
-prop_Eps s = 
-  regexMatch Nil s == null s
+prop_Eps :: Property
+prop_Eps = monadicIO $ do
+                       testString <- run(generate(genInputStrings 10 Nil))
+                       monitor(counterexample testString)
+                       assert $ regexMatch Nil testString == null testString
 
-prop_Atom :: Char -> String -> Bool
-prop_Atom a s = regexMatch (Lit a) s == (s == [a])
+prop_Atom :: Char -> Property
+prop_Atom a = monadicIO $ do
+                          testString <- run(generate(genInputStrings 10 (Lit a)))
+                          monitor(counterexample testString)
+                          assert $ regexMatch (Lit a) testString == (testString == [a])
 
+prop_Plus :: Regex Char -> Regex Char -> Property
+prop_Plus r1 r2 = monadicIO $ do
+                              testString <- run(generate(genInputStrings 10 r1))
+                              monitor(counterexample testString)
+                              assert $ regexMatch (r1 `Alt` r2) testString == regexMatch r1 testString || regexMatch r2 testString 
 
-
-
+prop_Seq :: Regex Char -> Regex Char -> Property
+prop_Seq r1 r2 = monadicIO $ do
+                             testString <- run(generate(genInputStrings 10 r1))
+                             monitor(counterexample testString)
+                             assert ((regexMatch (r1 `Cat` r2) testString) == (or[(regexMatch r1 (take i testString)) 
+                                      && (regexMatch r2 (drop i testString))| i<-[0 .. length testString]]))
+-- will be called from properties
 testMatcher ::  Regex Char -> Regex Char -> Property
 testMatcher r1 r2 = monadicIO  $ do
                                  testString <- run(generate(genInputStrings 10 r1))
-                                 monitor (counterexample testString)
-                                 assert $ regexMatch (r1) testString == regexMatch (r2) testString
+                                 monitor(counterexample testString)
+                                 assert $ regexMatch r1 testString == regexMatch r2 testString
 
 --Alternation Laws
 prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Property
-prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c) 
+prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c)
+ 
 prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
 prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
 
 prop_AltIdem :: Regex Char -> String -> Bool
 prop_AltIdem a s = regexMatch (Alt a a) s == regexMatch a s
 
-prop_AltIden :: Regex Char -> String -> Bool
-prop_AltIden a s = regexMatch (Alt a End) s == regexMatch a s
-
 --Concatenation Laws
 prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_CatAssoc a b c s = regexMatch (Cat a (Cat b c)) s == regexMatch (Cat (Cat a b) c) s
 
-prop_CatIden :: Regex Char -> String -> Bool
-prop_CatIden a s = regexMatch (Cat a Nil) s == regexMatch a s
 
 prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
 prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
@@ -298,9 +312,9 @@ swapHalf xs | right /= left = right ++ left
           left = fst block
           right = snd block
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 10}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 100}) p
+                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 30}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
@@ -309,7 +323,12 @@ main = do
        deepCheck iterations prop_Eps
        putStrLn "prop_Atom"
        deepCheck iterations prop_Atom
+       putStrLn "prop_Plus"
+       deepCheck iterations prop_Plus
+       putStrLn "prop_Seq"
+       deepCheck iterations prop_Seq
        
+
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -318,12 +337,8 @@ main = do
        deepCheck iterations prop_AltCom
        putStrLn "prop_AltIdem:"
        deepCheck iterations prop_AltIdem
-       putStrLn "prop_AltIden:"
-       deepCheck iterations prop_AltIden
        putStrLn "prop_CatAssoc:"
        deepCheck iterations prop_CatAssoc
-       putStrLn "prop_CatIden:"
-       deepCheck iterations prop_CatIden
        putStrLn "prop_DistLeft"
        deepCheck iterations prop_DistLeft
        putStrLn "prop_DistRight"
