@@ -202,7 +202,7 @@ showExpr (Lit a) = [a]
 showExpr (Clo a) = "(" ++ showExpr a ++ ")" ++ "*" 
 showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")" 
 showExpr (Cat a b) = showExpr a ++ showExpr b
-showExpr _ = undefined -- no unix equivalent
+showExpr _ = "[^a-z]"
 
 prop_Grep :: Regex Char -> Property
 prop_Grep r1 =  monadicIO  $ do  
@@ -239,8 +239,8 @@ prop_Seq :: Regex Char -> Regex Char -> Property
 prop_Seq r1 r2 = monadicIO $ do
                              testString <- run(generate(genInputStrings 10 r1))
                              monitor(counterexample testString)
-                             assert ((regexMatch (r1 `Cat` r2) testString) == (or[(regexMatch r1 (take i testString)) 
-                                      && (regexMatch r2 (drop i testString))| i<-[0 .. length testString]]))
+                             assert $ regexMatch (r1 `Cat` r2) testString == 
+                               or[regexMatch r1 (take i testString) && regexMatch r2 (drop i testString) | i <- [0 .. length testString]]
 -- will be called from properties
 testMatcher ::  Regex Char -> Regex Char -> Property
 testMatcher r1 r2 = monadicIO  $ do
@@ -312,9 +312,9 @@ swapHalf xs | right /= left = right ++ left
           left = fst block
           right = snd block
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 10}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 30}) p
+                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 7}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
@@ -350,8 +350,7 @@ main = do
        
        putStrLn "prop_Derived"
        deepCheck iterations prop_Derived
-
-       putStrLn "End"
+       putStrLn "END"
        where iterations = 100
 
 
