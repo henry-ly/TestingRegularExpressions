@@ -202,11 +202,11 @@ showExpr (Lit a) = [a]
 showExpr (Clo a) = "(" ++ showExpr a ++ ")" ++ "*" 
 showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")" 
 showExpr (Cat a b) = showExpr a ++ showExpr b
-showExpr _ = "[^a-z]"
+showExpr _ = ".&&."
 
 prop_Grep :: Regex Char -> Property
 prop_Grep r1 =  monadicIO  $ do  
-                             testString <- run(generate(genInputStrings 10 r1))
+                             testString <-  run(generate(genInputStrings 10 r1))
                              booleanGrep <- run(unixGrep testString (showExpr r1))
                              monitor (counterexample testString)
                              assert $ regexMatch r1 testString == booleanGrep
