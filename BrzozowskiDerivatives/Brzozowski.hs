@@ -202,7 +202,7 @@ showExpr (Lit a) = [a]
 showExpr (Clo a) = "(" ++ showExpr a ++ ")" ++ "*" 
 showExpr (Alt a b) = "(" ++ showExpr a ++"|"++ showExpr b ++ ")" 
 showExpr (Cat a b) = showExpr a ++ showExpr b
-showExpr _ = ".&&."
+showExpr _ = "a&&b"
 
 prop_Grep :: Regex Char -> Property
 prop_Grep r1 =  monadicIO  $ do  
@@ -241,6 +241,13 @@ prop_Seq r1 r2 = monadicIO $ do
                              monitor(counterexample testString)
                              assert $ regexMatch (r1 `Cat` r2) testString == 
                                or[regexMatch r1 (take i testString) && regexMatch r2 (drop i testString) | i <- [0 .. length testString]]
+
+prop_Clo :: Regex Char -> Property
+prop_Clo r1 = monadicIO $ do
+                          testString <- run(generate(genInputStrings 10 r1))
+                          monitor(counterexample testString)
+                          assert $ regexMatch (Clo r1) testString == null testString || (regexMatch (r1 `Cat` Clo r1) testString)
+
 -- will be called from properties
 testMatcher ::  Regex Char -> Regex Char -> Property
 testMatcher r1 r2 = monadicIO  $ do
@@ -252,33 +259,28 @@ testMatcher r1 r2 = monadicIO  $ do
 prop_AltAssoc ::  Regex Char -> Regex Char -> Regex Char -> Property
 prop_AltAssoc a b c = testMatcher (a `Alt` (b `Alt` c)) ((a `Alt` b) `Alt` c)
  
-prop_AltCom :: Regex Char -> Regex Char -> String -> Bool
-prop_AltCom a b s = regexMatch (Alt a b) s == regexMatch (Alt b a) s
+prop_AltCom :: Regex Char -> Regex Char -> Property
+prop_AltCom a b = testMatcher (a `Alt` b) (b `Alt` a) 
 
-prop_AltIdem :: Regex Char -> String -> Bool
-prop_AltIdem a s = regexMatch (Alt a a) s == regexMatch a s
+prop_AltIdem :: Regex Char -> Property
+prop_AltIdem a = testMatcher (a `Alt` a) a
 
 --Concatenation Laws
-prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_CatAssoc a b c s = regexMatch (Cat a (Cat b c)) s == regexMatch (Cat (Cat a b) c) s
+prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Property
+prop_CatAssoc a b c s = testMatcher (a `Cat` (b `Cat` c)) ((a `Cat` b) `Cat` c)
 
+prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> Property
+prop_DistLeft a b c = testMatcher (a `Cat` (b `Alt` c)) ((a `Cat` b) `Alt` (a `Cat` c))
 
-prop_DistLeft :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_DistLeft a b c s = regexMatch (Cat a (Alt b c)) s == regexMatch (Alt (Cat a b) (Cat a c)) s
-
-prop_DistRight :: Regex Char -> Regex Char -> Regex Char -> String -> Bool
-prop_DistRight a b c s = regexMatch (Cat (Alt a b) c) s == regexMatch (Alt (Cat a c)(Cat b c)) s
+prop_DistRight :: Regex Char -> Regex Char -> Regex Char -> Property
+prop_DistRight a b c = testMatcher ((a `Alt` b) `Cat` c) ((a `Cat` c) `Alt` (b `Cat` c))
 
 --Closure Properties
-prop_Clo :: Regex Char -> String -> Bool
-prop_Clo a s = regexMatch (Clo(Clo a)) s == regexMatch (Clo a) s
+prop_Clo2 :: Regex Char -> Property
+prop_Clo2 a = testMatcher (Clo(Clo a)) (Clo a)
 
-prop_Clo2 :: Regex Char -> String -> Property
-prop_Clo2 a s = testMatcher (Nil `Alt` (a `Cat` Clo a)) (Clo a)
-
-prop_Derived :: Regex Char -> Regex Char -> Regex Char -> Property
-prop_Derived a b c = testMatcher (Clo(Clo (b `Alt` (a `Cat`( b `Alt` c)) `Alt` b ))) (Clo (b `Alt` ((a `Cat` b) `Alt` (a `Cat` c)) `Alt` b ))
-
+prop_Clo3 :: Regex Char -> String -> Property
+prop_Clo3 a s = testMatcher (Nil `Alt` (a `Cat` Clo a)) (Clo a)
 
 genInputStrings :: Int -> Regex Char -> Gen String
 genInputStrings s r = oneof[genMatching s r, genNotMatching s] 
@@ -297,8 +299,8 @@ genMatching s r = if not (null (space r)) then
 -- pseudo non-matching string will generate strings at random
 genNotMatching :: Int -> Gen String
 genNotMatching n = do
-                    r <- choose (0, n) 
-                    vectorOf r alphabet 
+                   r <- choose (0, n) 
+                   vectorOf r alphabet 
 
 -- enumerates matching strings up to size s given a regex r
 validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ] 
@@ -314,7 +316,7 @@ swapHalf xs | right /= left = right ++ left
 
 deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 7}) p
+                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
@@ -328,7 +330,6 @@ main = do
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
        
-
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -343,13 +344,13 @@ main = do
        deepCheck iterations prop_DistLeft
        putStrLn "prop_DistRight"
        deepCheck iterations prop_DistRight     
-       putStrLn "prop_Clo"
+       putStrLn "prop_Clo1"
        deepCheck iterations prop_Clo     
        putStrLn "prop_Clo2"
        deepCheck iterations prop_Clo2     
+       putStrLn "prop_Clo3"
+       deepCheck iterations prop_Clo3     
        
-       putStrLn "prop_Derived"
-       deepCheck iterations prop_Derived
        putStrLn "END"
        where iterations = 100
 

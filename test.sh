@@ -44,11 +44,11 @@ echo
 echo "prop_DistRight"
 echo "Succesful: $(awk '/prop_DistRight/,/prop_Clo/' result.txt | grep -c "OK") Failed: $(awk '/prop_DistRight/,/prop_Clo/' result.txt | grep -c "Failed")"
 echo
-echo "prop_Clo"
-echo "Succesful: $(awk '/prop_Clo/,/prop_Clo2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo/,/prop_Clo2/' result.txt | grep -c "Failed")"
+echo "prop_Clo1"
+echo "Succesful: $(awk '/prop_Clo1/,/prop_Clo2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo1/,/prop_Clo2/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Clo2"
-echo "Succesful: $(awk '/prop_Clo2/,/prop_Derived/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo2/,/prop_Derived/' result.txt | grep -c "Failed")"
+echo "Succesful: $(awk '/prop_Clo2/,/prop_Clo3/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo2/,/prop_Clo3/' result.txt | grep -c "Failed")"
 echo
-echo "prop_Derived"
-echo "Succesful: $(awk '/prop_Derived/,/END/' result.txt | grep -c "OK") Failed: $(awk '/prop_Derived/,/END/' result.txt | grep -c "Failed")"
+echo "prop_Clo3"
+echo "Succesful: $(awk '/prop_Clo3/,/prop_Derived/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Derived/' result.txt | grep -c "Failed")"
