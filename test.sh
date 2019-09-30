@@ -51,4 +51,4 @@ echo "prop_Clo2"
 echo "Succesful: $(awk '/prop_Clo2/,/prop_Clo3/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo2/,/prop_Clo3/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Clo3"
-echo "Succesful: $(awk '/prop_Clo3/,/prop_Derived/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Derived/' result.txt | grep -c "Failed")"
+echo "Succesful: $(awk '/prop_Clo3/,/END/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/END/' result.txt | grep -c "Failed")"
