@@ -54,7 +54,7 @@ matchhere(char *regexp, char *text)
  
     if (regexp[0] == '\0')
         return 1;
-     if (regexp[0] == '*')
+    if (regexp[0] == '*')
         return matchstar(regexp[0], regexp+1, text);
     if (regexp[1] == '*')
         return matchstar(regexp[0], regexp+j, text);
