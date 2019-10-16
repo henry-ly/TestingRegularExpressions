@@ -109,7 +109,7 @@ prop_Grep r = monadicIO $ do
 prop_Eps :: Property
 prop_Eps = monadicIO $ do
                        testString <- run $ generate(genInputStrings 10 Eps)
-                       match <- run $ matcher testString (showExpr Eps) 
+                       match <- run $ matcher (showExpr Eps) testString
                        monitor(counterexample testString)
                        assert $ match == null testString
 
@@ -148,8 +148,7 @@ prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Property
 prop_CatAssoc a b c s = testMatcher (a `Cat` (b `Cat` c)) ((a `Cat` b) `Cat` c)
 
 prop_Clo2 :: Regex Char -> Property
-prop_Clo2 a = testMatcher (Clo (Clo a)) (Clo a)
-
+prop_Clo2 a = testMatcher (Clo(Clo a)) (Clo a)
 
 deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
 deepCheck n p = do 
@@ -157,13 +156,13 @@ deepCheck n p = do
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
-  --     deepCheck iterations prop_Nil
+       --deepCheck iterations prop_Nil
        putStrLn "prop_Eps"
        deepCheck iterations prop_Eps
        putStrLn "prop_Atom"
        deepCheck iterations prop_Atom
        putStrLn "prop_Plus"
-      -- deepCheck iterations prop_Plus
+       --deepCheck iterations prop_Plus
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
        
@@ -171,7 +170,7 @@ main = do
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
-    --   deepCheck iterations prop_AltAssoc
+       --deepCheck iterations prop_AltAssoc
        putStrLn "prop_AltCom:"
        --deepCheck iterations prop_AltCom
        putStrLn "prop_AltIdem:"
@@ -185,7 +184,7 @@ main = do
        putStrLn "prop_Clo1"
        deepCheck iterations prop_Clo     
        putStrLn "prop_Clo2"
-      -- deepCheck iterations prop_Clo2     
+       deepCheck iterations prop_Clo2     
        putStrLn "prop_Clo3"
       -- deepCheck iterations prop_Clo3     
        
