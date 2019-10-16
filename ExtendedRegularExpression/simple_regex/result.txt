@@ -1,0 +1,7292 @@
+prop_Nil
+prop_Eps
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+prop_Atom
+*** Failed! Assertion failed (after 37 tests):
+'^'
+caacbacbbb
+*** Failed! Assertion failed (after 14 tests):
+'a'
+bcbaacbab
+*** Failed! Assertion failed (after 49 tests):
+'a'
+bcaac
+*** Failed! Assertion failed (after 97 tests):
+'.'
+acbaaaab
+*** Failed! Assertion failed (after 34 tests):
+'\NUL'
+ccabc
+*** Failed! Assertion failed (after 16 tests):
+'^'
+
+*** Failed! Assertion failed (after 37 tests and 1 shrink):
+'a'
+aaaaccbcbb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 83 tests and 1 shrink):
+'a'
+abb
+*** Failed! Assertion failed (after 94 tests and 1 shrink):
+'b'
+ccbacc
+*** Failed! Assertion failed (after 7 tests):
+'b'
+ccacb
+*** Failed! Assertion failed (after 64 tests and 1 shrink):
+'a'
+abacb
+*** Failed! Assertion failed (after 68 tests and 1 shrink):
+'a'
+aacaccbbc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 52 tests and 1 shrink):
+'a'
+aababaca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 56 tests and 1 shrink):
+'a'
+caabb
+*** Failed! Assertion failed (after 15 tests):
+'c'
+cacaca
+*** Failed! Assertion failed (after 23 tests and 1 shrink):
+'a'
+acbacacc
+*** Failed! Assertion failed (after 63 tests):
+'b'
+bccccc
+*** Failed! Assertion failed (after 91 tests and 1 shrink):
+'a'
+aaaaabbbba
+*** Failed! Assertion failed (after 26 tests and 1 shrink):
+'c'
+acacccbb
+*** Failed! Assertion failed (after 11 tests):
+'a'
+ca
+*** Failed! Assertion failed (after 16 tests):
+'a'
+bbaabbc
+*** Failed! Assertion failed (after 56 tests and 1 shrink):
+'a'
+bacaabb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 1 test):
+'b'
+baaaaaca
+*** Failed! Assertion failed (after 61 tests and 1 shrink):
+'a'
+cbacaab
+*** Failed! Assertion failed (after 41 tests and 1 shrink):
+'a'
+aac
+*** Failed! Assertion failed (after 88 tests):
+'^'
+
+*** Failed! Assertion failed (after 67 tests and 3 shrinks):
+'a'
+bbaacaa
+*** Failed! Assertion failed (after 8 tests):
+'.'
+abccbabba
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'a'
+aabbccaabb
+*** Failed! Assertion failed (after 38 tests and 1 shrink):
+'c'
+cbacbccbc
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'b'
+cbcaabbc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 71 tests and 1 shrink):
+'a'
+bababb
+*** Failed! Assertion failed (after 28 tests and 2 shrinks):
+'a'
+cbabbcbb
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'a'
+bbabacaba
+*** Failed! Assertion failed (after 14 tests and 1 shrink):
+'a'
+baacaccbab
+*** Failed! Assertion failed (after 57 tests):
+'.'
+bbccac
+*** Failed! Assertion failed (after 41 tests and 1 shrink):
+'a'
+bbccbaba
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 36 tests):
+'.'
+accbbcab
+*** Failed! Assertion failed (after 17 tests and 2 shrinks):
+'a'
+accacbac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 36 tests and 1 shrink):
+'a'
+acaaaacaca
+*** Failed! Assertion failed (after 11 tests):
+'.'
+ac
+*** Failed! Assertion failed (after 39 tests and 1 shrink):
+'a'
+bcccac
+*** Failed! Assertion failed (after 28 tests and 2 shrinks):
+'a'
+bcab
+*** Failed! Assertion failed (after 52 tests):
+'.'
+aabb
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'a'
+bacacbbba
+*** Failed! Assertion failed (after 38 tests and 1 shrink):
+'b'
+bbccbcba
+*** Failed! Assertion failed (after 46 tests and 1 shrink):
+'a'
+cccaa
+*** Failed! Assertion failed (after 67 tests and 1 shrink):
+'c'
+caccb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 23 tests and 1 shrink):
+'b'
+cbcac
+*** Failed! Assertion failed (after 64 tests):
+'.'
+ccacbcc
+*** Failed! Assertion failed (after 8 tests):
+'b'
+abaa
+*** Failed! Assertion failed (after 48 tests and 1 shrink):
+'c'
+cbacccbb
+*** Failed! Assertion failed (after 17 tests and 2 shrinks):
+'a'
+ccbbabcba
+*** Failed! Assertion failed (after 74 tests and 1 shrink):
+'a'
+cbab
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'a'
+ab
+*** Failed! Assertion failed (after 77 tests and 1 shrink):
+'b'
+baa
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'b'
+cccbbb
+*** Failed! Assertion failed (after 50 tests):
+'b'
+cbaccb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 26 tests):
+'.'
+cbacb
+*** Failed! Assertion failed (after 49 tests):
+'^'
+c
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 12 tests and 2 shrinks):
+'a'
+baaabbbbab
+*** Failed! Assertion failed (after 26 tests):
+'b'
+aabbaab
+*** Failed! Assertion failed (after 44 tests and 2 shrinks):
+'a'
+accca
+*** Failed! Assertion failed (after 40 tests and 1 shrink):
+'a'
+acacababaa
+*** Failed! Assertion failed (after 38 tests):
+'.'
+cbc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 43 tests and 1 shrink):
+'a'
+ac
+*** Failed! Assertion failed (after 89 tests):
+'a'
+bcac
+*** Failed! Assertion failed (after 25 tests):
+'^'
+bab
+*** Failed! Assertion failed (after 33 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 9 tests and 1 shrink):
+'a'
+cbac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 57 tests and 1 shrink):
+'a'
+abcaa
+*** Failed! Assertion failed (after 42 tests):
+'a'
+abcbaaacc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 10 tests and 2 shrinks):
+'a'
+cabaaacc
+*** Failed! Assertion failed (after 27 tests):
+'b'
+abc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 19 tests):
+'^'
+
+*** Failed! Assertion failed (after 87 tests):
+'\NUL'
+acbccb
+*** Failed! Assertion failed (after 90 tests):
+'c'
+baccacc
+*** Failed! Assertion failed (after 7 tests):
+'\NUL'
+cacaaacccc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 9 tests and 1 shrink):
+'c'
+bbbbac
+*** Failed! Assertion failed (after 10 tests):
+'c'
+acb
+*** Failed! Assertion failed (after 14 tests and 1 shrink):
+'a'
+ababcbb
+*** Failed! Assertion failed (after 96 tests):
+'a'
+bccaba
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'b'
+bbabb
+*** Failed! Assertion failed (after 43 tests and 1 shrink):
+'a'
+caccbc
+*** Failed! Assertion failed (after 22 tests and 2 shrinks):
+'b'
+abcccbc
+*** Failed! Assertion failed (after 47 tests and 1 shrink):
+'a'
+aacaca
+*** Failed! Assertion failed (after 33 tests and 1 shrink):
+'a'
+aaabb
+*** Failed! Assertion failed (after 5 tests):
+'a'
+acbaa
+*** Failed! Assertion failed (after 69 tests and 2 shrinks):
+'a'
+cbaa
+*** Failed! Assertion failed (after 30 tests):
+'a'
+acca
+*** Failed! Assertion failed (after 28 tests and 1 shrink):
+'a'
+bcbbaca
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 16 tests and 1 shrink):
+'a'
+bccaacb
+*** Failed! Assertion failed (after 9 tests and 1 shrink):
+'a'
+aaa
+*** Failed! Assertion failed (after 29 tests):
+'^'
+
+*** Failed! Assertion failed (after 98 tests):
+'c'
+aaaabacac
+*** Failed! Assertion failed (after 77 tests):
+'a'
+ab
+*** Failed! Assertion failed (after 38 tests and 2 shrinks):
+'a'
+cccaa
+*** Failed! Assertion failed (after 12 tests and 2 shrinks):
+'a'
+abbabaabba
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 14 tests and 1 shrink):
+'a'
+cacbb
+*** Failed! Assertion failed (after 15 tests):
+'c'
+bcbccaaac
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'b'
+caacabbc
+*** Failed! Assertion failed (after 25 tests and 1 shrink):
+'b'
+bbbb
+*** Failed! Assertion failed (after 97 tests and 1 shrink):
+'a'
+bba
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 85 tests and 1 shrink):
+'a'
+cab
+*** Failed! Assertion failed (after 23 tests and 1 shrink):
+'b'
+bcbabccba
+*** Failed! Assertion failed (after 25 tests and 1 shrink):
+'a'
+cabcaabac
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'a'
+bccabacc
+*** Failed! Assertion failed (after 71 tests):
+'.'
+aa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 10 tests):
+'b'
+cbca
+*** Failed! Assertion failed (after 28 tests):
+'.'
+bc
+*** Failed! Assertion failed (after 91 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+acaabc
+*** Failed! Assertion failed (after 25 tests and 1 shrink):
+'a'
+bbab
+*** Failed! Assertion failed (after 25 tests):
+'a'
+baababc
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'a'
+ab
+*** Failed! Assertion failed (after 6 tests):
+'b'
+cbbbcbabb
+*** Failed! Assertion failed (after 26 tests):
+'c'
+baca
+*** Failed! Assertion failed (after 21 tests and 1 shrink):
+'a'
+abc
+*** Failed! Assertion failed (after 51 tests and 2 shrinks):
+'b'
+acabbb
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'a'
+ca
+*** Failed! Assertion failed (after 34 tests and 1 shrink):
+'a'
+cbbbab
+*** Failed! Assertion failed (after 84 tests):
+'c'
+abbbc
+*** Failed! Assertion failed (after 75 tests and 1 shrink):
+'a'
+babbbcc
+*** Failed! Assertion failed (after 30 tests and 1 shrink):
+'a'
+acabbbcbaa
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+bbbabaaab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 92 tests and 1 shrink):
+'a'
+bcaca
+*** Failed! Assertion failed (after 22 tests and 1 shrink):
+'a'
+bacbab
+*** Failed! Assertion failed (after 31 tests):
+'a'
+acbb
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'a'
+abcbcbcb
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'a'
+caa
+*** Failed! Assertion failed (after 2 tests and 1 shrink):
+'c'
+bacccc
+*** Failed! Assertion failed (after 34 tests):
+'a'
+acbb
+*** Failed! Assertion failed (after 81 tests and 1 shrink):
+'a'
+acbb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 7 tests and 1 shrink):
+'a'
+aabb
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 10 tests and 1 shrink):
+'a'
+bccabc
+*** Failed! Assertion failed (after 22 tests and 2 shrinks):
+'a'
+acaaaaa
+*** Failed! Assertion failed (after 1 test):
+'c'
+abcbacac
+*** Failed! Assertion failed (after 1 test):
+'c'
+abccaab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 28 tests and 1 shrink):
+'a'
+cbaabbba
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'b'
+abcbb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 7 tests and 1 shrink):
+'a'
+aabac
+*** Failed! Assertion failed (after 97 tests and 1 shrink):
+'a'
+aab
+*** Failed! Assertion failed (after 39 tests and 1 shrink):
+'a'
+abbaab
+*** Failed! Assertion failed (after 20 tests):
+'a'
+cbbaaa
+*** Failed! Assertion failed (after 2 tests and 1 shrink):
+'a'
+ac
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'b'
+ababccbcc
+*** Failed! Assertion failed (after 98 tests):
+'\NUL'
+cacc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 83 tests):
+'.'
+bcbb
+*** Failed! Assertion failed (after 87 tests):
+'c'
+bbccb
+*** Failed! Assertion failed (after 32 tests and 2 shrinks):
+'a'
+abb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 37 tests and 2 shrinks):
+'a'
+cbaaacabb
+*** Failed! Assertion failed (after 74 tests and 1 shrink):
+'a'
+cacbbaa
+*** Failed! Assertion failed (after 31 tests):
+'b'
+ccbbcb
+*** Failed! Assertion failed (after 33 tests and 1 shrink):
+'c'
+ccb
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 38 tests and 1 shrink):
+'a'
+cac
+*** Failed! Assertion failed (after 40 tests):
+'c'
+ccaccba
+*** Failed! Assertion failed (after 43 tests and 1 shrink):
+'a'
+bbacabb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 13 tests and 2 shrinks):
+'a'
+aabbca
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'a'
+accc
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+bbcaacab
+*** Failed! Assertion failed (after 62 tests):
+'c'
+ca
+*** Failed! Assertion failed (after 10 tests and 1 shrink):
+'a'
+aacccbaacb
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'a'
+acaccbcb
+*** Failed! Assertion failed (after 18 tests and 2 shrinks):
+'b'
+ccba
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 45 tests and 1 shrink):
+'a'
+bbabcacbbc
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 18 tests and 1 shrink):
+'a'
+bcaa
+*** Failed! Assertion failed (after 87 tests):
+'c'
+cabb
+*** Failed! Assertion failed (after 26 tests):
+'c'
+aaaccaacab
+*** Failed! Assertion failed (after 50 tests and 1 shrink):
+'b'
+cacabbbb
+*** Failed! Assertion failed (after 7 tests and 1 shrink):
+'a'
+ccaaababca
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 65 tests and 2 shrinks):
+'b'
+aababaa
+*** Failed! Assertion failed (after 46 tests and 1 shrink):
+'b'
+aaacbab
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+bccacbb
+*** Failed! Assertion failed (after 36 tests and 2 shrinks):
+'a'
+bbaccbcba
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'a'
+baa
+*** Failed! Assertion failed (after 66 tests and 1 shrink):
+'a'
+acaccb
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'b'
+babacccbb
+*** Failed! Assertion failed (after 62 tests):
+'b'
+cabccb
+*** Failed! Assertion failed (after 55 tests and 2 shrinks):
+'a'
+cbab
+*** Failed! Assertion failed (after 12 tests):
+'c'
+abcacccc
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 74 tests and 1 shrink):
+'a'
+caab
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'a'
+cccbaabb
+*** Failed! Assertion failed (after 19 tests and 1 shrink):
+'a'
+aabb
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'b'
+abacaa
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'a'
+abaabbba
+*** Failed! Assertion failed (after 85 tests):
+'b'
+acbb
+*** Failed! Assertion failed (after 42 tests):
+'b'
+bacba
+*** Failed! Assertion failed (after 7 tests):
+'c'
+caaabc
+*** Failed! Assertion failed (after 15 tests and 1 shrink):
+'a'
+bcacb
+*** Failed! Assertion failed (after 1 test):
+'\NUL'
+c
+*** Failed! Assertion failed (after 61 tests and 1 shrink):
+'b'
+ccbbaaccc
+*** Failed! Assertion failed (after 15 tests and 1 shrink):
+'b'
+cacabcaaa
+*** Failed! Assertion failed (after 78 tests and 1 shrink):
+'a'
+bbcaaca
+*** Failed! Assertion failed (after 27 tests):
+'^'
+aa
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 69 tests):
+'a'
+abcbbabca
+*** Failed! Assertion failed (after 41 tests):
+'\NUL'
+
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 46 tests and 1 shrink):
+'a'
+abccbcb
+*** Failed! Assertion failed (after 10 tests):
+'.'
+c
+*** Failed! Assertion failed (after 82 tests):
+'a'
+accab
+*** Failed! Assertion failed (after 20 tests):
+'b'
+aabab
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'a'
+babcccaaa
+*** Failed! Assertion failed (after 58 tests):
+'c'
+cabccbca
+*** Failed! Assertion failed (after 62 tests and 3 shrinks):
+'a'
+ccbbcacaca
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+acbbacbbbc
+*** Failed! Assertion failed (after 14 tests and 1 shrink):
+'a'
+aca
+*** Failed! Assertion failed (after 5 tests):
+'\NUL'
+bac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 96 tests and 1 shrink):
+'a'
+baabba
+*** Failed! Assertion failed (after 46 tests and 1 shrink):
+'b'
+ab
+*** Failed! Assertion failed (after 14 tests):
+'b'
+ccacbacca
+*** Failed! Assertion failed (after 1 test):
+'\NUL'
+
+*** Failed! Assertion failed (after 58 tests and 1 shrink):
+'a'
+cab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 26 tests and 2 shrinks):
+'a'
+accbabbcba
+*** Failed! Assertion failed (after 7 tests):
+'b'
+ab
+*** Failed! Assertion failed (after 36 tests):
+'b'
+cccbb
+*** Failed! Assertion failed (after 97 tests and 1 shrink):
+'a'
+bcaacbcba
+*** Failed! Assertion failed (after 53 tests and 1 shrink):
+'a'
+ccaaaba
+*** Failed! Assertion failed (after 14 tests and 2 shrinks):
+'a'
+babaa
+*** Failed! Assertion failed (after 80 tests and 1 shrink):
+'a'
+baccaa
+*** Failed! Assertion failed (after 84 tests):
+'b'
+abaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 68 tests and 1 shrink):
+'b'
+aacbb
+*** Failed! Assertion failed (after 8 tests):
+'.'
+bcaacba
+*** Failed! Assertion failed (after 69 tests and 1 shrink):
+'a'
+cbaac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 33 tests and 1 shrink):
+'a'
+baaaccb
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+abaccccbaa
+*** Failed! Assertion failed (after 13 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 55 tests and 1 shrink):
+'a'
+cacaac
+*** Failed! Assertion failed (after 11 tests):
+'\NUL'
+bcb
+*** Failed! Assertion failed (after 37 tests):
+'b'
+cba
+*** Failed! Assertion failed (after 25 tests and 2 shrinks):
+'b'
+ccaab
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+acccbcbb
+*** Failed! Assertion failed (after 75 tests and 1 shrink):
+'a'
+baabcbaa
+*** Failed! Assertion failed (after 5 tests and 1 shrink):
+'b'
+cbcabca
+*** Failed! Assertion failed (after 40 tests and 1 shrink):
+'a'
+bacaacbaac
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'b'
+caaccbac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 34 tests):
+'b'
+baccabbaaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 13 tests):
+'.'
+abacbaaab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'a'
+abcacb
+*** Failed! Assertion failed (after 14 tests):
+'^'
+
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 14 tests):
+'a'
+bbbbac
+*** Failed! Assertion failed (after 54 tests and 1 shrink):
+'b'
+cbcbbbc
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'c'
+caab
+*** Failed! Assertion failed (after 77 tests and 1 shrink):
+'a'
+bbca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 3 tests):
+'c'
+caccccaa
+*** Failed! Assertion failed (after 38 tests and 1 shrink):
+'a'
+cccbcaaa
+*** Failed! Assertion failed (after 21 tests):
+'\NUL'
+aacbcbacbc
+*** Failed! Assertion failed (after 77 tests and 1 shrink):
+'a'
+bcaaaab
+*** Failed! Assertion failed (after 46 tests):
+'b'
+bbabcaccb
+*** Failed! Assertion failed (after 65 tests and 1 shrink):
+'a'
+ab
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 22 tests and 2 shrinks):
+'a'
+cbbcbbbab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 30 tests and 1 shrink):
+'a'
+acc
+*** Failed! Assertion failed (after 22 tests and 1 shrink):
+'a'
+cbabaaacc
+*** Failed! Assertion failed (after 11 tests and 1 shrink):
+'a'
+aababaccaa
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'b'
+aabbccb
+*** Failed! Assertion failed (after 8 tests):
+'^'
+
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 78 tests and 1 shrink):
+'a'
+caa
+*** Failed! Assertion failed (after 33 tests and 1 shrink):
+'a'
+ab
+*** Failed! Assertion failed (after 36 tests):
+'b'
+bcbccccab
+*** Failed! Assertion failed (after 20 tests and 2 shrinks):
+'a'
+bbbabbaab
+*** Failed! Assertion failed (after 29 tests and 1 shrink):
+'a'
+cbacabbc
+*** Failed! Assertion failed (after 62 tests and 1 shrink):
+'a'
+aabcbabbb
+*** Failed! Assertion failed (after 7 tests):
+'a'
+baabb
+*** Failed! Assertion failed (after 65 tests and 1 shrink):
+'a'
+aacbcaabaa
+*** Failed! Assertion failed (after 56 tests and 2 shrinks):
+'a'
+ab
+*** Failed! Assertion failed (after 55 tests):
+'^'
+cacc
+*** Failed! Assertion failed (after 58 tests and 2 shrinks):
+'a'
+cbabccc
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+babac
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 19 tests):
+'a'
+baaaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 10 tests):
+'b'
+cbbabccbac
+*** Failed! Assertion failed (after 85 tests and 1 shrink):
+'b'
+babbbcc
+*** Failed! Assertion failed (after 10 tests):
+'^'
+abbacbba
+*** Failed! Assertion failed (after 48 tests):
+'\NUL'
+baacac
+*** Failed! Assertion failed (after 2 tests):
+'a'
+bacbbacac
+*** Failed! Assertion failed (after 26 tests and 2 shrinks):
+'a'
+aab
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 48 tests and 1 shrink):
+'a'
+baacc
+*** Failed! Assertion failed (after 92 tests):
+'c'
+bbaccabbcc
+*** Failed! Assertion failed (after 3 tests):
+'\NUL'
+caaaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 16 tests):
+'a'
+babccaaac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 13 tests):
+'a'
+aacba
+*** Failed! Assertion failed (after 10 tests and 1 shrink):
+'a'
+acb
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+ccca
+*** Failed! Assertion failed (after 44 tests):
+'b'
+bacaa
+*** Failed! Assertion failed (after 6 tests and 1 shrink):
+'a'
+abbabca
+*** Failed! Assertion failed (after 31 tests and 2 shrinks):
+'a'
+babcbbccba
+*** Failed! Assertion failed (after 71 tests and 1 shrink):
+'a'
+aaabaaacc
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'c'
+acbcacb
+*** Failed! Assertion failed (after 6 tests and 1 shrink):
+'a'
+aab
+*** Failed! Assertion failed (after 2 tests and 1 shrink):
+'c'
+baaccbaabc
+*** Failed! Assertion failed (after 21 tests and 1 shrink):
+'a'
+acaabbcc
+*** Failed! Assertion failed (after 6 tests and 1 shrink):
+'a'
+bbaccacab
+*** Failed! Assertion failed (after 80 tests):
+'a'
+bcbacbaa
+*** Failed! Assertion failed (after 68 tests and 1 shrink):
+'a'
+baaccbbcb
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+bbabaa
+*** Failed! Assertion failed (after 77 tests and 1 shrink):
+'a'
+cbacac
+*** Failed! Assertion failed (after 16 tests):
+'b'
+aaacbcbac
+*** Failed! Assertion failed (after 44 tests):
+'b'
+babb
+*** Failed! Assertion failed (after 93 tests and 1 shrink):
+'a'
+cbcbcbab
+*** Failed! Assertion failed (after 36 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 60 tests and 1 shrink):
+'a'
+aabaccaac
+*** Failed! Assertion failed (after 37 tests):
+'b'
+cbbcaaa
+*** Failed! Assertion failed (after 85 tests and 1 shrink):
+'a'
+bbccca
+*** Failed! Assertion failed (after 52 tests and 1 shrink):
+'a'
+bcca
+*** Failed! Assertion failed (after 21 tests and 1 shrink):
+'a'
+caabb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 77 tests):
+'a'
+acac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 60 tests):
+'a'
+ccabcbbabc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'a'
+ab
+*** Failed! Assertion failed (after 2 tests and 1 shrink):
+'a'
+ba
+*** Failed! Assertion failed (after 41 tests and 1 shrink):
+'b'
+cccabcaabc
+*** Failed! Assertion failed (after 38 tests):
+'^'
+
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'a'
+bbbacaa
+*** Failed! Assertion failed (after 34 tests):
+'c'
+acbc
+*** Failed! Assertion failed (after 39 tests and 3 shrinks):
+'a'
+aabaaa
+*** Failed! Assertion failed (after 14 tests):
+'^'
+
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 71 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 25 tests):
+'.'
+aabbc
+*** Failed! Assertion failed (after 3 tests and 1 shrink):
+'a'
+aba
+*** Failed! Assertion failed (after 11 tests):
+'.'
+b
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 6 tests and 1 shrink):
+'b'
+baaaaa
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'a'
+ba
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'a'
+acc
+*** Failed! Assertion failed (after 13 tests and 1 shrink):
+'b'
+cbcbabbabc
+*** Failed! Assertion failed (after 24 tests and 1 shrink):
+'b'
+aacccbba
+*** Failed! Assertion failed (after 97 tests):
+'\NUL'
+b
+*** Failed! Assertion failed (after 83 tests and 1 shrink):
+'a'
+baaacbcab
+*** Failed! Assertion failed (after 7 tests):
+'b'
+aaabbb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 13 tests):
+'a'
+cca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 52 tests and 2 shrinks):
+'a'
+bbbbaa
+*** Failed! Assertion failed (after 32 tests and 1 shrink):
+'b'
+abacb
+*** Failed! Assertion failed (after 36 tests):
+'.'
+bbaa
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 50 tests and 1 shrink):
+'b'
+bacc
+*** Failed! Assertion failed (after 80 tests and 1 shrink):
+'a'
+aa
+*** Failed! Assertion failed (after 16 tests and 1 shrink):
+'a'
+bacaaacc
+*** Failed! Assertion failed (after 47 tests and 1 shrink):
+'c'
+cbabcaacac
+*** Failed! Assertion failed (after 21 tests and 1 shrink):
+'b'
+baacac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 38 tests and 1 shrink):
+'c'
+aca
+*** Failed! Assertion failed (after 10 tests and 2 shrinks):
+'a'
+bacccbb
+*** Failed! Assertion failed (after 59 tests):
+'b'
+abcb
+*** Failed! Assertion failed (after 90 tests and 1 shrink):
+'a'
+accaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 80 tests):
+'c'
+cbaabcacbc
+*** Failed! Assertion failed (after 1 test):
+'a'
+cbab
+*** Failed! Assertion failed (after 56 tests):
+'a'
+acca
+*** Failed! Assertion failed (after 93 tests):
+'a'
+acb
+*** Failed! Assertion failed (after 90 tests and 1 shrink):
+'a'
+acabca
+*** Failed! Assertion failed (after 65 tests and 1 shrink):
+'a'
+aababb
+*** Failed! Assertion failed (after 53 tests):
+'b'
+bbbbca
+*** Failed! Assertion failed (after 37 tests and 2 shrinks):
+'a'
+acabc
+*** Failed! Assertion failed (after 52 tests):
+'b'
+ccbabcbabb
+*** Failed! Assertion failed (after 58 tests and 2 shrinks):
+'a'
+cacacc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 25 tests):
+'b'
+cbb
+*** Failed! Assertion failed (after 7 tests):
+'a'
+cbaabac
+*** Failed! Assertion failed (after 70 tests):
+'.'
+baaac
+*** Failed! Assertion failed (after 77 tests):
+'c'
+aca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 75 tests):
+'\NUL'
+acbac
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'b'
+bbbcac
+*** Failed! Assertion failed (after 19 tests and 1 shrink):
+'b'
+bcbbabccbb
+*** Failed! Assertion failed (after 63 tests and 1 shrink):
+'b'
+babccabba
+*** Failed! Assertion failed (after 11 tests and 1 shrink):
+'b'
+bcacaaaba
+*** Failed! Assertion failed (after 13 tests):
+'a'
+baabc
+*** Failed! Assertion failed (after 40 tests and 1 shrink):
+'a'
+acb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 16 tests and 1 shrink):
+'a'
+babbbcc
+*** Failed! Assertion failed (after 11 tests):
+'b'
+aabbcccc
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 40 tests and 1 shrink):
+'a'
+bba
+*** Failed! Assertion failed (after 94 tests and 2 shrinks):
+'a'
+bcbca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 12 tests and 1 shrink):
+'a'
+ca
+*** Failed! Assertion failed (after 75 tests):
+'\NUL'
+ccacc
+*** Failed! Assertion failed (after 25 tests):
+'^'
+
+*** Failed! Assertion failed (after 53 tests and 1 shrink):
+'a'
+cabcc
+*** Failed! Assertion failed (after 72 tests and 1 shrink):
+'a'
+aabc
+*** Failed! Assertion failed (after 40 tests):
+'^'
+bbca
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+ccacbbaa
+*** Failed! Assertion failed (after 53 tests and 1 shrink):
+'a'
+aabaaabb
+*** Failed! Assertion failed (after 69 tests and 1 shrink):
+'b'
+abbcbacc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 84 tests and 1 shrink):
+'b'
+cabbabbc
+*** Failed! Assertion failed (after 7 tests):
+'c'
+cabaaa
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'a'
+bccbab
+*** Failed! Assertion failed (after 17 tests and 1 shrink):
+'a'
+abab
+*** Failed! Assertion failed (after 33 tests and 1 shrink):
+'a'
+aa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 55 tests):
+'b'
+bc
+*** Failed! Assertion failed (after 4 tests):
+'b'
+bcaab
+*** Failed! Assertion failed (after 82 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 30 tests and 1 shrink):
+'a'
+bcabac
+*** Failed! Assertion failed (after 61 tests):
+'.'
+cbbb
+*** Failed! Assertion failed (after 47 tests and 1 shrink):
+'c'
+baccca
+*** Failed! Assertion failed (after 6 tests and 1 shrink):
+'a'
+bab
+*** Failed! Assertion failed (after 1 test and 1 shrink):
+'c'
+ababcbbc
+*** Failed! Assertion failed (after 66 tests and 1 shrink):
+'a'
+bbbcabca
+*** Failed! Assertion failed (after 88 tests and 1 shrink):
+'b'
+bbaacbac
+*** Failed! Assertion failed (after 46 tests):
+'^'
+
+*** Failed! Assertion failed (after 28 tests):
+'.'
+bb
+*** Failed! Assertion failed (after 98 tests and 1 shrink):
+'b'
+bacbbc
+*** Failed! Assertion failed (after 44 tests):
+'^'
+cca
+*** Failed! Assertion failed (after 84 tests):
+'.'
+cbaba
+*** Failed! Assertion failed (after 11 tests):
+'a'
+cbba
+*** Failed! Assertion failed (after 68 tests):
+'a'
+cabcbaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 15 tests):
+'.'
+acacb
+*** Failed! Assertion failed (after 4 tests and 1 shrink):
+'b'
+aababbabcb
+*** Failed! Assertion failed (after 8 tests and 2 shrinks):
+'b'
+abbbbcacaa
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 23 tests):
+'\NUL'
+
+*** Failed! Assertion failed (after 78 tests and 1 shrink):
+'a'
+aaab
+*** Failed! Assertion failed (after 2 tests and 1 shrink):
+'b'
+aababa
+*** Failed! Assertion failed (after 43 tests and 1 shrink):
+'a'
+aa
+*** Failed! Assertion failed (after 37 tests and 1 shrink):
+'a'
+aac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 3 tests):
+'c'
+bc
+*** Failed! Assertion failed (after 93 tests and 2 shrinks):
+'a'
+abcbaccabb
+prop_Plus
+prop_Seq
+*** Failed! Assertion failed (after 21 tests):
+Clo (Clo (Cat (Lit 'a') Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+bcac
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Eps)
+Cat (Clo Eps) (Cat Eps Wildcard)
+bbccab
+*** Failed! Assertion failed (after 28 tests):
+Cat (Cat Wildcard Wildcard) (Cat Eps (Lit 'c'))
+Cat (Cat Eps Wildcard) (Cat (Lit 'b') (Lit 'a'))
+bacabcba
+*** Failed! Assertion failed (after 83 tests):
+Clo (Clo (Lit 'b'))
+Clo (Cat Eps Eps)
+bbbb
+*** Failed! Assertion failed (after 19 tests):
+Cat (Clo (Lit 'a')) (Cat Eps Wildcard)
+Clo (Clo Eps)
+abaaca
+*** Failed! Assertion failed (after 38 tests):
+Cat (Cat (Clo Eps) (Clo Eps)) (Cat (Clo Wildcard) (Cat Wildcard (Lit 'c')))
+Clo (Clo (Clo Eps))
+baa
+*** Failed! Assertion failed (after 29 tests):
+Clo (Cat (Cat Eps (Lit 'c')) (Clo Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+caabccbaac
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps Wildcard))
+Clo (Clo (Clo Eps))
+caaba
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo (Lit 'b')) (Cat Eps (Lit 'a'))
+Cat (Clo Eps) (Clo Wildcard)
+bbbbbbba
+*** Failed! Assertion failed (after 34 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 45 tests):
+Clo (Clo (Clo Eps))
+Cat (Clo (Clo Eps)) (Clo (Cat Eps Eps))
+abbccbcb
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+abacbcaab
+*** Failed! Assertion failed (after 33 tests):
+Lit 'b'
+Lit 'c'
+cbbabac
+*** Failed! Assertion failed (after 58 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 42 tests):
+Clo Eps
+Clo Eps
+babc
+*** Failed! Assertion failed (after 21 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+acacccaa
+*** Failed! Assertion failed (after 34 tests):
+Clo Eps
+Clo Eps
+ccacb
+*** Failed! Assertion failed (after 28 tests):
+Cat (Clo (Lit 'a')) (Cat Wildcard Wildcard)
+Clo (Clo Eps)
+aaaaaaazn
+*** Failed! Assertion failed (after 20 tests):
+Clo (Cat Eps Eps)
+Cat (Clo Eps) (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 36 tests):
+Clo (Clo (Lit 'c'))
+Cat (Clo Eps) (Clo Wildcard)
+abbaabac
+*** Failed! Assertion failed (after 28 tests):
+Cat (Cat Eps Wildcard) (Cat Wildcard (Lit 'b'))
+Cat (Clo Eps) (Cat (Lit 'c') Wildcard)
+cbbaaacba
+*** Failed! Assertion failed (after 27 tests):
+Clo (Cat Eps Eps)
+Cat (Clo Eps) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo (Lit 'a'))
+Cat (Clo Eps) (Cat Wildcard Eps)
+aaaaaaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard (Lit 'b')))
+Cat (Clo (Clo Eps)) (Cat (Clo Eps) (Clo Wildcard))
+fbxb
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+Clo (Clo (Clo Eps))
+ucgc
+*** Failed! Assertion failed (after 48 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Eps))
+Clo (Clo (Clo Eps))
+abaac
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+Lit 'a'
+abbcbbaacb
+*** Failed! Assertion failed (after 58 tests):
+Cat (Lit 'c') Wildcard
+Clo Eps
+babbcbaaa
+*** Failed! Assertion failed (after 37 tests):
+Cat (Clo (Cat Wildcard (Lit 'c'))) (Cat (Clo (Lit 'c')) (Cat Eps Wildcard))
+Clo (Cat (Cat Eps Eps) (Clo Eps))
+aba
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps Wildcard) (Cat (Lit 'c') (Lit 'b'))) (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+abccb
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Cat Wildcard Eps
+Clo Eps
+n
+*** Failed! Assertion failed (after 28 tests):
+Clo (Clo Wildcard)
+Cat (Cat Eps Eps) (Clo Eps)
+b
+*** Failed! Assertion failed (after 9 tests):
+Lit 'a'
+Lit 'a'
+acbbab
+*** Failed! Assertion failed (after 29 tests):
+Clo (Cat (Cat Wildcard (Lit 'b')) (Clo (Lit 'c')))
+Cat (Cat (Clo Eps) (Cat Wildcard Eps)) (Cat (Cat Eps Wildcard) (Clo Eps))
+accbc
+*** Failed! Assertion failed (after 30 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Eps (Lit 'c')))
+bcbbabaa
+*** Failed! Assertion failed (after 29 tests):
+Clo (Cat (Cat Wildcard (Lit 'b')) (Clo Eps))
+Clo (Cat (Cat Eps Eps) (Cat Eps Eps))
+cca
+*** Failed! Assertion failed (after 22 tests):
+Cat (Cat (Cat Eps Wildcard) (Cat Eps (Lit 'b'))) (Cat (Clo Wildcard) (Cat (Lit 'c') Eps))
+Cat (Clo (Cat Eps Eps)) (Clo (Clo Eps))
+caabcbc
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat (Lit 'a') Eps) (Cat Eps Wildcard)) (Clo (Clo Wildcard))
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+abc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+Cat (Clo Eps) (Clo (Lit 'a'))
+cccccc
+*** Failed! Assertion failed (after 80 tests):
+Clo (Cat (Clo (Lit 'a')) (Cat (Lit 'a') (Lit 'a')))
+Cat (Cat (Cat Eps (Lit 'a')) (Cat (Lit 'c') Wildcard)) (Clo (Cat Wildcard Eps))
+accacabcbc
+*** Failed! Assertion failed (after 18 tests):
+Cat Wildcard (Lit 'b')
+Cat Eps (Lit 'c')
+bbbaccbaac
+*** Failed! Assertion failed (after 28 tests):
+Cat (Cat Eps (Lit 'a')) (Cat Eps (Lit 'c'))
+Cat (Clo Eps) (Clo Wildcard)
+ac
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo (Lit 'a')) (Cat (Lit 'c') Eps)
+Cat (Clo Eps) (Clo Wildcard)
+bbbaccbbcc
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+ccbababcbb
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Clo (Clo Eps))
+idk
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+a
+*** Failed! Assertion failed (after 36 tests):
+Cat (Clo (Lit 'b')) (Cat (Lit 'c') (Lit 'b'))
+Cat (Clo Eps) (Clo (Lit 'b'))
+ababcbcb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Cat Wildcard Eps)
+Cat (Clo Eps) (Cat (Lit 'a') Wildcard)
+abaab
+*** Failed! Assertion failed (after 29 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+bac
+*** Failed! Assertion failed (after 27 tests):
+Clo (Clo (Lit 'b'))
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+ababbbca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Cat Wildcard Wildcard)
+Clo (Clo Eps)
+y4b4gw3
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Cat (Lit 'c') Eps)
+Clo (Clo Eps)
+qvhvxc
+*** Failed! Assertion failed (after 22 tests):
+Cat (Clo (Cat (Lit 'c') Eps)) (Cat (Cat (Lit 'c') (Lit 'b')) (Cat (Lit 'b') Wildcard))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Wildcard Wildcard))
+cccccccbb5
+*** Failed! Assertion failed (after 66 tests):
+Cat Wildcard (Lit 'a')
+Clo Eps
+la
+*** Failed! Assertion failed (after 58 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+c
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 34 tests):
+Cat (Lit 'a') (Lit 'a')
+Clo Eps
+aa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 25 tests):
+Lit 'c'
+Lit 'c'
+acaacabb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Eps) (Cat Eps (Lit 'b'))
+Cat (Clo Eps) (Clo (Lit 'b'))
+baaccbbbcc
+*** Failed! Assertion failed (after 22 tests):
+Clo (Cat (Clo (Lit 'c')) (Clo Wildcard))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Cat (Cat Wildcard (Lit 'c')) (Clo Eps))
+eh1i
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Eps Eps)
+b
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo Wildcard) (Cat (Lit 'b') Eps)
+Clo (Clo Eps)
+cb
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Wildcard
+Clo Eps
+aacaababaa
+*** Failed! Assertion failed (after 23 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Cat (Lit 'c') (Lit 'c')))
+Clo (Cat (Cat Eps Eps) (Cat (Lit 'c') Wildcard))
+abcbbcbbac
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 58 tests):
+Cat Eps Wildcard
+Clo Eps
+abaabaccb
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 50 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 13 tests):
+Cat (Clo (Cat (Lit 'b') Eps)) (Cat (Clo Wildcard) (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+a12tw8n1mx
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Eps
+Clo Eps
+ccab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Wildcard Eps)
+3c85jc
+*** Failed! Assertion failed (after 9 tests):
+Lit 'b'
+Lit 'c'
+bac
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo (Lit 'a'))
+cbabac
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Eps
+Clo Eps
+cacc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+Clo (Cat Eps Eps)
+aaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 84 tests):
+Clo (Clo (Lit 'c'))
+Cat (Clo Eps) (Cat Eps Wildcard)
+cc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Eps) (Cat Eps (Lit 'b'))
+Clo (Clo Eps)
+abca
+*** Failed! Assertion failed (after 23 tests):
+Clo (Clo (Cat (Lit 'b') Wildcard))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Eps (Lit 'a')))
+bwbpbq
+*** Failed! Assertion failed (after 38 tests):
+Cat (Clo (Clo (Lit 'b'))) (Cat (Clo Eps) (Cat Wildcard (Lit 'c')))
+Cat (Cat (Cat Eps Eps) (Clo Eps)) (Cat (Clo (Lit 'a')) (Clo (Lit 'b')))
+bab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 14 tests):
+Clo (Cat (Clo Eps) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+bcab
+*** Failed! Assertion failed (after 26 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+Lit 'a'
+cbbaca
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Cat Eps (Lit 'b')))
+Clo (Cat (Clo Eps) (Clo Eps))
+caaabccb
+*** Failed! Assertion failed (after 15 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo Wildcard))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Cat (Clo Wildcard) (Cat Wildcard Wildcard))
+m2psd6y48
+*** Failed! Assertion failed (after 50 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+caabbbcba
+*** Failed! Assertion failed (after 31 tests):
+Cat (Clo (Cat (Lit 'c') (Lit 'a'))) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+ca
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo Wildcard) (Cat Wildcard (Lit 'a'))
+Cat (Clo Eps) (Cat Wildcard Eps)
+baabcabaab
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat Eps (Lit 'a'))) (Clo (Clo (Lit 'a')))
+Cat (Clo (Cat Eps Eps)) (Cat (Cat Eps Wildcard) (Cat Eps (Lit 'a')))
+cabbb
+*** Failed! Assertion failed (after 34 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo Wildcard) (Clo Eps)
+Clo (Cat Eps Eps)
+sunndm1uz4
+*** Failed! Assertion failed (after 22 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+o73oayv7yf
+*** Failed! Assertion failed (after 34 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+cbbcbba
+*** Failed! Assertion failed (after 30 tests):
+Clo (Cat (Cat Eps (Lit 'a')) (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+bbaabb
+*** Failed! Assertion failed (after 22 tests):
+Cat (Cat (Cat Wildcard Eps) (Clo Eps)) (Clo (Cat Eps Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard (Lit 'c')
+Clo Eps
+abcaaa
+*** Failed! Assertion failed (after 40 tests):
+Cat (Clo (Clo Eps)) (Cat (Clo (Lit 'c')) (Cat Eps Wildcard))
+Clo (Clo (Cat Eps Eps))
+bca
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 21 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 58 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 44 tests):
+Cat (Cat Eps (Lit 'a')) (Clo (Lit 'c'))
+Cat (Cat Eps (Lit 'c')) (Cat Wildcard Wildcard)
+aabbcabbb
+*** Failed! Assertion failed (after 9 tests):
+Lit 'b'
+Lit 'b'
+abaacbca
+*** Failed! Assertion failed (after 56 tests):
+Clo (Cat (Cat (Lit 'b') (Lit 'b')) (Clo Wildcard))
+Clo (Clo (Clo Eps))
+bb42omid57
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Eps Eps) (Cat Eps (Lit 'c'))
+Cat (Clo Eps) (Cat Wildcard Eps)
+c
+*** Failed! Assertion failed (after 29 tests):
+Clo (Clo (Cat Wildcard (Lit 'b')))
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+abc
+*** Failed! Assertion failed (after 76 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+c14
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Wildcard) (Cat Eps (Lit 'b'))) (Cat (Clo Wildcard) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'c') (Lit 'c')))
+dbbgc
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+Lit 'b'
+aaaababaac
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'c')
+Clo Eps
+aaabc
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+aaacbab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'b')) (Cat Eps Eps))
+Cat (Clo (Cat Eps Eps)) (Cat (Cat Wildcard Wildcard) (Clo Wildcard))
+cc
+*** Failed! Assertion failed (after 56 tests):
+Cat (Cat (Clo Wildcard) (Cat Eps Eps)) (Clo (Clo Wildcard))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Cat (Cat Wildcard Eps) (Clo (Lit 'b')))
+fs4yayw
+*** Failed! Assertion failed (after 19 tests):
+Cat (Clo (Lit 'b')) (Cat Wildcard (Lit 'b'))
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+aabcacbaa
+*** Failed! Assertion failed (after 66 tests):
+Clo Eps
+Clo Eps
+bbcbabacbb
+*** Failed! Assertion failed (after 38 tests):
+Cat (Clo (Cat Wildcard (Lit 'b'))) (Cat (Cat Eps Wildcard) (Cat Eps Wildcard))
+Cat (Clo (Clo Eps)) (Cat (Clo (Lit 'a')) (Clo (Lit 'c')))
+gbpbxv
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+c
+*** Failed! Assertion failed (after 45 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+ccbab
+*** Failed! Assertion failed (after 12 tests):
+Cat (Cat Eps Wildcard) (Cat Eps Eps)
+Clo (Clo Eps)
+ccabacca
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Eps Wildcard) (Cat Eps Eps)
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 24 tests):
+Cat (Cat (Cat Eps Wildcard) (Cat Eps (Lit 'c'))) (Cat (Clo Eps) (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Cat Eps (Lit 'b')))
+acacaabbb
+*** Failed! Assertion failed (after 27 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat (Lit 'a') (Lit 'a'))
+aacabcba
+*** Failed! Assertion failed (after 15 tests):
+Cat (Cat (Clo (Lit 'a')) (Cat Eps (Lit 'c'))) (Clo (Clo Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+clwki1hu7d
+*** Failed! Assertion failed (after 34 tests):
+Cat Wildcard Eps
+Clo Eps
+bcaaababb
+*** Failed! Assertion failed (after 79 tests):
+Cat (Clo (Clo Eps)) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+cbacbba
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 99 tests):
+Cat (Cat (Cat Eps (Lit 'b')) (Clo Eps)) (Cat (Cat (Lit 'c') Eps) (Cat (Lit 'b') Eps))
+Clo (Clo (Clo Eps))
+cbca
+*** Failed! Assertion failed (after 25 tests):
+Lit 'b'
+Lit 'b'
+ababcccba
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo (Lit 'c')) (Cat Eps Wildcard)) (Clo (Clo Eps))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Cat (Cat Eps Eps) (Clo Wildcard))
+bbaaccb
+*** Failed! Assertion failed (after 9 tests):
+Lit 'c'
+Lit 'c'
+cacabaaaa
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+acababcaab
+*** Failed! Assertion failed (after 14 tests):
+Cat (Cat (Clo Wildcard) (Clo (Lit 'b'))) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+irk3gj
+*** Failed! Assertion failed (after 14 tests):
+Cat (Cat (Cat Eps Wildcard) (Cat (Lit 'c') Wildcard)) (Clo (Clo (Lit 'c')))
+Cat (Cat (Clo Eps) (Cat Wildcard Wildcard)) (Cat (Cat Eps Eps) (Cat Wildcard Wildcard))
+hchcccccc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 50 tests):
+Cat Wildcard Eps
+Clo Eps
+caacac
+*** Failed! Assertion failed (after 29 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+aac
+*** Failed! Assertion failed (after 23 tests):
+Cat (Clo (Clo Eps)) (Cat (Clo Wildcard) (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'a')))
+pp8ybl37qg
+*** Failed! Assertion failed (after 23 tests):
+Clo (Cat (Clo Wildcard) (Clo Wildcard))
+Cat (Clo (Cat Eps Eps)) (Cat (Clo (Lit 'a')) (Cat Eps (Lit 'b')))
+bcccabcc
+*** Failed! Assertion failed (after 54 tests):
+Cat (Cat (Clo Eps) (Clo Eps)) (Cat (Cat Wildcard (Lit 'a')) (Cat Wildcard Eps))
+Cat (Clo (Clo Eps)) (Cat (Cat Eps Eps) (Clo Wildcard))
+caabbcac
+*** Failed! Assertion failed (after 37 tests):
+Cat (Cat (Clo (Lit 'c')) (Cat Wildcard Eps)) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+cccbc
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+Clo Eps
+cb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+Clo Eps
+cacb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Eps) (Cat Eps (Lit 'c'))
+Cat (Clo Eps) (Clo (Lit 'c'))
+a
+*** Failed! Assertion failed (after 38 tests):
+Cat (Clo (Clo (Lit 'a'))) (Cat (Clo Eps) (Cat Eps (Lit 'a')))
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+b
+*** Failed! Assertion failed (after 55 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+Clo (Clo (Clo Eps))
+b
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+Clo (Cat Eps Eps)
+c
+*** Failed! Assertion failed (after 70 tests):
+Clo (Clo (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+7bigks3yih
+*** Failed! Assertion failed (after 63 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+baacaccc
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Wildcard
+Clo Eps
+acb
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Wildcard
+Clo Eps
+vn
+*** Failed! Assertion failed (after 52 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo (Lit 'b'))
+
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+bbcbccb
+*** Failed! Assertion failed (after 22 tests):
+Clo (Cat (Clo Eps) (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 59 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+Clo (Cat Eps Eps)
+ba
+*** Failed! Assertion failed (after 26 tests):
+Cat Eps Wildcard
+Clo Eps
+c
+*** Failed! Assertion failed (after 33 tests):
+Lit 'c'
+Lit 'a'
+ccbabac
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps Eps) (Cat Wildcard Wildcard)) (Clo (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+bcaababccc
+*** Failed! Assertion failed (after 15 tests):
+Cat (Cat (Clo (Lit 'a')) (Cat (Lit 'c') Eps)) (Cat (Clo Wildcard) (Cat (Lit 'b') Wildcard))
+Clo (Clo (Clo Eps))
+ckne9zbn
+*** Failed! Assertion failed (after 16 tests):
+Cat (Clo (Cat (Lit 'c') Wildcard)) (Cat (Clo Wildcard) (Cat Eps (Lit 'b')))
+Cat (Clo (Clo Eps)) (Cat (Cat Wildcard Eps) (Clo Wildcard))
+accbcac
+*** Failed! Assertion failed (after 32 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+Cat (Cat (Clo Eps) (Cat Eps Wildcard)) (Clo (Cat Eps Wildcard))
+a
+*** Failed! Assertion failed (after 23 tests):
+Cat (Cat (Clo (Lit 'a')) (Cat (Lit 'c') Eps)) (Clo (Clo Wildcard))
+Cat (Clo (Clo Eps)) (Clo (Cat Eps Eps))
+cbb
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo (Lit 'c')) (Cat Eps (Lit 'c'))
+Cat (Clo Eps) (Clo Eps)
+cccccccc
+*** Failed! Assertion failed (after 11 tests):
+Cat (Cat Eps (Lit 'b')) (Cat Wildcard Wildcard)
+Clo (Cat Eps Eps)
+babacbacba
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Eps (Lit 'b')) (Cat Wildcard (Lit 'a'))
+Cat (Clo Eps) (Cat (Lit 'a') Eps)
+bna
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+aab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+cccaabaa
+*** Failed! Assertion failed (after 32 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'b') Eps))
+zxy1
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo (Lit 'c')) (Cat Wildcard Eps)
+Cat (Clo Eps) (Clo Wildcard)
+cca
+*** Failed! Assertion failed (after 28 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo (Lit 'a'))
+
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo Eps) (Cat Eps Eps)
+Cat (Cat Eps Eps) (Clo Eps)
+cabc
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+cbacabcca
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo Wildcard) (Cat Eps Wildcard)
+Clo (Clo Eps)
+a
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'a') (Lit 'c')
+Clo Eps
+ac
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Cat (Lit 'a') (Lit 'b')))
+Clo (Cat (Clo Eps) (Clo Eps))
+ababab
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 19 tests):
+Cat (Clo Wildcard) (Clo Eps)
+Cat (Clo Eps) (Clo Wildcard)
+ccccaca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'a')) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+aaaa
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+Clo Eps
+bbacaba
+*** Failed! Assertion failed (after 29 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+bbaabac
+*** Failed! Assertion failed (after 85 tests):
+Cat (Clo (Cat Wildcard Wildcard)) (Cat (Cat (Lit 'b') (Lit 'a')) (Cat Wildcard Wildcard))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Eps Eps))
+aaabbbbabc
+*** Failed! Assertion failed (after 36 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Eps Wildcard)
+bcbcbcaa
+*** Failed! Assertion failed (after 79 tests):
+Clo (Clo (Cat (Lit 'a') Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'c') Eps))
+acaba
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Wildcard) (Clo Wildcard))
+Cat (Cat (Clo Eps) (Cat Wildcard Eps)) (Cat (Cat Eps (Lit 'c')) (Cat (Lit 'a') Eps))
+aaacbbcaba
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+Clo Eps
+aba
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'b') Eps) (Cat Wildcard Eps)
+Cat (Clo Eps) (Cat (Lit 'a') Eps)
+bcacccc
+*** Failed! Assertion failed (after 8 tests):
+Cat (Clo (Cat (Lit 'b') Wildcard)) (Cat (Clo (Lit 'c')) (Cat Wildcard (Lit 'b')))
+Clo (Clo (Clo Eps))
+bmbyhb
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+a
+*** Failed! Assertion failed (after 10 tests):
+Cat Wildcard Eps
+Clo Eps
+bcaaaaacc
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+ba
+*** Failed! Assertion failed (after 26 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+bcbbaaabc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo Wildcard)
+r
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'c')
+Clo Eps
+abacaabbcc
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo (Lit 'c')))
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+cacb
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Cat (Lit 'a') (Lit 'b')) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Wildcard Wildcard))
+abababab
+*** Failed! Assertion failed (after 29 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+Clo (Clo (Clo Eps))
+aaaa
+*** Failed! Assertion failed (after 56 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Cat (Clo (Cat Eps Eps)) (Cat (Clo Wildcard) (Cat Eps (Lit 'a')))
+bbba
+*** Failed! Assertion failed (after 18 tests):
+Cat Wildcard Eps
+Clo Eps
+
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat Eps Eps)
+Cat (Clo Eps) (Clo (Lit 'c'))
+bbcbc
+*** Failed! Assertion failed (after 82 tests):
+Clo Eps
+Clo Eps
+bbaaaccbac
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'b') Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+bcbbbaacb
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+cabbbcaba
+*** Failed! Assertion failed (after 47 tests):
+Clo (Clo (Clo Eps))
+Cat (Cat (Clo Eps) (Cat Eps Wildcard)) (Cat (Cat Wildcard Wildcard) (Clo (Lit 'c')))
+caabbb
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo Wildcard)
+Clo (Cat Eps Eps)
+1s7f2b
+*** Failed! Assertion failed (after 42 tests):
+Cat Wildcard Eps
+Clo Eps
+acbccabc
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+baabbccccc
+*** Failed! Assertion failed (after 34 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 28 tests):
+Cat (Cat Wildcard Wildcard) (Cat Eps Eps)
+Cat (Clo Eps) (Clo Wildcard)
+am
+*** Failed! Assertion failed (after 11 tests):
+Cat (Cat Eps Eps) (Cat Eps (Lit 'b'))
+Clo (Clo Eps)
+b
+*** Failed! Assertion failed (after 59 tests):
+Clo (Clo (Lit 'a'))
+Cat (Clo Eps) (Clo (Lit 'c'))
+aa
+*** Failed! Assertion failed (after 31 tests):
+Cat (Cat (Clo (Lit 'a')) (Clo Eps)) (Cat (Cat Eps Eps) (Cat Eps Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'a') (Lit 'c')))
+Clo (Clo (Clo Eps))
+acac
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+a
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard (Lit 'c')) (Cat (Lit 'a') Eps)
+Clo (Clo Eps)
+dca
+*** Failed! Assertion failed (after 15 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Clo (Cat (Clo Eps) (Cat (Lit 'a') Wildcard))
+cccba
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo (Lit 'a')) (Cat Eps Wildcard)
+Cat (Clo Eps) (Clo Eps)
+caccaccc
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat Eps Wildcard) (Clo Eps)) (Cat (Clo (Lit 'c')) (Clo Eps))
+Clo (Clo (Clo Eps))
+bbbaacacc
+*** Failed! Assertion failed (after 58 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 12 tests):
+Cat (Cat Eps (Lit 'c')) (Cat Eps Eps)
+Cat (Clo Eps) (Cat Eps (Lit 'a'))
+cbbcabcca
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'a') Eps))
+baacccbcaa
+*** Failed! Assertion failed (after 36 tests):
+Clo (Clo (Lit 'b'))
+Cat (Clo Eps) (Clo Wildcard)
+cbabcbbbb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'b') Wildcard) (Cat Eps Wildcard)
+Clo (Clo Eps)
+bbcaaac
+*** Failed! Assertion failed (after 12 tests):
+Cat (Cat Wildcard (Lit 'b')) (Cat Wildcard Wildcard)
+Clo (Cat Eps Eps)
+cabca
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Wildcard))
+Cat (Cat (Clo Eps) (Cat Wildcard Eps)) (Cat (Clo (Lit 'a')) (Cat Wildcard Wildcard))
+aacccaaca
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+cbab
+*** Failed! Assertion failed (after 13 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+Clo (Clo (Clo Eps))
+cccccc
+*** Failed! Assertion failed (after 58 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 18 tests):
+Cat Eps Wildcard
+Clo Eps
+babcc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Cat (Lit 'c') Wildcard)) (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+uv1jcs
+*** Failed! Assertion failed (after 40 tests):
+Cat (Cat (Cat (Lit 'c') Wildcard) (Clo Wildcard)) (Clo (Clo Wildcard))
+Cat (Clo (Clo Eps)) (Cat (Clo Eps) (Cat Wildcard Wildcard))
+caab
+*** Failed! Assertion failed (after 23 tests):
+Clo (Clo (Clo Eps))
+Cat (Cat (Cat Eps Eps) (Clo Eps)) (Cat (Cat (Lit 'b') Wildcard) (Clo Eps))
+bbcbc
+*** Failed! Assertion failed (after 74 tests):
+Cat (Lit 'c') (Lit 'b')
+Clo Eps
+cb
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat Eps (Lit 'c'))) (Cat (Clo Wildcard) (Cat (Lit 'b') Wildcard))
+Cat (Cat (Clo Eps) (Cat Wildcard Wildcard)) (Cat (Clo Eps) (Clo Wildcard))
+acbaacbcc
+*** Failed! Assertion failed (after 13 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Cat Eps Eps)) (Cat (Cat Eps (Lit 'b')) (Cat Eps Eps))
+Cat (Cat (Cat Eps Eps) (Cat Eps (Lit 'b'))) (Cat (Clo (Lit 'a')) (Clo Wildcard))
+abcbbcbb
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 40 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Wildcard Wildcard))
+aacc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Eps
+Clo Eps
+1
+*** Failed! Assertion failed (after 15 tests):
+Cat (Cat (Cat Eps (Lit 'c')) (Cat (Lit 'a') Wildcard)) (Cat (Cat (Lit 'a') Eps) (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+caaacaacba
+*** Failed! Assertion failed (after 18 tests):
+Cat Eps Wildcard
+Clo Eps
+s
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo Wildcard) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+soila
+*** Failed! Assertion failed (after 22 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+Clo (Clo (Clo Eps))
+aabaccabab
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Clo Eps))
+Cat (Clo (Cat Eps Eps)) (Cat (Cat (Lit 'b') Eps) (Clo Eps))
+
+*** Failed! Assertion failed (after 83 tests):
+Clo (Clo (Lit 'a'))
+Cat (Clo Eps) (Cat Eps Eps)
+acbbbbbaba
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+abcacbbccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+Cat (Cat (Clo Eps) (Cat Eps Eps)) (Clo (Clo Eps))
+bccccb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+bcacbcc
+*** Failed! Assertion failed (after 76 tests):
+Clo (Clo Wildcard)
+Cat (Cat Eps Eps) (Clo Eps)
+a
+*** Failed! Assertion failed (after 27 tests):
+Clo (Clo Wildcard)
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat (Lit 'b') Eps)) (Cat (Cat Eps Eps) (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+bbbbbbbb
+*** Failed! Assertion failed (after 90 tests):
+Cat Wildcard (Lit 'c')
+Clo Eps
+bcbcacabcc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 8 tests):
+Cat (Cat (Clo Wildcard) (Clo (Lit 'b'))) (Clo (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+acbc
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Wildcard
+Clo Eps
+5
+*** Failed! Assertion failed (after 69 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Clo (Clo Eps))
+a
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo (Lit 'b')) (Cat (Lit 'c') Wildcard)
+Cat (Clo Eps) (Cat (Lit 'b') Wildcard)
+cbccbc
+*** Failed! Assertion failed (after 34 tests):
+Cat Eps Wildcard
+Clo Eps
+cccbccbac
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps Wildcard) (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+bcb
+*** Failed! Assertion failed (after 51 tests):
+Clo (Clo (Lit 'a'))
+Clo (Cat Eps Eps)
+bacbccabca
+*** Failed! Assertion failed (after 52 tests):
+Cat (Clo Wildcard) (Cat Wildcard (Lit 'c'))
+Clo (Clo Eps)
+zbpbsc2wc
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Wildcard))
+Clo (Clo (Clo Eps))
+k6bquov
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+cbacaabc
+*** Failed! Assertion failed (after 30 tests):
+Clo (Cat (Cat Eps (Lit 'c')) (Clo (Lit 'c')))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat (Lit 'c') Eps))
+cccccccccc
+*** Failed! Assertion failed (after 34 tests):
+Cat Eps (Lit 'c')
+Clo Eps
+
+*** Failed! Assertion failed (after 8 tests):
+Cat (Clo (Cat (Lit 'c') (Lit 'b'))) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+cccbabca
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo Wildcard)
+bcccbb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+Cat (Cat (Clo Eps) (Cat Wildcard Eps)) (Cat (Clo Wildcard) (Clo Wildcard))
+aab
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo (Lit 'a')) (Cat (Lit 'a') Eps)
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+aaaaaaaa
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo (Lit 'a'))) (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'a')))
+aaaaaaaaaa
+*** Failed! Assertion failed (after 51 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Eps Wildcard)
+9buxil
+*** Failed! Assertion failed (after 15 tests):
+Clo (Cat (Cat Eps (Lit 'a')) (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+aaaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+c
+*** Failed! Assertion failed (after 34 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 15 tests):
+Cat (Cat (Clo Wildcard) (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+Cat (Clo (Clo Eps)) (Clo (Cat Eps Eps))
+rjejnc9
+*** Failed! Assertion failed (after 14 tests):
+Cat (Cat (Cat Eps Eps) (Clo (Lit 'b'))) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+kw
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo Wildcard) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+cacbbbbbcc
+*** Failed! Assertion failed (after 12 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat (Lit 'a') Wildcard)
+acc
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'c')
+Clo Eps
+abbaaaaaba
+*** Failed! Assertion failed (after 72 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+ccba
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Clo (Clo Eps))
+bcbacb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo (Lit 'b'))
+cacbbbcc
+*** Failed! Assertion failed (after 21 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+a
+*** Failed! Assertion failed (after 26 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+c
+*** Failed! Assertion failed (after 13 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Eps) (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+accaaac
+*** Failed! Assertion failed (after 50 tests):
+Cat Eps Wildcard
+Clo Eps
+c
+*** Failed! Assertion failed (after 75 tests):
+Cat (Clo Wildcard) (Cat (Lit 'b') (Lit 'b'))
+Cat (Clo (Lit 'b')) (Cat Wildcard (Lit 'c'))
+ccbbabbc
+*** Failed! Assertion failed (after 24 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+9peot3u
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Wildcard Wildcard) (Cat Eps Eps)
+Clo (Clo Eps)
+93
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+cacab
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+baabab
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat (Lit 'a') (Lit 'b')))
+Clo (Cat (Clo Eps) (Clo Eps))
+ababab
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 58 tests):
+Cat Eps (Lit 'c')
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'b')
+Clo Eps
+abcbbbacc
+*** Failed! Assertion failed (after 39 tests):
+Cat (Cat (Clo Wildcard) (Cat Eps (Lit 'a'))) (Clo (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+1gudkxa
+*** Failed! Assertion failed (after 42 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+1
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 12 tests):
+Cat (Cat Wildcard (Lit 'c')) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+bbcbaccaa
+*** Failed! Assertion failed (after 46 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+aaaa
+*** Failed! Assertion failed (after 58 tests):
+Cat Wildcard Eps
+Clo Eps
+bcb
+*** Failed! Assertion failed (after 36 tests):
+Cat (Cat Wildcard Eps) (Cat (Lit 'a') (Lit 'b'))
+Clo (Cat (Lit 'a') (Lit 'c'))
+ababbabb
+*** Failed! Assertion failed (after 29 tests):
+Clo (Clo (Cat (Lit 'a') (Lit 'a')))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Clo (Clo Eps))
+aaaa
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps Wildcard
+Clo Eps
+bacaaccbb
+*** Failed! Assertion failed (after 21 tests):
+Clo (Cat (Cat Eps Eps) (Clo Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+ccaabbb
+*** Failed! Assertion failed (after 44 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Eps Wildcard)
+a
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'a')
+Clo Eps
+ca
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 13 tests):
+Clo (Cat (Clo (Lit 'c')) (Clo Wildcard))
+Clo (Clo (Clo Eps))
+wkshwvg46h
+*** Failed! Assertion failed (after 50 tests):
+Clo Eps
+Clo Eps
+accaccca
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo Wildcard) (Clo Eps)
+Cat (Clo Eps) (Clo (Lit 'b'))
+gtcoi6fcau
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Clo (Lit 'b')))
+Clo (Clo (Clo Eps))
+c
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard (Lit 'a')
+Clo Eps
+bacbab
+*** Failed! Assertion failed (after 27 tests):
+Clo (Clo (Lit 'b'))
+Cat (Clo Eps) (Cat (Lit 'b') Eps)
+bbbbbbb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 53 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Eps) (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 34 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+b
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+a
+*** Failed! Assertion failed (after 18 tests):
+Cat Eps (Lit 'c')
+Clo Eps
+c
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps (Lit 'c')
+Clo Eps
+baaabccba
+*** Failed! Assertion failed (after 42 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+baa
+*** Failed! Assertion failed (after 42 tests):
+Cat Eps (Lit 'b')
+Clo Eps
+b
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat Wildcard (Lit 'b')) (Cat Wildcard Wildcard)) (Cat (Clo (Lit 'c')) (Cat Wildcard Wildcard))
+Cat (Clo (Clo Eps)) (Clo (Cat Eps Eps))
+ubd4ccccne
+*** Failed! Assertion failed (after 31 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Wildcard))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Clo (Cat Eps (Lit 'c')))
+cabbbc
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo Wildcard) (Cat Eps (Lit 'b'))
+Clo (Clo Eps)
+4ozfdatb
+*** Failed! Assertion failed (after 24 tests):
+Clo (Cat (Clo (Lit 'c')) (Cat Eps Eps))
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Cat (Clo (Lit 'a')) (Cat Wildcard Eps))
+cccccccc
+*** Failed! Assertion failed (after 26 tests):
+Clo Eps
+Clo Eps
+bcb
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps (Lit 'b')
+Clo Eps
+b
+*** Failed! Assertion failed (after 28 tests):
+Clo (Clo (Lit 'c'))
+Cat (Clo Eps) (Clo Wildcard)
+a
+*** Failed! Assertion failed (after 43 tests):
+Cat (Clo (Lit 'a')) (Cat Wildcard (Lit 'b'))
+Clo (Cat Eps Eps)
+acbb
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo (Lit 'c')) (Cat Wildcard (Lit 'c'))
+Clo (Cat Eps Eps)
+c9c
+*** Failed! Assertion failed (after 23 tests):
+Cat (Cat (Clo (Lit 'a')) (Cat Eps Eps)) (Cat (Clo (Lit 'c')) (Cat Eps Wildcard))
+Clo (Clo (Clo Eps))
+cbb
+*** Failed! Assertion failed (after 82 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 36 tests):
+Cat (Clo Wildcard) (Cat Wildcard Eps)
+Clo (Clo Eps)
+8gvdnguonx
+*** Failed! Assertion failed (after 18 tests):
+Cat Wildcard (Lit 'b')
+Clo Eps
+cac
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Wildcard) (Cat Eps Eps)
+Clo (Clo Eps)
+5
+*** Failed! Assertion failed (after 13 tests):
+Clo (Clo (Cat Wildcard (Lit 'a')))
+Clo (Clo (Clo Eps))
+faua
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps (Lit 'b')))
+Clo (Clo (Clo Eps))
+cbb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Cat Wildcard Eps)
+Cat (Clo Eps) (Clo Eps)
+bbc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'a') Eps)
+Cat (Clo Eps) (Clo Wildcard)
+ba
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps (Lit 'a')) (Cat Eps Wildcard)
+Clo (Clo Eps)
+a2
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Wildcard Eps)
+cabcaaccaa
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Cat Eps Wildcard)) (Cat (Cat Eps (Lit 'c')) (Cat Eps Wildcard))
+Clo (Clo (Clo Eps))
+cc
+*** Failed! Assertion failed (after 28 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+ccbcac
+*** Failed! Assertion failed (after 50 tests):
+Cat (Lit 'b') (Lit 'a')
+Clo Eps
+cbc
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+c
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps (Lit 'b')))
+Clo (Cat (Clo Eps) (Clo Eps))
+bbbbbbb
+*** Failed! Assertion failed (after 50 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+a
+*** Failed! Assertion failed (after 69 tests):
+Cat (Clo (Cat (Lit 'a') Wildcard)) (Clo (Clo Wildcard))
+Clo (Clo (Clo Eps))
+aaccbccca
+*** Failed! Assertion failed (after 58 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 14 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Eps) (Cat Eps Wildcard))
+Clo (Clo (Clo Eps))
+aacbcb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat (Lit 'c') Eps)
+Clo (Clo Eps)
+abcbcac
+*** Failed! Assertion failed (after 26 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 31 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Eps (Lit 'c')))
+ab
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard Eps))
+Cat (Clo (Clo Eps)) (Clo (Cat Eps Eps))
+aacbaba
+*** Failed! Assertion failed (after 50 tests):
+Cat Wildcard Wildcard
+Clo Eps
+bc
+*** Failed! Assertion failed (after 18 tests):
+Cat Eps (Lit 'c')
+Clo Eps
+c
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+b
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+cbcacb
+*** Failed! Assertion failed (after 62 tests):
+Clo (Clo (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+2q
+*** Failed! Assertion failed (after 90 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 14 tests):
+Clo (Clo (Cat Eps Wildcard))
+Clo (Cat (Clo Eps) (Clo Eps))
+c87x2biv53
+*** Failed! Assertion failed (after 10 tests):
+Cat Wildcard (Lit 'b')
+Clo Eps
+ababbcb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+ccbbab
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+Cat Eps (Lit 'c')
+acbca
+*** Failed! Assertion failed (after 37 tests):
+Clo (Clo (Cat (Lit 'a') Eps))
+Clo (Clo (Clo Eps))
+acacbccc
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 34 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 23 tests):
+Cat (Clo (Clo Eps)) (Clo (Clo Wildcard))
+Cat (Cat (Clo Eps) (Clo (Lit 'c'))) (Clo (Cat (Lit 'c') Eps))
+ca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat (Lit 'a') Wildcard)
+Clo (Cat Eps Eps)
+rduac
+*** Failed! Assertion failed (after 14 tests):
+Clo (Cat (Cat Eps (Lit 'a')) (Clo Eps))
+Cat (Cat (Clo Eps) (Cat Wildcard Eps)) (Cat (Cat Wildcard Eps) (Cat Wildcard Eps))
+ccb
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+ccbacacac
+*** Failed! Assertion failed (after 23 tests):
+Clo (Clo (Cat Eps Wildcard))
+Cat (Cat (Clo Eps) (Cat Wildcard (Lit 'c'))) (Clo (Cat Eps Eps))
+9ycku
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo Wildcard) (Cat Wildcard (Lit 'a'))
+Cat (Clo Eps) (Cat (Lit 'b') (Lit 'a'))
+bbacbbbbab
+*** Failed! Assertion failed (after 13 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+abca
+*** Failed! Assertion failed (after 76 tests):
+Clo (Clo (Lit 'c'))
+Clo (Cat Eps Eps)
+bcbbaabc
+*** Failed! Assertion failed (after 98 tests):
+Clo (Clo (Lit 'a'))
+Cat (Clo Eps) (Cat (Lit 'c') Wildcard)
+babcbbba
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Wildcard Wildcard)) (Cat (Cat Wildcard Wildcard) (Cat Eps Eps))
+Clo (Clo (Clo Eps))
+ccabaab
+*** Failed! Assertion failed (after 38 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+aacbccb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 34 tests):
+Clo Eps
+Clo Eps
+cbbacb
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard (Lit 'c')
+Clo Eps
+bbabacbaca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'b') (Lit 'b')) (Cat Wildcard (Lit 'b'))
+Cat (Clo Eps) (Clo (Lit 'c'))
+bbcbc
+*** Failed! Assertion failed (after 13 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'c')))
+babcaaabbc
+*** Failed! Assertion failed (after 13 tests):
+Cat (Cat (Clo (Lit 'b')) (Cat Eps Eps)) (Cat (Cat (Lit 'c') Wildcard) (Cat Eps (Lit 'c')))
+Clo (Clo (Cat Eps Eps))
+cccbcaac
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Cat Eps (Lit 'c'))
+Cat (Cat Eps Eps) (Clo Eps)
+b
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+Cat (Cat (Clo Eps) (Clo (Lit 'b'))) (Cat (Clo Eps) (Clo Eps))
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+Cat (Cat Eps Eps) (Clo Eps)
+bbbb
+*** Failed! Assertion failed (after 20 tests):
+Cat (Cat Eps Eps) (Cat (Lit 'a') (Lit 'c'))
+Clo (Cat Eps Eps)
+bac
+*** Failed! Assertion failed (after 22 tests):
+Clo (Clo (Cat (Lit 'c') Wildcard))
+Clo (Clo (Clo Eps))
+cb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo (Lit 'c')) (Cat Eps (Lit 'a'))) (Cat (Cat (Lit 'c') (Lit 'b')) (Cat Wildcard Eps))
+Clo (Clo (Clo Eps))
+cacbt
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo Wildcard) (Cat (Lit 'c') Eps)
+Cat (Clo Eps) (Clo (Lit 'a'))
+fo4n4q4tc
+*** Failed! Assertion failed (after 26 tests):
+Cat (Lit 'c') Eps
+Cat (Lit 'b') Eps
+aabbbcab
+*** Failed! Assertion failed (after 40 tests):
+Cat (Cat (Clo Wildcard) (Clo (Lit 'c'))) (Cat (Clo Wildcard) (Cat Eps (Lit 'c')))
+Clo (Cat (Clo Eps) (Cat Wildcard Wildcard))
+8dc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Clo (Lit 'b')))
+Clo (Clo (Clo Eps))
+7
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Wildcard
+Clo Eps
+baacccc
+*** Failed! Assertion failed (after 50 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Clo (Lit 'b'))
+baccb
+*** Failed! Assertion failed (after 29 tests):
+Cat (Clo (Cat Wildcard (Lit 'c'))) (Cat (Cat (Lit 'c') Eps) (Cat (Lit 'c') Wildcard))
+Cat (Clo (Cat (Lit 'a') (Lit 'a'))) (Clo (Clo Eps))
+aaccbca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Eps)
+Clo (Cat Eps Eps)
+caaabccab
+*** Failed! Assertion failed (after 64 tests):
+Clo (Cat (Clo Eps) (Clo Eps))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 33 tests):
+Lit 'c'
+Lit 'a'
+bbcbaa
+*** Failed! Assertion failed (after 31 tests):
+Cat (Cat (Cat Eps (Lit 'a')) (Clo Wildcard)) (Cat (Cat Eps Eps) (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+acl
+*** Failed! Assertion failed (after 18 tests):
+Cat Eps (Lit 'b')
+Clo Eps
+cccaa
+*** Failed! Assertion failed (after 60 tests):
+Cat (Cat (Lit 'b') (Lit 'b')) (Cat Eps Eps)
+Cat (Clo Eps) (Cat Eps Wildcard)
+cbaaaca
+*** Failed! Assertion failed (after 34 tests):
+Cat Eps (Lit 'b')
+Cat (Lit 'b') Eps
+cacbcb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat (Lit 'b') (Lit 'b'))
+Clo (Cat Eps Eps)
+cbaabcbca
+*** Failed! Assertion failed (after 77 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'a') Wildcard))
+a
+*** Failed! Assertion failed (after 40 tests):
+Cat (Cat (Clo Wildcard) (Cat (Lit 'b') Eps)) (Cat (Clo (Lit 'a')) (Cat (Lit 'b') Wildcard))
+Cat (Clo (Clo Eps)) (Cat (Clo (Lit 'c')) (Clo (Lit 'b')))
+vbbs
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'b')
+Clo Eps
+cb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+Clo (Cat Eps Eps)
+bacb
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+Clo Eps
+baba
+*** Failed! Assertion failed (after 26 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+Clo Eps
+gt
+*** Failed! Assertion failed (after 39 tests):
+Cat (Cat (Cat Wildcard (Lit 'a')) (Cat (Lit 'b') (Lit 'a'))) (Clo (Clo (Lit 'c')))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Eps (Lit 'c')))
+6abaccc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'c') Eps
+Clo Eps
+c
+*** Failed! Assertion failed (after 50 tests):
+Cat (Lit 'b') (Lit 'b')
+Clo Eps
+bb
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'c') Wildcard
+Clo Eps
+bbcabbaabb
+*** Failed! Assertion failed (after 46 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+Clo (Clo (Clo Eps))
+bccbaaaabb
+*** Failed! Assertion failed (after 26 tests):
+Cat Wildcard Eps
+Clo Eps
+bcaca
+*** Failed! Assertion failed (after 23 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard (Lit 'b')) (Clo (Lit 'a'))) (Clo (Cat Eps Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'c') Eps))
+vbaaaaaaa
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 74 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 58 tests):
+Cat (Lit 'c') (Lit 'b')
+Clo Eps
+aababaabbc
+*** Failed! Assertion failed (after 47 tests):
+Cat (Cat (Cat Wildcard Eps) (Cat Wildcard Eps)) (Cat (Clo (Lit 'a')) (Clo Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+cbaccababc
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 23 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+Clo (Clo (Clo Eps))
+abbabb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat Wildcard Wildcard)
+Clo (Clo Eps)
+accaccbcc
+*** Failed! Assertion failed (after 11 tests):
+Clo (Cat Eps Eps)
+Clo (Cat Eps Eps)
+bbaaaaa
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'a') Eps
+Clo Eps
+caacbcc
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'a') Eps)
+Cat (Clo Eps) (Cat Eps (Lit 'b'))
+bbbacbb
+*** Failed! Assertion failed (after 18 tests):
+Cat (Lit 'a') Wildcard
+Cat Eps (Lit 'c')
+abbbccaaab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+Cat (Clo Eps) (Clo Wildcard)
+ccabac
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Wildcard Wildcard) (Cat Eps Eps)
+Cat (Clo Eps) (Cat Wildcard Eps)
+acb
+*** Failed! Assertion failed (after 10 tests):
+Cat Eps Wildcard
+Clo Eps
+ccbb
+*** Failed! Assertion failed (after 9 tests):
+Lit 'a'
+Lit 'c'
+abaabccaa
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+bbaaac
+*** Failed! Assertion failed (after 38 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+cbcc
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Clo Eps))
+Clo (Clo (Clo Eps))
+acca
+*** Failed! Assertion failed (after 26 tests):
+Cat Eps Wildcard
+Clo Eps
+baaabbaaa
+*** Failed! Assertion failed (after 20 tests):
+Cat (Clo Wildcard) (Cat Eps Wildcard)
+Clo (Clo Eps)
+56k9o8ewsj
+*** Failed! Assertion failed (after 64 tests):
+Cat (Cat (Clo Wildcard) (Cat Eps Eps)) (Cat (Clo Wildcard) (Clo Eps))
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'a')))
+96uv
+*** Failed! Assertion failed (after 46 tests):
+Clo (Clo (Cat Wildcard Eps))
+Clo (Cat (Clo Eps) (Clo Eps))
+fr8
+*** Failed! Assertion failed (after 37 tests):
+Clo (Cat (Clo Wildcard) (Cat Eps Eps))
+Cat (Cat (Clo Eps) (Cat (Lit 'a') Eps)) (Cat (Cat Eps Wildcard) (Clo Wildcard))
+acacbcabac
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+Clo (Clo (Clo Eps))
+cccccccccc
+*** Failed! Assertion failed (after 34 tests):
+Cat Eps Wildcard
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+Clo Eps
+bbaaab
+*** Failed! Assertion failed (after 20 tests):
+Clo (Clo Wildcard)
+Cat (Clo Eps) (Cat Eps Eps)
+
++++ OK, passed 100 tests.
+*** Failed! Assertion failed (after 56 tests):
+Clo (Cat (Clo Wildcard) (Clo (Lit 'a')))
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 28 tests):
+Clo (Clo (Lit 'c'))
+Cat (Clo Eps) (Clo Wildcard)
+bbbabccba
+*** Failed! Assertion failed (after 18 tests):
+Clo Eps
+Clo Eps
+bccbaaabc
+*** Failed! Assertion failed (after 34 tests):
+Cat Wildcard (Lit 'c')
+Clo Eps
+acbcca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Eps) (Cat Wildcard Eps)
+Cat (Clo Eps) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 19 tests):
+Cat (Clo Wildcard) (Cat Eps (Lit 'b'))
+Cat (Clo Eps) (Clo (Lit 'b'))
+fzxb
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+cbcccababa
+*** Failed! Assertion failed (after 16 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+Clo (Clo (Clo Eps))
+bbbbbbb
+*** Failed! Assertion failed (after 31 tests):
+Clo (Clo (Clo Eps))
+Clo (Cat (Clo Eps) (Cat (Lit 'a') (Lit 'a')))
+bbccaacca
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+Clo (Cat Eps Eps)
+abbccbcc
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+Lit 'b'
+bccacb
+*** Failed! Assertion failed (after 20 tests):
+Clo (Clo (Lit 'a'))
+Clo (Cat Eps Eps)
+accc
+*** Failed! Assertion failed (after 25 tests):
+Lit 'b'
+Lit 'c'
+abacccbab
+*** Failed! Assertion failed (after 54 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+Cat (Cat (Clo Eps) (Cat Eps (Lit 'c'))) (Cat (Clo Eps) (Cat (Lit 'b') Eps))
+bcbbbaccba
+*** Failed! Assertion failed (after 24 tests):
+Cat (Cat (Cat Eps Eps) (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'b')))
+aaaaccacc
+*** Failed! Assertion failed (after 31 tests):
+Cat (Clo (Cat (Lit 'c') (Lit 'a'))) (Clo (Clo Wildcard))
+Cat (Clo (Cat Eps Eps)) (Clo (Cat (Lit 'a') Eps))
+accbcbbbc
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'c')
+Clo Eps
+cc
+*** Failed! Assertion failed (after 34 tests):
+Cat Wildcard Wildcard
+Clo Eps
+dn
+*** Failed! Assertion failed (after 19 tests):
+Cat (Cat Eps Wildcard) (Cat Eps (Lit 'a'))
+Clo (Clo Eps)
+ja
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps (Lit 'b')
+Clo Eps
+b
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps (Lit 'b')
+Clo Eps
+b
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo Eps))
+Cat (Cat (Clo Eps) (Cat (Lit 'b') (Lit 'a'))) (Cat (Cat (Lit 'c') Eps) (Cat Wildcard (Lit 'c')))
+acbacccc
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps (Lit 'a')
+Clo Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 16 tests):
+Clo (Cat (Cat Eps (Lit 'c')) (Clo Wildcard))
+Cat (Cat (Cat Eps Eps) (Clo Eps)) (Cat (Clo (Lit 'b')) (Cat Wildcard (Lit 'c')))
+cac
+*** Failed! Assertion failed (after 27 tests):
+Cat (Clo (Lit 'a')) (Cat (Lit 'c') Wildcard)
+Cat (Clo Eps) (Cat Eps Eps)
+aaaaaaacy
+*** Failed! Assertion failed (after 32 tests):
+Cat (Clo (Cat (Lit 'a') Eps)) (Cat (Clo Wildcard) (Cat (Lit 'b') (Lit 'a')))
+Clo (Clo (Clo Eps))
+2kqh4hba
+*** Failed! Assertion failed (after 45 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Eps) (Cat Eps Wildcard))
+Cat (Cat (Clo Eps) (Clo (Lit 'b'))) (Clo (Cat Wildcard Eps))
+rni44xf
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+Clo Eps
+
+*** Failed! Assertion failed (after 26 tests):
+Clo Eps
+Clo Eps
+
+prop_Grep:
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo (Lit 'b')) (Clo (Lit 'a')))
+abbbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+cbacb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Clo (Lit 'b')))
+bbbbbbbb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+baabbcaac
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+xm1
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Eps) (Clo Eps)
+acb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+cbccbcaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+i6
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cbabcbcaa
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+cabbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+udoymm
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Eps) (Clo Wildcard))
+acbabb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'b'))
+bbabcaba
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bbbaccccc
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo (Lit 'c'))) (Cat (Clo Eps) (Clo Eps))
+ccccccccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+b
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo (Lit 'b')) (Cat Eps Wildcard))
+a
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo Eps))
+a5k1gi
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Cat (Lit 'a') (Lit 'c')) (Clo Eps))
+a
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat (Lit 'a') Eps))
+aaaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+b
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Clo (Lit 'c'))) (Clo (Clo Wildcard))
+yj6z
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+aaaaaaaaa
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo (Lit 'b')))
+cbcaba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+caabccca
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ccbc
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+cccccccccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+acacacaacc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+o1spp
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+baaac
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaa
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo (Lit 'a')) (Clo Wildcard))
+i9
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+cccacbaacb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo (Lit 'c'))
+cacccbcc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+aaca
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ccb
+*** Failed! Assertion failed (after 12 tests):
+Clo (Clo Wildcard)
+babbca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'c'))
+cccbaac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat Eps (Lit 'b'))
+cbcca
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+baabcacacc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Cat Eps Wildcard)) (Clo (Cat (Lit 'a') Wildcard))
+laaaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Clo Eps)) (Clo (Clo Wildcard))
+bn
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard (Lit 'b')))
+5b3bdb6b
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Eps) (Cat Wildcard (Lit 'a'))) (Clo (Cat (Lit 'b') Eps))
+aacca
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Clo (Cat Eps Eps))
+abac
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Eps (Lit 'c'))) (Cat (Clo Eps) (Clo (Lit 'c')))
+c
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Cat (Lit 'a') Eps))
+bbbaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'c')) (Clo (Lit 'b')))
+bcabcba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+abb
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo Eps))
+bbccbabc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Wildcard))
+p8khvqw
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+caccaacba
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat Eps Wildcard))
+aabca
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Eps) (Clo Eps))
+
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps Wildcard))
+oqkzt3rc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+c
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bbbbbbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+ac
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+cacbbbabb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+cccc
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard Eps))
+bca
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo Eps)) (Clo (Cat Wildcard (Lit 'b')))
+bc
+*** Failed! Assertion failed (after 11 tests):
+Cat (Clo Wildcard) (Clo Eps)
+dn2kb4
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+w
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo (Lit 'c')) (Clo Wildcard))
+ccabcacbb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'a'))) (Clo (Clo (Lit 'b')))
+bb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+qxmx
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cccaccaa
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo (Lit 'a')) (Clo (Lit 'a'))) (Cat (Clo Eps) (Cat Eps Eps))
+abcbaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+cccccc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ccacacca
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+ab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+z25wqilmo
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Eps) (Cat Eps (Lit 'c')))
+ccccc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+dha
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+b
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps (Lit 'a')) (Cat Wildcard Eps)) (Clo (Clo (Lit 'a')))
+cacaccbaab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+llvj8gihl
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+cccccccc
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cbcbabbc
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo (Lit 'b'))
+bacac
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Eps) (Clo Eps)
+ccc
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo Eps)) (Clo (Clo Wildcard))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps (Lit 'b')))
+aaaaaccc
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bbabcc
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat (Lit 'b') Wildcard))
+abaacbcb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+bb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+5r54wnh
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+wb
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+bbb
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo Wildcard)
+bcab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps Wildcard))
+71z
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Cat Eps Wildcard))
+b
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+bacababbaa
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo Wildcard)
+4ol7e9
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+abaccbc
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+q5ut3
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bcbaabcb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+aaac
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+c
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat (Lit 'a') Eps) (Clo Wildcard))
+a8r72hn
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps Wildcard))
+s9p5vmuhn
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaaa
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo (Lit 'c')) (Cat Eps Eps)) (Cat (Clo (Lit 'b')) (Clo Eps))
+b
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cbxc
+*** Failed! Assertion failed (after 11 tests):
+Clo (Clo (Lit 'c'))
+cccccccc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cbbcabbc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+bbbcbc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+ccaaabbc
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Wildcard) (Clo Wildcard)) (Clo (Clo (Lit 'b')))
+v
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bacccbbccb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'c'))
+caabb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'c') (Lit 'b')))
+bbcab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'a') Wildcard) (Clo (Lit 'a')))
+cbabcbabc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo (Lit 'a')))
+ccb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cbb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+b
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+9e7u6ryeq
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo (Lit 'b')) (Cat Eps Eps))
+
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Eps) (Cat (Lit 'a') Wildcard))
+aja7aqaoak
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps (Lit 'b')))
+bbbbbbbb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+cccc
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+9qk6
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo Wildcard))
+9
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps Wildcard))
+k6x
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat (Lit 'c') (Lit 'b')) (Clo Eps)) (Clo (Clo (Lit 'c')))
+cbccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+c
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+caca
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'b'))) (Cat (Clo (Lit 'c')) (Clo Wildcard))
+a
+*** Failed! Assertion failed (after 14 tests):
+Cat (Cat (Clo Wildcard) (Clo Eps)) (Clo (Clo Wildcard))
+h
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aaccaba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+abbaaba
+*** Failed! Assertion failed (after 14 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Clo (Lit 'c')))
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+ac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+ccccccccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+w1dhx44
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Cat (Lit 'b') Eps))
+cccccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Wildcard))
+aabbbcaba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cbaab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+5xyceh
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'c') (Lit 'b')))
+c
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Clo (Lit 'c')))
+ccccccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+i
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'c'))) (Clo (Cat Eps Eps))
+aabc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+abbbaca
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+aaaaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bbaaccacb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+cbb
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat Eps Wildcard)) (Cat (Clo Eps) (Cat Wildcard Wildcard))
+ccccb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo (Lit 'a')))
+b
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat (Lit 'c') Eps)
+aaccc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+95qm61k
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+9y
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Cat Wildcard Wildcard)) (Clo (Clo Eps))
+a
+*** Failed! Assertion failed (after 8 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo (Lit 'c'))) (Clo (Clo Wildcard))
+1ejv4zbcb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cac
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Eps)
+w
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+ccab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Eps) (Cat (Lit 'a') (Lit 'a')))
+bacb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+anfu4ls7
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+bbcac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'b'))) (Cat (Cat (Lit 'b') Eps) (Clo Eps))
+b
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'a'))
+aabbbbbcb
+*** Failed! Assertion failed (after 8 tests):
+Cat (Cat (Clo (Lit 'b')) (Clo Wildcard)) (Cat (Clo Eps) (Cat Wildcard (Lit 'a')))
+pb343a
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Clo Wildcard))
+cbbbb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+abbaba
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat (Lit 'b') Eps)
+abcbbabb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'c')) (Cat Eps Eps))
+abccbabcac
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+baccaaacaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Wildcard))
+bc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+c
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+b
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Eps) (Cat Eps (Lit 'c')))
+cccccccccc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat Eps (Lit 'a'))
+bbba
+*** Failed! Assertion failed (after 8 tests):
+Cat (Clo (Cat Eps (Lit 'b'))) (Cat (Clo Eps) (Cat (Lit 'a') Wildcard))
+bbbbaj
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo Wildcard) (Cat Wildcard Eps)) (Clo (Clo Wildcard))
+baaabcb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+abc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'a') Eps))
+aaabac
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Cat (Lit 'b') Wildcard) (Cat Eps Eps))
+bccbb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Cat Eps Eps)) (Cat (Clo (Lit 'a')) (Clo (Lit 'c')))
+aacccccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Wildcard))
+4qk2ympe
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+a
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Eps))
+bacbbcbcac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+b
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+acccb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+aaaaaa
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat Eps Wildcard)
+bbca
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'a'))) (Cat (Clo (Lit 'c')) (Clo Eps))
+cbba
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+b
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Wildcard Wildcard))
+ccabaa
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+bbcccac
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+cccccccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo (Lit 'b'))
+bbaaabaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Eps) (Clo Wildcard))
+89wrkg
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Eps) (Cat (Lit 'b') Eps)) (Clo (Cat Eps (Lit 'c')))
+bc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Clo (Cat Wildcard Wildcard))
+ceftqqws9
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo (Lit 'c'))
+ccccccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Wildcard))
+ca
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Clo (Lit 'a'))) (Clo (Clo Wildcard))
+bbaabbaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+cccccccccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+baba
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat Eps Wildcard)
+cbcc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+mb39zpevi
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'b'))) (Cat (Clo (Lit 'a')) (Clo Wildcard))
+bg5vjc1w
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ab
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'a'))) (Cat (Clo Eps) (Clo Eps))
+aaaaaaaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bacbccbcac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+cc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo (Lit 'c')) (Cat Eps Wildcard))
+ababbbcb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat (Lit 'a') Wildcard)) (Clo (Cat Eps Eps))
+bcbcbaabc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+qtsa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+abba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'a'))) (Clo (Clo Eps))
+aabbc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+as
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo (Lit 'a')))
+a7naum
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard Eps))
+nwh
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+fca9ikdepe
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+baaccbaaab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 13 tests):
+Clo (Clo (Cat Wildcard (Lit 'b')))
+cba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bbbbbb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Wildcard Eps))
+qf3d
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'c') Eps) (Clo Eps))
+aca
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard Wildcard) (Cat Wildcard Eps)) (Clo (Clo Wildcard))
+bcbc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Eps))
+a
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+a
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+cbbabb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bbaaacb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bbcca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+a
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard Eps) (Clo (Lit 'b'))) (Clo (Clo Wildcard))
+3ij
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Eps) (Clo (Lit 'a')))
+babacaaabc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Wildcard) (Cat Wildcard (Lit 'a')))
+5deba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+ccccc
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo Eps)) (Clo (Clo Wildcard))
+zjrj
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+cbcaccaa
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo Wildcard) (Clo (Lit 'c')))
+abcabbbbc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat (Lit 'a') Wildcard)) (Clo (Clo (Lit 'c')))
+ab
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo (Lit 'c')))
+bbbba
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat (Lit 'b') Eps)
+ccabc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+abaccbb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps (Lit 'c')))
+ccccccc
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Cat Wildcard Wildcard))
+m
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cabbababb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aacc
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Clo (Lit 'c'))) (Cat (Cat (Lit 'c') Wildcard) (Clo Eps))
+acaaaacbba
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo (Lit 'b')) (Clo Wildcard))
+f
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat Eps Eps)
+acaaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Eps)) (Cat (Clo Eps) (Cat (Lit 'b') Eps))
+aaaacbc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+tbqu
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Wildcard) (Cat Eps Eps))
+q1xvvwt1zs
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+baa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'b') Wildcard) (Clo Wildcard))
+byaznbb7x6
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bbcaabbcbc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaa
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat Eps Wildcard))
+jn175nnt
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'b')) (Clo Wildcard))
+bbacabbaa
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat (Lit 'c') Eps))
+ccccc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aca
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Wildcard) (Clo Eps)) (Cat (Cat Wildcard Wildcard) (Clo Eps))
+aabaabcc
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'a') Eps) (Clo (Lit 'a')))
+aaaaaaa
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Eps) (Cat Wildcard (Lit 'a')))
+ea5a
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+babbccbaab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bccabccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+a
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+ccbbccbaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'b')) (Clo Wildcard))
+abca
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat (Lit 'c') (Lit 'b')) (Clo Eps))
+cba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bacb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+cabbbbbcc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+p75njq4ua
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+gf9jjimr4z
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaaaa
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo Eps) (Cat Eps Eps)) (Cat (Clo (Lit 'b')) (Clo Wildcard))
+1r8lmmoj2h
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+c
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Eps Eps) (Clo Wildcard))
+lm
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bcaac
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+caba
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'a') Wildcard))
+acbbaaaac
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+aaaaa
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo (Lit 'b')) (Cat Eps Wildcard)) (Clo (Clo Wildcard))
+cbacabbcab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Eps (Lit 'a')) (Clo Wildcard))
+azssi2
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'a'))) (Clo (Clo Wildcard))
+tkiofht
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+ccc
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat Eps (Lit 'a'))) (Cat (Cat Eps Eps) (Clo Eps))
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat Eps (Lit 'c')) (Cat Eps Wildcard)) (Clo (Clo (Lit 'a')))
+csaaaaaaaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+cbbaabacc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+abbbba
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo Wildcard)) (Clo (Cat Wildcard Wildcard))
+a
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo Eps) (Clo Eps))
+aca
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Eps) (Cat Wildcard Eps))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Wildcard))
+ox
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat Eps (Lit 'a'))) (Cat (Clo Eps) (Clo Wildcard))
+a
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo (Lit 'a')) (Clo (Lit 'c'))) (Cat (Clo Eps) (Cat Wildcard Wildcard))
+ccccccccb6
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ccbbacbcb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Wildcard))
+cbkm
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+yx6
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Clo Wildcard)) (Clo (Clo (Lit 'b')))
+cb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Eps Eps) (Clo Wildcard)) (Cat (Clo Wildcard) (Clo Eps))
+ccacbcba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+cbacaaab
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'a'))
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo (Lit 'b'))
+bb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aacb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Clo (Lit 'a')) (Clo Wildcard))
+obu1fd3u
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bac
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Eps Wildcard))
+cabc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+y2fh1
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 8 tests):
+Cat (Clo (Clo (Lit 'a'))) (Cat (Cat Eps Wildcard) (Clo (Lit 'a')))
+cacacacc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Eps)
+kgj4wzhw
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+cbbbca
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat (Lit 'c') Wildcard) (Clo (Lit 'c'))) (Cat (Cat Eps Eps) (Clo Eps))
+acacc
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo Wildcard) (Clo Eps)) (Clo (Cat (Lit 'c') Eps))
+llmzl4sps3
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ea
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Clo (Lit 'c')))
+bcb
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo (Lit 'a')))
+fg6r
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+accbcbbba
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard (Lit 'b')) (Clo Eps))
+bcaac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acbc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+baac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'b'))
+abba
+*** Failed! Assertion failed (after 13 tests):
+Cat (Clo (Cat Eps Eps)) (Clo (Clo Eps))
+acb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+caabccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Wildcard Eps)) (Clo (Clo (Lit 'a')))
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Cat Eps (Lit 'c'))) (Clo (Clo Wildcard))
+ccabcb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+bccacac
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Eps Eps) (Clo (Lit 'a'))) (Clo (Clo Wildcard))
+cabbbacaab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+bcaccbccac
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+bba
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'a') Eps))
+babab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+cb
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Wildcard Eps) (Clo Wildcard)) (Clo (Clo (Lit 'c')))
+bccab
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Cat (Lit 'c') Eps)) (Cat (Cat Eps Eps) (Clo (Lit 'b')))
+cbab
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+cccb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Clo Eps)) (Clo (Clo (Lit 'c')))
+ccccc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'c'))
+bbcaca
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaa
+*** Failed! Assertion failed (after 7 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Cat Eps Wildcard))
+babbcba
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+baa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'b'))) (Clo (Cat (Lit 'c') Eps))
+bc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+aba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo (Lit 'b')))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Cat (Clo (Lit 'a')) (Cat (Lit 'c') (Lit 'a')))
+3pktko4wca
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo Eps)) (Clo (Clo (Lit 'a')))
+cc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Eps) (Clo (Lit 'a'))) (Cat (Clo Eps) (Cat Eps (Lit 'c')))
+cabbcaccca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo Wildcard)
+cbacbbb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+aab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+w8wbbld1a2
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+caaaabaaaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+el
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bcbaabb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+acbbcccb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+w9
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat (Lit 'c') Wildcard)) (Cat (Clo Eps) (Cat Eps (Lit 'b')))
+cxb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+aaaa
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+abbbccaabb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Clo Eps))
+td
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acbabcbccb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo (Lit 'b'))
+bbbbbbbbb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+bbbbbbb
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Cat Eps (Lit 'b')) (Clo Wildcard))
+cab
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Wildcard Wildcard)) (Clo (Clo (Lit 'c')))
+ashckfce
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+bbccabbac
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+bbacac
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard Eps) (Cat (Lit 'c') Eps)) (Clo (Clo (Lit 'b')))
+ac
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Eps Wildcard) (Clo (Lit 'c'))) (Clo (Clo Wildcard))
+81
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+aaaaba
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+bb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Clo Eps))
+acbcacba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Clo Wildcard)) (Clo (Cat (Lit 'b') (Lit 'b')))
+bbbb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bcbcabbccc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+cb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Clo Eps) (Cat (Lit 'b') (Lit 'b')))
+bbbbbb
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Wildcard (Lit 'b')) (Cat Wildcard (Lit 'a'))) (Clo (Clo Wildcard))
+nbaarnrub
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo Wildcard)) (Cat (Clo Eps) (Cat Eps Eps))
+bcb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+1gxs2kfuf6
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bab
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+cbab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aa
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat (Lit 'c') Eps)) (Clo (Cat Eps Eps))
+bcacacab
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+a
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bccaac
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+ab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+ocj
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+accb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Cat (Lit 'a') (Lit 'a'))) (Clo (Cat (Lit 'b') Eps))
+ccaaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ye4yc1
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+bcababccba
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Clo Wildcard))
+c
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bbbb
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Eps Eps)) (Clo (Cat Wildcard Eps))
+ca4
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+xjftninu49
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+bbbbbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cabbbcbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Clo Eps))
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Wildcard Eps))
+acacab
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+4x3j5bm
+prop_AltAssoc:
+prop_AltCom:
+prop_AltIdem:
+prop_CatAssoc:
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+prop_DistLeft
+prop_DistRight
+prop_Clo1
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Cat Wildcard Eps)) (Clo (Cat Eps Eps))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Clo Eps)) (Clo (Clo Eps))
+b9pf9xrmn
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+cc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'a')
+ba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+b
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard (Lit 'a')) (Cat Wildcard Eps)
+hah
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+babbcacbcc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+6l
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acc
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+b
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Cat (Lit 'c') (Lit 'b'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard (Lit 'a')) (Cat (Lit 'b') Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+b
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'c') (Lit 'b')))
+abbaaccbba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cbbbbbaaaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+pj
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Wildcard Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'a') (Lit 'b'))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Wildcard (Lit 'b'))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+abbb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+ea
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'b') Eps))
+bbbbbbbbbb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'c') Wildcard))
+abcbbcccb
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bbccccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo (Lit 'b')))
+megmlzgqar
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+baaaaac
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+ba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Wildcard (Lit 'b'))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard (Lit 'c')) (Clo Wildcard))
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat (Lit 'a') Eps)
+
+*** Failed! Assertion failed (after 11 tests):
+Cat (Cat Eps (Lit 'c')) (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+ca
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Eps Eps) (Clo (Lit 'a')))
+aaaa
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Wildcard) (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+a
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ca
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'b'))
+bc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Cat (Lit 'c') (Lit 'b')))
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Eps))
+yv1q4
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+aabbb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Cat Wildcard Wildcard)) (Cat (Clo Wildcard) (Clo Eps))
+acbcccaba
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'c')
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaa
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'c')
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Eps)
+abaccb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat Eps (Lit 'a'))) (Cat (Cat Eps Eps) (Cat (Lit 'c') (Lit 'c')))
+aaabcaabaa
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'c') Wildcard)
+babbbbbbac
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard (Lit 'a')) (Cat Eps Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaaa
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+p
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+baacc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+cba
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'a'))
+acacbaba
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Eps) (Cat (Lit 'c') (Lit 'a'))
+ccbab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+caababb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+ja
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'c') Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+caa
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+aw
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'c') Eps) (Cat (Lit 'c') (Lit 'b'))
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat (Lit 'c') Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps (Lit 'b')
+caa
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Eps) (Clo Eps)) (Cat (Clo (Lit 'b')) (Clo Eps))
+bbbbbbbbb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bbcc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'c') Eps) (Clo Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+ccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Wildcard) (Cat Eps (Lit 'a'))
+3a
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat Wildcard Wildcard)) (Cat (Clo Wildcard) (Cat (Lit 'a') Eps))
+zcroeja
+*** Failed! Assertion failed (after 8 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo Eps))
+im25138he8
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+c
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat Wildcard (Lit 'c'))
+2t6qb5c
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'a') Eps) (Cat (Lit 'b') (Lit 'b'))
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard (Lit 'c')) (Cat Eps Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat (Lit 'a') Wildcard)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Cat (Lit 'c') Wildcard)) (Clo (Cat Eps Eps))
+
+*** Failed! Assertion failed (after 8 tests):
+Clo (Clo (Cat Eps Wildcard))
+u
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bb
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Eps) (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+gq6ihvhq
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+baabccbccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'b')
+bb
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat Eps Wildcard) (Clo (Lit 'c'))) (Clo (Cat Eps Wildcard))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+cacaaa
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+bbc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Eps) (Cat (Lit 'a') Wildcard)
+tab
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo (Lit 'c'))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+bbbabca
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+baabbaa
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'c')
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+ccbbaaaaac
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+abb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+punp
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+bbbbbbbbb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat Eps Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard Eps) (Clo Wildcard)) (Cat (Cat Wildcard Eps) (Cat (Lit 'c') Wildcard))
+rmcl
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+accbbccaab
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+aaaba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+abcabcc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'a') (Lit 'c'))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Cat Wildcard (Lit 'b'))
+cclb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+aababcbcba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Wildcard) (Cat Eps (Lit 'b'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Wildcard
+cbacabccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+c
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+ababacbccb
+*** Failed! Assertion failed (after 5 tests):
+Cat (Clo (Cat Eps (Lit 'b'))) (Cat (Clo Wildcard) (Cat (Lit 'b') Wildcard))
+ojdu4iyb8
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'c') Eps) (Cat Wildcard Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo (Lit 'a')) (Clo (Lit 'b')))
+bbab
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Wildcard Wildcard) (Clo Wildcard)) (Clo (Cat Eps Eps))
+do93
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'b') Wildcard) (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo Wildcard) (Clo Eps)) (Clo (Clo Eps))
+cbbbcbccc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat (Lit 'b') Wildcard) (Clo Wildcard))
+acabcb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Eps) (Clo (Lit 'c')))
+ccc
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+cb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+qd
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bcbcacc
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'c')
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'b')) (Clo (Lit 'b'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+sp
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'a') Wildcard) (Clo Eps))
+aacaabbaab
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+caab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+9a15dj
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+aac
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+abaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+kdoa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+abacccb
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+b
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'c') Wildcard) (Cat Wildcard (Lit 'b'))
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Eps) (Cat (Lit 'a') (Lit 'a'))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaa
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Cat Eps Eps)) (Cat (Clo (Lit 'c')) (Clo Eps))
+bccccc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'c')
+acbbaa
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Eps) (Cat (Lit 'a') Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+c
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Eps) (Cat Wildcard Wildcard)
+fao
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'b')
+ccbacbc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+8r4mi5s
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Eps Wildcard) (Clo (Lit 'c')))
+baacbccaaa
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+bcbcbba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+cs
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+b
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps (Lit 'c')) (Cat Wildcard Eps)) (Cat (Clo Wildcard) (Cat Eps Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat (Lit 'b') Wildcard)
+aaaaaba
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo Wildcard) (Cat Wildcard Wildcard)) (Clo (Clo (Lit 'a')))
+omc8af
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+aaaabaab
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+cbcac
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+bcbb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Wildcard) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+24m38jq5pb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ac
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+babbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'b') (Lit 'c'))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+
+*** Failed! Assertion failed (after 2 tests):
+Clo (Lit 'c')
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Wildcard
+abacac
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+ccccccaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acbaaacc
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+aacbbbb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+bc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard (Lit 'c')))
+acbaacc
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'c') (Lit 'c')) (Cat Wildcard (Lit 'c'))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+accaa
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'c')) (Clo Eps)
+ca
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Eps) (Cat (Lit 'b') Wildcard))
+
+*** Failed! Assertion failed (after 10 tests):
+Clo Eps
+cabc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+bbccc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+acbcc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaaaaaaa
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Wildcard) (Cat Eps Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Clo Eps))
+baaccc
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Cat (Lit 'b') Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Eps) (Cat (Lit 'c') Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'b')
+cb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+zklr
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Eps
+c
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+c
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps (Lit 'a')) (Cat Wildcard (Lit 'c'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat (Lit 'b') Eps) (Clo Wildcard)) (Clo (Clo Wildcard))
+abcb
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+5fd325hxp8
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'a') Wildcard)
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Cat Eps (Lit 'a'))
+bc
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'a'
+c
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Clo Wildcard) (Clo Wildcard)) (Cat (Clo (Lit 'b')) (Cat (Lit 'a') (Lit 'b')))
+3gztzlab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+ba
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ac
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ac
+*** Failed! Assertion failed (after 6 tests):
+Cat (Clo (Clo (Lit 'c'))) (Clo (Clo Eps))
+babcaaab
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+cba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bcacaabab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+9ho1nc1knu
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bccacc
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'c') Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+bbcbbc
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+a
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+ccca
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+a
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+a
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Wildcard
+c
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+cc
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'a')
+aa
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard (Lit 'a')) (Cat Wildcard (Lit 'a'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'b')
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+aaaaaa
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acbab
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') Wildcard
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'b') Eps) (Cat (Lit 'a') Wildcard)
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat (Lit 'c') Wildcard)
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Wildcard) (Cat Wildcard Wildcard)
+abbcbb
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+n2ky78f
+*** Failed! Assertion failed (after 6 tests):
+Clo (Clo (Clo Eps))
+aa
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+fn
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+b
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+ccbcbccab
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'c') (Lit 'a'))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ccaaacacb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 7 tests):
+Cat (Cat (Cat Eps Wildcard) (Cat Eps Wildcard)) (Cat (Cat Eps (Lit 'a')) (Clo Wildcard))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+bkep3goij6
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Eps Wildcard) (Cat Eps Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Cat Eps Eps) (Clo Wildcard)) (Clo (Clo (Lit 'c')))
+ccab
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps (Lit 'c')) (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'a')
+cbbca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard (Lit 'c')) (Cat Eps (Lit 'a'))
+nca
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bacbbcccc
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') (Lit 'a')
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'b') Eps) (Cat Eps (Lit 'a'))
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'a')
+abcca
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ccbcbba
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aaacaaa
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+a
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Cat (Lit 'b') Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Eps) (Cat Wildcard Wildcard)
+mp
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Eps) (Cat Eps Wildcard)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat Wildcard Eps) (Clo Eps))
+bcbbcab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+3l9
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+ca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo (Lit 'a')) (Cat (Lit 'a') (Lit 'a'))
+aacaacbcaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+cacbacb
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Wildcard
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+ba
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+aba
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Eps (Lit 'a')))
+aac
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 8 tests):
+Cat (Cat (Cat Eps Eps) (Clo Eps)) (Clo (Cat (Lit 'b') (Lit 'a')))
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+bacaaac
+*** Failed! Assertion failed (after 7 tests):
+Clo (Clo (Cat Wildcard Wildcard))
+4kwd77
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Wildcard) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bacbbca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo Eps) (Clo Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo (Lit 'a')
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'a') Eps) (Clo Eps)
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat (Lit 'c') (Lit 'c')) (Clo (Lit 'c')))
+ccc
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Cat (Lit 'c') Eps))
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'c'
+aaabaabb
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard (Lit 'b')) (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+caacbb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 10 tests):
+Cat Wildcard Wildcard
+fz
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'b')) (Clo Eps)
+aabbc
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+cca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Clo Wildcard) (Clo Eps)
+ckzqqui
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 13 tests):
+Clo (Cat (Clo (Lit 'b')) (Clo (Lit 'a')))
+bbaaaacb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat Eps Eps)
+baacabac
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'b')
+
+*** Failed! Assertion failed (after 5 tests):
+Cat (Cat (Clo (Lit 'c')) (Clo Eps)) (Clo (Clo Eps))
+cc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Clo Wildcard) (Clo Wildcard))
+eapwo7hnt
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'a')) (Clo Eps)
+bcbbbcb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Wildcard (Lit 'c'))
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+c
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'b') (Lit 'b')) (Cat (Lit 'c') Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+c
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+ccaabccab
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+caacaaacbb
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+cbaabac
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+3a
+*** Failed! Assertion failed (after 7 tests):
+Clo (Cat (Clo Wildcard) (Cat Wildcard Eps))
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'b'))
+caac
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') (Lit 'a')
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+aaa
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+c
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'c'))
+cccccc
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'c')
+b
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+abcabccab
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'b')) (Cat (Lit 'a') Wildcard)
+aq
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+cca
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat (Lit 'c') Eps) (Cat Eps (Lit 'b')))
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+ccccc
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+ac
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+fgep
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat Wildcard Eps) (Cat (Lit 'b') Wildcard)
+cccbcbca
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo (Lit 'a'))
+a
+*** Failed! Assertion failed (after 2 tests):
+Clo Wildcard
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'c') Wildcard) (Cat Eps (Lit 'c'))
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Eps Wildcard) (Clo Eps)) (Cat (Clo Wildcard) (Clo Eps))
+f25d3
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo (Lit 'c'))
+ccccccc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Wildcard) (Cat (Lit 'c') Wildcard)
+
+*** Failed! Assertion failed (after 10 tests):
+Cat Wildcard (Lit 'a')
+ya
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+a
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat (Lit 'a') Wildcard) (Cat (Lit 'c') Eps)
+aba
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'c') Eps
+bb
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps (Lit 'b')) (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'b')
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard (Lit 'a')) (Cat Wildcard Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'a') (Lit 'c')
+ac
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Cat (Lit 'b') Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+aab
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+cabaac
+*** Failed! Assertion failed (after 12 tests):
+Cat (Clo Eps) (Cat Wildcard Wildcard)
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+aacaca
+*** Failed! Assertion failed (after 4 tests):
+Cat (Cat (Lit 'b') Wildcard) (Cat Wildcard Eps)
+aaabaaacbb
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 4 tests):
+Clo (Clo Wildcard)
+ba
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 1 test):
+Lit 'b'
+c
+*** Failed! Assertion failed (after 5 tests):
+Clo (Cat (Cat (Lit 'b') Eps) (Clo (Lit 'a')))
+abacbcacc
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+baabcaacb
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat Eps Wildcard))
+ck
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps (Lit 'c')) (Cat (Lit 'b') Eps)
+
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+acacaaab
+*** Failed! Assertion failed (after 5 tests):
+Clo (Clo (Cat (Lit 'a') (Lit 'c')))
+acacacac
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Eps)
+
+*** Failed! Assertion failed (after 3 tests):
+Cat (Clo (Lit 'c')) (Cat (Lit 'b') Wildcard)
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Clo (Lit 'b')) (Cat Eps (Lit 'b'))) (Clo (Clo Eps))
+cb
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard Wildcard
+so
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+bi7zqnkem
+*** Failed! Assertion failed (after 4 tests):
+Clo (Cat Eps Eps)
+cbccacac
+*** Failed! Assertion failed (after 2 tests):
+Cat Eps Eps
+
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 6 tests):
+Cat (Cat (Cat Wildcard (Lit 'c')) (Cat Eps Eps)) (Cat (Clo Wildcard) (Cat Wildcard Wildcard))
+aabbacbca
+*** Failed! Assertion failed (after 2 tests):
+Clo Eps
+baabaca
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Wildcard Eps) (Cat (Lit 'b') (Lit 'a'))
+
+*** Failed! Assertion failed (after 6 tests):
+Clo (Cat (Cat Wildcard Wildcard) (Clo Wildcard))
+hkpzlcns
+*** Failed! Assertion failed (after 2 tests):
+Cat (Lit 'b') Wildcard
+bl
+*** Failed! Assertion failed (after 1 test):
+Eps
+
+*** Failed! Assertion failed (after 3 tests):
+Clo (Clo Wildcard)
+81g3fb8
+*** Failed! Assertion failed (after 3 tests):
+Cat (Cat Eps Wildcard) (Cat (Lit 'b') Wildcard)
+6bg
+*** Failed! Assertion failed (after 2 tests):
+Clo (Lit 'b')
+
+*** Failed! Assertion failed (after 2 tests):
+Cat Wildcard (Lit 'a')
+
+prop_Clo2
+prop_Clo3
+END
