@@ -146,11 +146,11 @@ testMatcher r1 r2 = monadicIO  $ do
                                  monitor(counterexample testString)
                                  assert $ match == match2
 
-prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> String -> Property
-prop_CatAssoc a b c s = testMatcher (a `Cat` (b `Cat` c)) ((a `Cat` b) `Cat` c)
+prop_CatAssoc :: Regex Char -> Regex Char -> Regex Char -> Property
+prop_CatAssoc a b c = testMatcher (a `Cat` (b `Cat` c)) ((a `Cat` b) `Cat` c)
 
-prop_Clo2 :: Regex Char -> Regex Char -> Regex Char -> String -> Property
-prop_Clo2 a b c s = testMatcher (a `Cat` (b `Cat` c)) ((a `Cat` b) `Cat` c)
+prop_Clo2 :: Regex Char -> Property
+prop_Clo2 a = testMatcher (Clo (Clo a)) (Clo a)
 
 
 deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
