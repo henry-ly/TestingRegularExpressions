@@ -53,6 +53,13 @@ alphabet = elements ['a' .. 'c']
 
 instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
+     shrink (Lit a) = [Eps] ++ [Lit a' | a' <- shrink a]
+     shrink (a `Cat` b) = [a, b]
+                       ++ [a' `Cat` b | a' <- shrink a]
+                       ++ [a `Cat` b' | b' <- shrink b ] 
+     shrink (Clo a) = [a, Eps]  
+                   ++ [ Clo a' | a' <- shrink a ] 
+     shrink _ = []
 
 arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
                                  ,(1, return Eps)
@@ -62,7 +69,6 @@ arbitraryExpression n = frequency[(1, liftM2 Cat subexpr subexpr)
                                  ,(1, liftM Clo subexpr)
                                  ]
                    where subexpr = arbitraryExpression (n `div` 2)
-
 
 showExpr :: Regex Char -> String
 showExpr Eps = ""
