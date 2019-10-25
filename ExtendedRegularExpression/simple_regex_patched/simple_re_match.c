@@ -20,10 +20,10 @@ Regular expresions:
 int
 match(char *regexp, char *text) 
 {
-    
-    if (*regexp == 0 && *text != 0)
-        return 0;
-    
+/*    exhibit similar behavior as grep if the prop_Eps remains unfixed    
+      if (*regexp == 0 && *text != 0)
+          return 0;
+*/  
     if (regexp[0] == '^')
         return matchhere(regexp+1, text);
     do { //should check if the string is empty
@@ -35,7 +35,7 @@ match(char *regexp, char *text)
 
 int count_star(char *regexp) 
 { 
-    // variable to count the stars
+    // variable to count the trailing stars
     int c = 1;
     while (*regexp == '*') { 
         c++; 
@@ -55,7 +55,7 @@ matchhere(char *regexp, char *text)
     if (regexp[0] == '\0')
         return 1;
     if (regexp[0] == '*')
-        return matchstar(regexp[0], regexp+1, text);
+        return matchhere(regexp+1, text);
     if (regexp[1] == '*')
         return matchstar(regexp[0], regexp+j, text);
     if (regexp[1] == '+')
