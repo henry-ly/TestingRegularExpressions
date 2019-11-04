@@ -60,7 +60,7 @@ matchhere(char *regexp, char *text)
         return matchstar(regexp[0], regexp+j, text);
     if (regexp[1] == '+')
         return matchplus(regexp[0], regexp+2, text);
-    if (regexp[0] == '\0' && regexp[1] == '\0')
+    if (regexp[0] == '$' && regexp[1] == '\0')
         return *text == '\0';
     if (*text != '\0' && (regexp[0] == '.' || regexp[0] == *text))
         return matchhere(regexp + 1, text + 1);
@@ -94,5 +94,3 @@ matchplus(int c, char *regexp, char *text)
     } while (*text != '\0' && (*text++ == c || c == '.'));
     return 0;
 }
-
-

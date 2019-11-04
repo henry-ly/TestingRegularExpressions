@@ -18,13 +18,14 @@ import System.IO.Unsafe
 import FEAT
 -- note to self: ghci ffi.hs simple_re_match.o
 
-data Regex a = --Empty --epsilon; zero-width match pattern that matches the empty string.
-	       Eps --zero-width non-match
-	     | Lit a --a literal symbol in the input alphabet
+data Regex a =
+           Eps 
+         | Lit a 
          | Wildcard
-	     | Cat (Regex a) (Regex a) --cat-node
-	     | Clo (Regex a) --star-node; Kleene closure
-	     deriving (Eq, Show)
+         | Cat (Regex a) (Regex a)
+         | Clo (Regex a)
+         | Plus (Regex a)
+         deriving (Eq, Show)
 
 foreign import ccall "match"
      c_match :: CString -> CString -> CInt
@@ -43,6 +44,7 @@ space (p `Cat` q) = unit (++) `app` space p `app` space q
 space (Clo p)  = w
  where
   w = unit "" +++ pay (unit (++) `app` unpay (space p) `app` w)
+space (Plus p) = space(p `Cat` Clo p)
 
 toBool :: CInt -> Bool
 toBool 1 = True
@@ -53,6 +55,14 @@ alphabet = elements ['a' .. 'c']
 
 instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
+     shrink (Lit a) = [Eps] ++ [Lit a' | a' <- shrink a]
+     shrink (a `Cat` b) = [a, b]
+                       ++ [a' `Cat` b | a' <- shrink a]
+                       ++ [a `Cat` b' | b' <- shrink b ] 
+     shrink (Clo a) = [a, Eps]  
+                   ++ [ Clo a' | a' <- shrink a ] 
+     shrink _ = []
+
 
 arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
                                  ,(1, return Eps)
@@ -60,6 +70,7 @@ arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
                                  ]
 arbitraryExpression n = frequency[(1, liftM2 Cat subexpr subexpr)
                                  ,(1, liftM Clo subexpr)
+                                 ,(1, liftM Plus subexpr)
                                  ]
                    where subexpr = arbitraryExpression (n `div` 2)
 
@@ -67,7 +78,8 @@ arbitraryExpression n = frequency[(1, liftM2 Cat subexpr subexpr)
 showExpr :: Regex Char -> String
 showExpr Eps = ""
 showExpr (Lit a) = [a] 
-showExpr (Clo a) = showExpr a ++ "*" 
+showExpr (Clo a) = showExpr a ++ "*"
+showExpr (Plus a) = showExpr a ++ "+"
 showExpr (Cat a b) = showExpr a ++ showExpr b
 showExpr _ = "."
 
@@ -113,12 +125,16 @@ prop_Eps = monadicIO $ do
                        monitor(counterexample testString)
                        assert $ match == null testString
 
-prop_Atom :: Char -> Property
-prop_Atom a = monadicIO $ do
-                          testString <- run $ generate(genInputStrings 10 (Lit a))
-                          match <- run $ matcher [a] testString
+prop_Atom :: Property
+prop_Atom = monadicIO $ do
+                          a <- run $ generate alphabet
+                          testString <- run $ generate(genInputStrings 10 (Lit a)) 
+                          match <- run $ matcher ("^" ++ [a] ++"$") testString
+                          monitor(counterexample ("^"++ [a] ++"$"))
                           monitor(counterexample testString)
                           assert $ match == (testString == [a])
+
+
 prop_Seq :: Regex Char -> Regex Char -> Property
 prop_Seq r1 r2 = monadicIO $ do
                              testString <- run $ generate(genInputStrings 10 r1)
