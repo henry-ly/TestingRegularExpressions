@@ -1,0 +1,51 @@
+Brzozowski
+1. line 86: && into ||
+2. line 87: || into &&
+3. line 101: == into /=
+4. line 84 delete
+5. line 85 delete
+6. line 86 delete
+7. line 87 delete
+8. line 101 delete
+9. line 102 delete
+10. line 106 delete
+11. line 110 delete
+12. line 123 painful to test
+13. line 125 delete
+14. line 135 delete
+15. line 84 True to False
+16. line 85 True to False
+17. line 88 False to True
+
+Continuation based matcher
+1. line 59 && into || 
+2. line 66 non termination && to ||
+3. line 62 || to && painful to test
+4. line 66 || to &&
+5. line 59 == to /=
+6. line 57 delete
+7. line 58 delete
+8. line 59 delete
+9. line 60 delete
+10. line 61 delete
+11. line 62 delete
+12. line 57 false to true
+13. line 60 false to true
+
+A Play on Regular Expressions
+1. line 34 && into || 
+2. line 33 || into &&
+3. line 32 == into /=
+4. line 31 delete
+5. line 32 delete
+6. line 33 delete
+7. line 34 delete
+8. line 35 delete
+9. line 38 delete
+10. line 39 delete
+11. line 42 delete
+12. line 43 delete
+13. line 44 delete
+14. line 34 or into and
+15. line 35 or into and
+16. line 35 and into or
