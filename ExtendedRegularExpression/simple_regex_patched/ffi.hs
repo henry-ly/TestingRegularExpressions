@@ -125,9 +125,10 @@ prop_Eps = monadicIO $ do
                        monitor(counterexample testString)
                        assert $ match == null testString
 
-prop_Atom :: Property
-prop_Atom = monadicIO $ do
-                          a <- run $ generate alphabet
+
+
+prop_Atom :: Char -> Property
+prop_Atom a = monadicIO $ do
                           testString <- run $ generate(genInputStrings 10 (Lit a)) 
                           match <- run $ matcher ("^" ++ [a] ++"$") testString
                           monitor(counterexample ("^"++ [a] ++"$"))
@@ -137,12 +138,13 @@ prop_Atom = monadicIO $ do
 
 prop_Seq :: Regex Char -> Regex Char -> Property
 prop_Seq r1 r2 = monadicIO $ do
+                             a <- run $ generate alphabet
                              testString <- run $ generate(genInputStrings 10 r1)
-                             match <- run $ matcher (showExpr (r1 `Cat` r2)) testString
+                             match <- run $ matcher ("^" ++ showExpr (r1 `Cat` r2) ++ "$") testString
                              monitor(counterexample testString)
                              assert $ match == 
-                               or[(unsafePerformIO(matcher (showExpr r1) (take i testString))) 
-                                 && (unsafePerformIO(matcher (showExpr r2) (drop i testString))) 
+                               or[(unsafePerformIO(matcher ("^" ++ (showExpr r1) ++ "$") (take i testString)))
+                                 && (unsafePerformIO(matcher ("^" ++ (showExpr r2) ++ "$") (drop i testString)))
                                  | i <- [0 .. length testString]]
 prop_Clo :: Regex Char -> Property
 prop_Clo r1 = monadicIO $ do
