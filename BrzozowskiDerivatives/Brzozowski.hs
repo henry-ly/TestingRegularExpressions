@@ -11,7 +11,7 @@ import System.Process
 import System.Exit (ExitCode(ExitSuccess))
 import System.IO.Unsafe
 import Test.QuickCheck.Monadic
---
+import Data.List
 import FEAT
 
 data Regex a = Nil --epsilon; zero-width match pattern that matches the empty string.
@@ -134,14 +134,6 @@ alt r End = r
 --alt r s | r == s = r
 alt r s = Alt r s
 
-
-{- bug fix false alarm
-alt r Nil = r
-alt Nil s = s
-alt End s = s
-alt r End = r
-alt r s = Alt r s
--}
 
 clo :: Regex a -> Regex a
 clo Nil = Nil
@@ -294,25 +286,41 @@ genMatching s r = if not (null (space r)) then
                                else
                                    return(h a) 
                            |(sz, (n,h)) <- [0..s] `zip` space r] 
-                           else
-                               return ""
+                  else
+                      return ""
 -- pseudo non-matching string will generate strings at random
 genNotMatching :: Int -> Gen String
 genNotMatching n = do
                    r <- choose (0, n) 
                    vectorOf r alphabet 
 
--- enumerates matching strings up to size s given a regex r
-validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ] 
 
--- attempt to falsify a valid matching String AB/=BA
---swapHalf (x:y:xs)  = y : x : xs
---swapHalf x = x
-swapHalf xs | right /= left = right ++ left
-            | otherwise = map (chr.(+1).ord) xs
-    where block = splitAt (length xs `div` 2) xs
-          left = fst block
-          right = snd block
+
+{-
+insertAt :: Char -> Int -> [Char] -> [Char]
+insertAt newChar 0 xs = newChar : xs
+insertAt newChar n (x:xs) = x : insertAt newChar (n - 1) xs
+
+
+genNotMatching :: Int -> Regex Char -> Gen String
+genNotMatching s r = do
+                     m <- genMatching s r 
+                     i <- choose(0, length m)
+                     return $ insertAt '!' i m 
+-}
+
+{-
+removeAt :: Int -> [Char] -> [Char]
+removeAt 0 (x:xs) = xs
+removeAt n (x:xs) = x : removeAt (n - 1) xs
+removeAt _ _ = []
+
+genNotMatching:: Int -> Regex Char -> Gen String
+genNotMatching s r = do
+                    m <- genMatching s r 
+                    i <- choose(0, length m)
+                    return $ removeAt i m 
+-}
 
 deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
 deepCheck n p = do 
@@ -330,6 +338,7 @@ main = do
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
        
+
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -351,7 +360,9 @@ main = do
        putStrLn "prop_Clo3"
        deepCheck iterations prop_Clo3     
        
+
+
        putStrLn "END"
-       where iterations = 100
+       where iterations = 500
 
 

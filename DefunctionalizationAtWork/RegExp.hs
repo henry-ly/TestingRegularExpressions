@@ -233,13 +233,34 @@ genNotMatching n = do
                    r <- choose (0, n) 
                    vectorOf r alphabet 
 
--- enumerates matching strings up to size s given a regex r
-validStrings s r = concat [enum(n, h)|(sz, (n,h)) <- [0..s] `zip` space r ] 
+{-
+insertAt :: Char -> Int -> [Char] -> [Char]
+insertAt newChar 0 xs = newChar:xs
+insertAt newChar n (x:xs)=x:insertAt newChar (n - 1) xs
 
+genNotMatching:: Int -> Regexp -> Gen String
+genNotMatching s r = do
+                    m <- genMatching s r
+                    i <- choose(0, length m)
+                    return $ insertAt '!' i m
+-}
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 30}) p
+{-
+removeAt :: Int -> [Char] -> [Char]
+removeAt 0 (x:xs) = xs
+removeAt n (x:xs) = x : removeAt (n - 1) xs
+removeAt _ _ = []
+
+genNotMatching:: Int -> Regexp -> Gen String
+genNotMatching s r = do
+                    m <- genMatching s r
+                    i <- choose(0, length m)
+                    return $ removeAt i m
+-}
+
+deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
 deepCheck n p = do
-                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 30}) p
+                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"

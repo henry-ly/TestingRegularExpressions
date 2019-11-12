@@ -65,19 +65,6 @@ regexCatGen s1 s2 = do
                     y <- s2
                     return $ Seq x y
 
--- possible solution for running QC on smaller strings
-newtype SmallStrings = SmallStrings String
-    deriving Show
-
-genSmallStrings :: Gen String
-genSmallStrings =do
-                r <- choose (0, 5) 
-                vectorOf r alphabet 
-
-instance Arbitrary SmallStrings where
-    arbitrary =  SmallStrings <$> genSmallStrings
-
-
 -- this implementation is very slow for larger strings
 instance Arbitrary Reg where
     arbitrary = sized arbitraryExpression
@@ -126,12 +113,37 @@ genNotMatching n = do
                    r <- choose (0, n)  
                    vectorOf r alphabet 
 
+{-
+insertAt :: Char -> Int -> [Char] -> [Char]
+insertAt newChar 0 xs = newChar : xs
+insertAt newChar n (x:xs) = x : insertAt newChar (n - 1) xs
+
+genNotMatching :: Int -> Reg -> Gen String
+genNotMatching s r = do
+                     m <- genMatching s r
+                     i <- choose(0, length m)
+                     return $ insertAt '!' i m
+-}
+
+{-
+removeAt :: Int -> [Char] -> [Char]
+removeAt 0 (x:xs) = xs
+removeAt n (x:xs) = x : removeAt (n - 1) xs
+removeAt _ _ = []
+
+genNotMatching:: Int -> Reg -> Gen String
+genNotMatching s r = do
+                    m <- genMatching s r 
+                    i <- choose(0, length m)
+                    return $ removeAt i m 
+-}
+
 prop_Grep :: Reg -> Property
-prop_Grep r1 =  monadicIO  $ do  
-                             testString <-  run(generate(genInputStrings 10 r1))
-                             booleanGrep <- run(unixGrep testString (showExpr r1))
-                             monitor (counterexample testString)
-                             assert $ accept r1 testString == booleanGrep
+prop_Grep r1 = monadicIO $ do  
+                           testString <-  run(generate(genInputStrings 10 r1))
+                           booleanGrep <- run(unixGrep testString (showExpr r1))
+                           monitor (counterexample testString)
+                           assert $ accept r1 testString == booleanGrep
 prop_Eps :: Property
 prop_Eps = monadicIO $ do
                        testString <- run(generate(genInputStrings 10 Eps))
@@ -162,6 +174,7 @@ prop_Clo r1 = monadicIO $ do
                           testString <- run(generate(genInputStrings 10 r1))
                           monitor(counterexample testString)
                           assert $ accept (Rep r1) testString == null testString || (accept (r1 `Seq` Rep r1) testString)
+
 -- will be called from properties
 testMatcher ::  Reg -> Reg -> Property
 testMatcher r1 r2 = monadicIO  $ do
@@ -203,7 +216,7 @@ deepCheck n p = do
 
 main = do
        putStrLn "prop_Nil"
---       deepCheck iterations prop_Nil
+       --deepCheck iterations prop_Nil
        putStrLn "prop_Eps"
        deepCheck iterations prop_Eps
        putStrLn "prop_Atom"
@@ -234,7 +247,6 @@ main = do
        deepCheck iterations prop_Clo2
        putStrLn "prop_Clo3"
        deepCheck iterations prop_Clo3
-
 
 
        putStrLn "END"
