@@ -3,16 +3,16 @@
 import Control.Monad.IO.Class
 import Control.Monad(liftM, liftM2)
 import Data.Char
--- regular expression matching using Brzozowski's algorithm
 import Test.QuickCheck
-
--- for unix grep
 import System.Process 
 import System.Exit (ExitCode(ExitSuccess))
 import System.IO.Unsafe
 import Test.QuickCheck.Monadic
 import Data.List
 import FEAT
+
+
+
 
 data Regex a = Nil --epsilon; zero-width match pattern that matches the empty string.
 	     | End --zero-width non-match
@@ -167,18 +167,27 @@ alphabet = elements ['a' .. 'c']
 
 instance Arbitrary (Regex Char) where
      arbitrary = sized arbitraryExpression
+     shrink End = [Nil]
+     shrink (Lit a) = [ Lit a' | a' <- shrink a ] 
+     shrink (p `Alt` q) = [ p, q ] 
+                       ++ [ p' `Alt` q | p' <- shrink p ] 
+                       ++ [ p `Alt` q' | q' <- shrink q ] 
+     shrink (p `Cat` q) = [ p, q ] 
+                       ++ [ p' `Cat` q | p' <- shrink p ] 
+                       ++ [ p `Cat` q' | q' <- shrink q ] 
+     shrink (Clo p)  = [ Nil, p ] 
+                    ++ [ Clo p' | p' <- shrink p ] 
+     shrink _    = []
 
-arbitraryExpression 0 = frequency[(1, liftM Lit alphabet)
-                                 ,(1, return End)
-                                 ,(1, return Nil)
+arbitraryExpression n = frequency[ (1,liftM Lit alphabet)
+                                 , (1, return End)
+                                 , (1, return Nil)
+                                 , (n, liftM2 Alt subexpr subexpr)
+                                 , (n, liftM2 Cat subexpr subexpr)
+                                 , (n, liftM Clo subexpr)
                                  ]
-arbitraryExpression n = frequency[(1, liftM2 Alt subexpr subexpr)
-                                 ,(1, liftM2 Cat subexpr subexpr)
-                                 ,(1, liftM Clo subexpr)
-                                 ]
-                   where subexpr = arbitraryExpression (n `div` 2)
-
-
+                        where 
+                          subexpr = arbitraryExpression (n `div` 2)
 
 unixGrep :: String -> String -> IO Bool
 unixGrep s r = do  
@@ -317,14 +326,14 @@ removeAt _ _ = []
 
 genNotMatching:: Int -> Regex Char -> Gen String
 genNotMatching s r = do
-                    m <- genMatching s r 
-                    i <- choose(0, length m)
-                    return $ removeAt i m 
+                     m <- genMatching s r 
+                     i <- choose(0, length m)
+                     return $ removeAt i m 
 -}
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSize = 8}) p
 deepCheck n p = do 
-                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
+                quickCheckWith (stdArgs {maxSize = 8}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
@@ -337,8 +346,6 @@ main = do
        deepCheck iterations prop_Plus
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
-       
-
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -359,10 +366,53 @@ main = do
        deepCheck iterations prop_Clo2     
        putStrLn "prop_Clo3"
        deepCheck iterations prop_Clo3     
-       
-
-
+       putStrLn "prop_Brz"
+       deepCheck iterations prop_Brz     
+       putStrLn "prop_Brz2"
+       deepCheck iterations prop_Brz2     
        putStrLn "END"
        where iterations = 500
+
+(.+.),(.>.) :: Regex Char -> Regex Char -> Regex Char
+End .+. q   = q
+p   .+. End = p
+p   .+. q   = p `Alt` q
+
+
+End .>. q   = End
+p   .>. End = End
+Nil .>. q   = q
+p   .>. Nil = p
+p   .>. q   = p `Cat` q
+
+eps :: Regex Char -> Bool
+eps Nil       = True
+eps (p `Alt` q) = eps p || eps q
+eps (p `Cat` q) = eps p && eps q
+eps (Clo _)  = True
+eps _         = False
+
+
+step :: Regex Char -> Char -> Regex Char
+step (Lit a)  x  | a == x    = Nil
+                 | otherwise = End
+step (p `Alt` q) x = step p x .+. step q x
+step (p `Cat` q) x = (step p x .>. q) .+. if eps p then step q x else End
+step (Clo p)  x = step p x .>. Clo p
+step _         x = End
+
+
+prop_Brz ::  Regex Char -> Property
+prop_Brz r1 = monadicIO  $ do
+                                 testString <- run(generate(genInputStrings 10 r1))
+                                 assert $ regexMatch r1 "" == eps r1
+
+prop_Brz2 ::  Regex Char -> Property
+prop_Brz2 r1 = monadicIO  $ do
+
+                                 testString <- run(generate(genInputStrings 10 r1))
+                                 monitor(counterexample testString)
+                                 pre (not (null testString))
+                                 assert $ regexMatch r1 testString == regexMatch (step r1 (head testString)) (tail testString)
 
 

@@ -2,14 +2,14 @@
 -- https://sebfisch.github.io/haskell-regexp/regexp-play.pdf
 
 import Test.QuickCheck
--- for unix grep
 import System.Process 
 import System.Exit (ExitCode(ExitSuccess)) 
 import System.IO.Unsafe
 import Test.QuickCheck.Monadic  
---
-
 import FEAT
+
+
+
 data Reg = 
     Eps         -- Epsilon
   | Sym Char    -- Token
@@ -65,18 +65,17 @@ regexCatGen s1 s2 = do
                     y <- s2
                     return $ Seq x y
 
--- this implementation is very slow for larger strings
 instance Arbitrary Reg where
     arbitrary = sized arbitraryExpression
 
-arbitraryExpression 0 = frequency[(1, return Eps)
+arbitraryExpression n = frequency[(1, return Eps)
                                  ,(1, literal)
-                                 ]  
-arbitraryExpression n = frequency[(1, regexCatGen subexpr subexpr)
-                                 ,(1, regexPlusGen subexpr subexpr)
-                                 ,(1, regexManyGen subexpr)
+                                 ,(n, regexCatGen subexpr subexpr)
+                                 ,(n, regexPlusGen subexpr subexpr)
+                                 ,(n, regexManyGen subexpr)
                                  ]
-                    where subexpr = arbitraryExpression (n `div` 2)
+                    where 
+                      subexpr = arbitraryExpression (n `div` 2)
 
 unixGrep :: String -> String -> IO Bool
 unixGrep s r = do
@@ -225,8 +224,6 @@ main = do
        deepCheck iterations prop_Plus
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
-
-
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -247,8 +244,6 @@ main = do
        deepCheck iterations prop_Clo2
        putStrLn "prop_Clo3"
        deepCheck iterations prop_Clo3
-
-
        putStrLn "END"
        where iterations = 500
 

@@ -1,15 +1,15 @@
 {-# LANGUAGE OverloadedStrings #-}
 import GHC.Exts (IsString(..))
 import Test.QuickCheck
--- for unix grep
 import System.Process 
 import System.Exit
 import System.IO.Unsafe
 import Test.QuickCheck.Monadic
 import Control.Monad.IO.Class
 import Control.Monad(liftM, liftM2)
-
 import FEAT
+
+
 
 data Regexp = Zero                  -- empty
             | One                   -- epsilon
@@ -102,16 +102,15 @@ regexManyGen s1 = do
 instance Arbitrary Regexp where
     arbitrary = sized arbitraryExpression
 
-arbitraryExpression 0 = frequency[(1, return Zero)
+arbitraryExpression n = frequency[(1, return Zero)
                                  ,(1, return One)
                                  ,(1, literal)
+                                 ,(n, regexPlusGen subexpr subexpr)
+                                 ,(n, regexCatGen subexpr subexpr)
+                                 ,(n, regexManyGen subexpr)
                                  ]
-                                   
-arbitraryExpression n = frequency[(1, regexPlusGen subexpr subexpr)
-                                 ,(1, regexCatGen subexpr subexpr)
-                                 ,(1, regexManyGen subexpr)
-                                 ]
-                          where subexpr = arbitraryExpression (n `div` 2)
+                          where 
+                            subexpr = arbitraryExpression (n `div` 2)
 
 unixGrep :: String -> String -> IO Bool
 unixGrep s r = do  
@@ -258,9 +257,9 @@ genNotMatching s r = do
                     return $ removeAt i m
 -}
 
-deepCheck 1 p = quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
+deepCheck 1 p = quickCheckWith (stdArgs {maxSize = 8}) p
 deepCheck n p = do
-                quickCheckWith (stdArgs {maxSuccess = 100, maxSize = 8}) p
+                quickCheckWith (stdArgs {maxSize = 8}) p
                 deepCheck (n-1) p
 main = do
        putStrLn "prop_Nil"
@@ -273,8 +272,6 @@ main = do
        deepCheck iterations prop_Plus
        putStrLn "prop_Seq"
        deepCheck iterations prop_Seq
-        
-
        putStrLn "prop_Grep:"
        deepCheck iterations prop_Grep
        putStrLn "prop_AltAssoc:"
@@ -295,7 +292,50 @@ main = do
        deepCheck iterations prop_Clo2     
        putStrLn "prop_Clo3"
        deepCheck iterations prop_Clo3     
-
+       putStrLn "prop_Brz"
+       deepCheck iterations prop_Brz     
+       putStrLn "prop_Brz2"
+       deepCheck iterations prop_Brz2
        putStrLn "END"
        where iterations = 500
+
+(.+.),(.>.) :: Regexp -> Regexp -> Regexp
+Zero .+. q   = q 
+p   .+. Zero = p 
+p   .+. q   = p `Plus` q
+
+
+Zero .>. q   = Zero
+p   .>. Zero = Zero
+One .>. q   = q 
+p   .>. One = p 
+p   .>. q   = p `Cat` q
+
+eps :: Regexp -> Bool
+eps One      = True
+eps (p `Plus` q) = eps p || eps q
+eps (p `Cat` q) = eps p && eps q
+eps (Many _)  = True
+eps _         = False
+
+step :: Regexp -> Char -> Regexp
+step (Lit a)  x  | a == x    = One 
+                 | otherwise = Zero
+step (p `Plus` q) x = step p x .+. step q x 
+step (p `Cat` q) x = (step p x .>. q) .+. if eps p then step q x else Zero
+step (Many p)  x = step p x .>. Many p
+step _         x = Zero
+
+prop_Brz ::  Regexp -> Property
+prop_Brz r1 = monadicIO  $ do
+                                 testString <- run(generate(genInputStrings 10 r1))
+                                 assert $ match r1 "" == eps r1
+
+prop_Brz2 ::  Regexp -> Property
+prop_Brz2 r1 = monadicIO  $ do
+
+                                 testString <- run(generate(genInputStrings 10 r1))
+                                 monitor(counterexample testString)
+                                 pre (not (null testString))
+                                 assert $ match r1 testString == match (step r1 (head testString)) (tail testString)
 

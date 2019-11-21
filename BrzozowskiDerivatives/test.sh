@@ -1,9 +1,11 @@
 #!/bin/sh
-ghc RegExp.hs
 
-echo "Testing RegExp.hs..."
+#cd BrzozowskiDerivatives
+ghc Brzozowski.hs
 
-./RegExp > result.txt
+echo "Testing Brzozowski.hs..."
+
+./Brzozowski > result.txt
 
 #extract and count failed and passed tests
 echo "prop_Nil"
@@ -52,8 +54,7 @@ echo "prop_Clo3"
 echo "Succesful: $(awk '/prop_Clo3/,/prop_Brz/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Brz/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Brz"
-echo "Succesful: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "Failed")"
+echo "Succesful: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Brz2/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Brz2"
 echo "Succesful: $(awk '/prop_Brz2/,/END/' result.txt | grep -c "OK") Failed: $(awk '/prop_Brz2/,/END/' result.txt | grep -c "Failed")"
-
