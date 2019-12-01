@@ -54,7 +54,7 @@ echo "prop_Clo3"
 echo "Succesful: $(awk '/prop_Clo3/,/prop_Brz/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Brz/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Brz"
-echo "Succesful: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Clo3/,/prop_Brz2/' result.txt | grep -c "Failed")"
+echo "Succesful: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "OK") Failed: $(awk '/prop_Brz/,/prop_Brz2/' result.txt | grep -c "Failed")"
 echo
 echo "prop_Brz2"
 echo "Succesful: $(awk '/prop_Brz2/,/END/' result.txt | grep -c "OK") Failed: $(awk '/prop_Brz2/,/END/' result.txt | grep -c "Failed")"
